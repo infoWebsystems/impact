@@ -1002,7 +1002,7 @@
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "enable_parallax": false,
+        "enable_parallax": true,
         "image_size": "auto",
         "image": "shopify:\/\/shop_images\/vertical-shot-boardwalk-through-tall-grasses-trees-during-sunrise_1.png",
         "mobile_text_position": "place-self-center text-center",
