@@ -173,7 +173,7 @@
         "content": "<p>Siding made of this material is not afraid of rain, wind, sun and frost, and can withstand temperatures from -60 to +80 degrees Celsius.<\/p>",
         "button_text": "View product",
         "button_url": "",
-        "desktop_text_position": "place-self-start text-start",
+        "desktop_text_position": "place-self-center-start text-start",
         "image_background": "",
         "image_background_gradient": "",
         "overlay_color": "#000000",
