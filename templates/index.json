@@ -1032,7 +1032,7 @@
         "template--15213123797057__5a78c33b-5f10-4641-aa94-293eba6cd9f2-product-1": {
           "type": "product",
           "settings": {
-            "product": "copy-of-terraced-board",
+            "product": "",
             "horizontal_position": 52,
             "vertical_position": 25
           }
@@ -1040,7 +1040,7 @@
         "template--15213123797057__5a78c33b-5f10-4641-aa94-293eba6cd9f2-product-2": {
           "type": "product",
           "settings": {
-            "product": "yard-board",
+            "product": "",
             "horizontal_position": 75,
             "vertical_position": 53
           }
