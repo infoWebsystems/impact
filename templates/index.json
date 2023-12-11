@@ -1032,7 +1032,7 @@
         "template--15213123797057__5a78c33b-5f10-4641-aa94-293eba6cd9f2-product-1": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "copy-of-terraced-board",
             "horizontal_position": 52,
             "vertical_position": 25
           }
@@ -1040,7 +1040,7 @@
         "template--15213123797057__5a78c33b-5f10-4641-aa94-293eba6cd9f2-product-2": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "yard-board",
             "horizontal_position": 75,
             "vertical_position": 53
           }
@@ -1048,7 +1048,7 @@
         "template--15213123797057__5a78c33b-5f10-4641-aa94-293eba6cd9f2-product-3": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "facing-board",
             "horizontal_position": 33,
             "vertical_position": 73
           }
@@ -1061,7 +1061,7 @@
       ],
       "settings": {
         "full_width": true,
-        "stack_mobile": true,
+        "stack_mobile": false,
         "image": "shopify:\/\/shop_images\/parents-looking-their-daughter-communicating-steps-house_1.png",
         "title": "Shop the garden",
         "content": "",
@@ -1074,7 +1074,7 @@
         "product_card_text_color": "",
         "product_card_mobile_background": "",
         "product_card_mobile_text_color": "",
-        "background_dots": "#FFF"
+        "background_dots": "#272727"
       }
     }
   },
