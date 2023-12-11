@@ -639,7 +639,7 @@
       ],
       "settings": {
         "full_width": true,
-        "images_layout": "collage",
+        "images_layout": "stacked",
         "collage_images_alignment": "middle",
         "background": "",
         "background_gradient": "",
