@@ -104,7 +104,7 @@
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": true,
-        "products_count": 4,
+        "products_count": 25,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "subheading": "New arrivals",
