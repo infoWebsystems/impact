@@ -980,12 +980,6 @@
     "5902866a-a3aa-4127-88f5-3c560eba0220": {
       "type": "image-with-text-overlay",
       "blocks": {
-        "template--15213123797057__5902866a-a3aa-4127-88f5-3c560eba0220-subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
         "template--15213123797057__5902866a-a3aa-4127-88f5-3c560eba0220-heading-1": {
           "type": "heading",
           "settings": {
@@ -995,13 +989,13 @@
         },
         "template--15213123797057__5902866a-a3aa-4127-88f5-3c560eba0220-richtext-1": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--15213123797057__5902866a-a3aa-4127-88f5-3c560eba0220-subheading-1",
         "template--15213123797057__5902866a-a3aa-4127-88f5-3c560eba0220-heading-1",
         "template--15213123797057__5902866a-a3aa-4127-88f5-3c560eba0220-richtext-1"
       ],
