@@ -176,7 +176,7 @@
         "button_url": "",
         "desktop_text_position": "place-self-center-start text-start",
         "image_background": "",
-        "image_background_gradient": "",
+        "image_background_gradient": "linear-gradient(54deg, rgba(114, 255, 179, 1) 10%, rgba(255, 250, 99, 1) 85%)",
         "overlay_color": "#000000",
         "overlay_opacity": 23,
         "overlay_text_color": "#ffffff",
@@ -866,6 +866,89 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "20c7560d-f33a-473b-9f4d-b469a18e7726": {
+      "type": "collection-list",
+      "blocks": {
+        "template--15213123797057__20c7560d-f33a-473b-9f4d-b469a18e7726-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-end-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--15213123797057__20c7560d-f33a-473b-9f4d-b469a18e7726-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--15213123797057__20c7560d-f33a-473b-9f4d-b469a18e7726-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "4665cd34-a8cc-4398-b284-90a1515210d8": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--15213123797057__20c7560d-f33a-473b-9f4d-b469a18e7726-collection-1",
+        "template--15213123797057__20c7560d-f33a-473b-9f4d-b469a18e7726-collection-2",
+        "template--15213123797057__20c7560d-f33a-473b-9f4d-b469a18e7726-collection-3",
+        "4665cd34-a8cc-4398-b284-90a1515210d8"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row": 4,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "Explore the collections",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
     }
   },
   "order": [
@@ -883,6 +966,7 @@
     "multiple-images-with-text",
     "featured-product",
     "feature-chart",
-    "faq"
+    "faq",
+    "20c7560d-f33a-473b-9f4d-b469a18e7726"
   ]
 }
