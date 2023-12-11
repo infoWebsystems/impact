@@ -612,6 +612,7 @@
         "1664424486a2b084ab-1": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/stack-wooden-planks-sawmill-lumber-yard_1.png",
             "image_rotation_degrees": 1.5,
             "subheading": "Thermowood production process",
             "title": "Drying",
@@ -639,7 +640,7 @@
       ],
       "settings": {
         "full_width": true,
-        "images_layout": "stacked",
+        "images_layout": "scattered",
         "collage_images_alignment": "middle",
         "background": "",
         "background_gradient": "",
