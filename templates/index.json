@@ -1,5 +1,46 @@
 {
   "sections": {
+    "image-with-text-overlay": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "1664424230c4756b0e-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "1664424230c4756b0e-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "1664424230c4756b0e-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1664424230c4756b0e-0",
+        "1664424230c4756b0e-1",
+        "1664424230c4756b0e-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": false,
+        "image_size": "fill",
+        "image": "shopify:\/\/shop_images\/picture-of-a-wooden-building-in-the-forest_2.png",
+        "mobile_text_position": "place-self-center-start text-start",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -23,31 +64,10 @@
             "background": "",
             "background_gradient": ""
           }
-        },
-        "slide-2": {
-          "type": "image",
-          "settings": {
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide title",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
         }
       },
       "block_order": [
-        "slide-1",
-        "slide-2"
+        "slide-1"
       ],
       "settings": {
         "full_width": true,
@@ -290,46 +310,6 @@
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
-      }
-    },
-    "image-with-text-overlay": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "1664424230c4756b0e-0": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "1664424230c4756b0e-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Image with text overlay",
-            "heading_tag": "h1"
-          }
-        },
-        "1664424230c4756b0e-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1664424230c4756b0e-0",
-        "1664424230c4756b0e-1",
-        "1664424230c4756b0e-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
       }
     },
     "media-grid": {
@@ -874,13 +854,13 @@
     }
   },
   "order": [
+    "image-with-text-overlay",
     "slideshow",
     "image-link-blocks",
     "scrolling-text",
     "collection-list",
     "featured-collection",
     "impact-text",
-    "image-with-text-overlay",
     "media-grid",
     "before-after-image",
     "press",
