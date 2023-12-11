@@ -1040,7 +1040,7 @@
         "template--15213123797057__5a78c33b-5f10-4641-aa94-293eba6cd9f2-product-2": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "yard-board",
             "horizontal_position": 75,
             "vertical_position": 53
           }
