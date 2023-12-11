@@ -1025,6 +1025,57 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "5a78c33b-5f10-4641-aa94-293eba6cd9f2": {
+      "type": "shop-the-look",
+      "blocks": {
+        "template--15213123797057__5a78c33b-5f10-4641-aa94-293eba6cd9f2-product-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "horizontal_position": 52,
+            "vertical_position": 25
+          }
+        },
+        "template--15213123797057__5a78c33b-5f10-4641-aa94-293eba6cd9f2-product-2": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "horizontal_position": 75,
+            "vertical_position": 53
+          }
+        },
+        "template--15213123797057__5a78c33b-5f10-4641-aa94-293eba6cd9f2-product-3": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "horizontal_position": 33,
+            "vertical_position": 73
+          }
+        }
+      },
+      "block_order": [
+        "template--15213123797057__5a78c33b-5f10-4641-aa94-293eba6cd9f2-product-1",
+        "template--15213123797057__5a78c33b-5f10-4641-aa94-293eba6cd9f2-product-2",
+        "template--15213123797057__5a78c33b-5f10-4641-aa94-293eba6cd9f2-product-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "image": "shopify:\/\/shop_images\/parents-looking-their-daughter-communicating-steps-house_1.png",
+        "title": "Shop the garden",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "product_card_mobile_background": "",
+        "product_card_mobile_text_color": "",
+        "background_dots": "#FFF"
+      }
     }
   },
   "order": [
@@ -1045,6 +1096,7 @@
     "feature-chart",
     "faq",
     "20c7560d-f33a-473b-9f4d-b469a18e7726",
-    "e2782762-474c-44b6-84df-a63462064482"
+    "e2782762-474c-44b6-84df-a63462064482",
+    "5a78c33b-5f10-4641-aa94-293eba6cd9f2"
   ]
 }
