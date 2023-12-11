@@ -1,5 +1,6 @@
 {
   "current": {
+    "page_width": 1300,
     "section_vertical_spacing": "medium",
     "section_boxed_horizontal_spacing": "large",
     "button_hover_effect": "reverse",
@@ -33,7 +34,10 @@
     "checkout_body_background_color": "#f2f2f2",
     "checkout_sidebar_background_color": "#ffffff",
     "checkout_accent_color": "#3c619e",
-    "checkout_button_color": "#3c619e"
+    "checkout_button_color": "#3c619e",
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Sound": {
