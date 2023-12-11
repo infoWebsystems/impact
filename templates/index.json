@@ -21,12 +21,24 @@
           "settings": {
             "content": "<p>Services for thermal modification of any wood, coniferous, deciduous and rare types. Sale of thermo- modified wood.<\/p>"
           }
+        },
+        "ce3e2431-ddba-4cbe-8477-167d034477de": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "View catalog",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
         "1664424230c4756b0e-1",
         "1664424230c4756b0e-0",
-        "1664424230c4756b0e-2"
+        "1664424230c4756b0e-2",
+        "ce3e2431-ddba-4cbe-8477-167d034477de"
       ],
       "settings": {
         "full_width": true,
