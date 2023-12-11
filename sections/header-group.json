@@ -8,7 +8,8 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "Announce something here"
+            "text": "Announce something here",
+            "url": ""
           }
         }
       },
@@ -21,6 +22,7 @@
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
         "background": "#1a1a1a",
+        "background_gradient": "",
         "text_color": "#ffffff"
       }
     },
@@ -33,12 +35,16 @@
         "logo_max_width": 120,
         "logo_mobile_max_width": 100,
         "menu": "main-menu",
+        "sidebar_menu": "",
+        "secondary_menu": "",
         "menu_open_trigger": "click",
         "opening_from": "bottom",
-        "layout": "logo_left_navigation_center",
-        "show_social_media": true,
+        "layout": "logo_center_navigation_inline",
+        "show_social_media": false,
+        "show_locale_selector": true,
+        "show_country_selector": true,
         "show_country_flag": true,
-        "show_country_name": false,
+        "show_country_name": true,
         "transparent_header_text_color": "#ffffff",
         "reduce_padding": false,
         "background_opacity": 100,
