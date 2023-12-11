@@ -101,7 +101,7 @@
         "products": [
 
         ],
-        "full_width": true,
+        "full_width": false,
         "stack_products": false,
         "show_progress_bar": true,
         "products_count": 25,

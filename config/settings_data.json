@@ -37,6 +37,8 @@
     "show_page_transition": false,
     "heading_apparition": "split_rotation",
     "color_swatch_style": "rectangle",
+    "show_vendor": true,
+    "show_product_rating": true,
     "product_color_display": "swatch",
     "product_info_alignment": "start",
     "cart_type": "drawer",
