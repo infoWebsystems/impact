@@ -40,6 +40,7 @@
         "1664424230c4756b0e-2",
         "ce3e2431-ddba-4cbe-8477-167d034477de"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": true,
