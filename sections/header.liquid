@@ -197,7 +197,7 @@ the underlying logic of the menu.
       LOGO AREA
       --------------------------------------------------------------------------------------------------------------------
       {%- endcomment -%}
-
+      {%- if section.settings.show_logo -%}
       {%- capture logo_content -%}
         {%- if section.settings.logo -%}
           {%- capture sizes -%}{{ section.settings.logo_max_width }}px{%- endcapture -%}
@@ -219,6 +219,7 @@ the underlying logic of the menu.
         </h1>
       {% else %}
         <a href="{{ routes.root_url }}" class="header__logo">{{ logo_content }}</a>
+      {% endif %}
       {% endif %}
 
       {%- comment -%}
@@ -335,6 +336,12 @@ the underlying logic of the menu.
     {
       "type": "header",
       "content": "Logo"
+    },
+    {
+    "type": "checkbox",
+    "id": "show_logo",
+    "label": "Show logo",
+    "default": false
     },
     {
       "type": "image_picker",
