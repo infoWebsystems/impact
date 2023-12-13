@@ -105,12 +105,30 @@
             "content": "<p>THERMO-MODIFICATION – is the most modern, 100% environmentally friendly technology of biological and atmospheric protection of wood without any use of chemicals. The service life of products made of thermo-wood is 3-5 times longer in comparison with classical methods of protection including antiseptics and impregnants<\/p>",
             "enable_follow_on_shop": true
           }
+        },
+        "7f273e71-8d78-4386-98f3-082eaa9b782b": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
+        "319bec84-64c9-4905-83a8-8039cc3e8059": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
         }
       },
       "block_order": [
         "newsletter",
         "links",
-        "text"
+        "text",
+        "7f273e71-8d78-4386-98f3-082eaa9b782b",
+        "319bec84-64c9-4905-83a8-8039cc3e8059"
       ],
       "settings": {
         "show_social_media": true,
