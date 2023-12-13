@@ -792,6 +792,10 @@
           {
             "value": "shopping_cart",
             "label": "Shopping cart"
+          },
+          {
+            "value": "custom_cart",
+            "label": "Custom cart"
           }
         ],
         "default": "shopping_basket"

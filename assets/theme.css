@@ -1576,6 +1576,12 @@ scroll-carousel {
   gap: var(--input-gap);
   display: grid;
 }
+.fieldset *{
+  border-color: rgb(var(--text-color)  )
+}
+ .form-control{
+  border-color: rgb(var(--text-color)  )
+}
 
 .fieldset-link {
   margin-block-start: var(--spacing-2);
@@ -9939,4 +9945,40 @@ split-lines {
 /*wss styles*/
 .collection-card p.bottom-text{
   margin-top: 16px;
+}
+.review-card{
+  border-radius: 24px;
+  background: #EDEDED;
+  padding: 24px;
+}
+.review-card__title{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  margin: 24px 0 8px 0;
+}
+
+.review-card__date{
+  color: rgba(0, 0, 0, 0.50);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+}
+.slider-review .section-header {
+  display: block;
+  text-align: center;
+}
+.big-txt{
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 110%;
+}
+
+@media screen and (min-width: 700px){
+  .big-txt{
+    font-size: 32px;
+  }
 }
