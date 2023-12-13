@@ -12,6 +12,8 @@
             "mobile_icon_width": 24,
             "icon_width": 24,
             "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
             "title": "Free shipping",
             "content": "<p>Tell your customers about your shipping offer.<\/p>"
           }
@@ -23,6 +25,8 @@
             "mobile_icon_width": 24,
             "icon_width": 24,
             "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
             "title": "Customer service",
             "content": "<p>Tell your customers how they can reach you.<\/p>"
           }
@@ -34,6 +38,8 @@
             "mobile_icon_width": 24,
             "icon_width": 24,
             "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
             "title": "Refer a friend",
             "content": "<p>Tell your customers about your promotional offers.<\/p>"
           }
@@ -45,6 +51,8 @@
             "mobile_icon_width": 24,
             "icon_width": 24,
             "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
             "title": "Secure payment",
             "content": "<p>Tel your customers about your payment methods.<\/p>"
           }
@@ -56,11 +64,17 @@
         "discount",
         "payment"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
         "heading_tag": "h6",
         "text_alignment": "center",
-        "icon_spacing": "small"
+        "icon_spacing": "small",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "footer": {
@@ -69,23 +83,27 @@
         "newsletter": {
           "type": "newsletter",
           "settings": {
-            "image_width": 150,
+            "image": "shopify:\/\/shop_images\/image_3.png",
+            "image_width": 80,
             "heading_size": "h3",
-            "title": "Sign up for new stories and personal offers"
+            "title": "Sign up for new stories and personal offers",
+            "content": ""
           }
         },
         "links": {
           "type": "links",
           "settings": {
             "menu": "footer",
-            "show_menu_title": true
+            "show_menu_title": true,
+            "menu_title": ""
           }
         },
         "text": {
           "type": "text",
           "settings": {
             "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"
+            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>",
+            "enable_follow_on_shop": true
           }
         }
       },
