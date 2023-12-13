@@ -64,7 +64,7 @@ LIQUID
                     {%- if block.settings.text_position contains 'place-self-end' -%}
                       {%- render 'icon' with 'circle-button-right-clipped', width: 40, height: 40 -%}
                     {%- endif -%}
-
+                  {%- if block.settings.text_position != 'bottom' -%}
                     <div class="collection-card__content prose">
                       {%- if block.settings.subheading != blank -%}
                         <p class="subheading">{{ block.settings.subheading | escape }}</p>
@@ -72,31 +72,37 @@ LIQUID
 
                       <p class="{{ block.settings.heading_tag }}">{{ block.settings.title | default: collection.title | escape }}</p>
                     </div>
-
+                    {%- endif -%}
                     {%- unless block.settings.text_position contains 'place-self-end' -%}
                       {%- render 'icon' with 'circle-button-right-clipped', width: 40, height: 40 -%}
                     {%- endunless -%}
                   </div>
+
                 {%- else -%}
                   {%- capture collection_placeholder -%}{% cycle 'collection-1', 'collection-2', 'collection-3' %}{%- endcapture -%}
                   {{- collection_placeholder | placeholder_svg_tag: 'placeholder zoom-image' -}}
 
                   <div class="collection-card__content-wrapper text-custom {{ block.settings.text_position }}" style="--text-color: {{ block.settings.text_color.rgb }}">
+                  {%- if block.settings.text_position != 'bottom' -%}
                     {%- if block.settings.text_position contains 'place-self-end' -%}
                       {%- render 'icon' with 'circle-button-right-clipped', width: 40, height: 40 -%}
                     {%- endif -%}
-
                     <div class="collection-card__content prose">
                       <p class="{{ block.settings.heading_tag }}">{{- 'general.on_boarding.collection_title' | t -}}</p>
                     </div>
-
                     {%- unless block.settings.text_position contains 'place-self-end' -%}
                       {%- render 'icon' with 'circle-button-right-clipped', width: 40, height: 40 -%}
                     {%- endunless -%}
-                  </div>
+                    {%- endif -%}
+                    </div>
+
                 {%- endif -%}
               </div>
+              {%- if block.settings.text_position == 'bottom' -%}
+                <p class="bold bottom-text" >{{ block.settings.title | default: collection.title | escape }}</p>
+              {%- endif -%}
             </a>
+
           {%- endfor -%}
         </collection-list>
       </scroll-carousel>
@@ -285,6 +291,10 @@ LIQUID
           "id": "text_position",
           "label": "Content position",
           "options": [
+            {
+            "value": "bottom",
+            "label": "bottom"
+            },
             {
               "value": "place-self-start text-start",
               "label": "Top left"

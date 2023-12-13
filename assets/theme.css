@@ -9934,3 +9934,9 @@ split-lines {
   display: -webkit-box;
   overflow: hidden;
 }
+
+
+/*wss styles*/
+.collection-card p.bottom-text{
+  margin-top: 16px;
+}
