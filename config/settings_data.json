@@ -46,6 +46,7 @@
     "product_info_alignment": "start",
     "cart_type": "drawer",
     "cart_icon": "shopping_basket",
+    "social_facebook": "https:\/\/www.facebook.com\/termomediena\/",
     "checkout_body_background_color": "#f2f2f2",
     "checkout_sidebar_background_color": "#ffffff",
     "checkout_accent_color": "#3c619e",
