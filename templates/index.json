@@ -1076,6 +1076,26 @@
         "product_card_mobile_text_color": "",
         "background_dots": "#272727"
       }
+    },
+    "04746b9e-bceb-480f-8ef9-f505d9648230": {
+      "type": "contact",
+      "settings": {
+        "full_width": true,
+        "subheading": "Send a message",
+        "title": "Do you have any question?",
+        "content": "<p>We are experiencing higher than normal volume and are working to respond as timely as possible. Please note that it may take us up to 2 business days to reply. We appreciate your patience during this time.<\/p>",
+        "text_position": "start",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
@@ -1097,6 +1117,7 @@
     "faq",
     "20c7560d-f33a-473b-9f4d-b469a18e7726",
     "e2782762-474c-44b6-84df-a63462064482",
-    "5a78c33b-5f10-4641-aa94-293eba6cd9f2"
+    "5a78c33b-5f10-4641-aa94-293eba6cd9f2",
+    "04746b9e-bceb-480f-8ef9-f505d9648230"
   ]
 }
