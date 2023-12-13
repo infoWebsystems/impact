@@ -1079,6 +1079,19 @@
     },
     "04746b9e-bceb-480f-8ef9-f505d9648230": {
       "type": "contact",
+      "blocks": {
+        "f316985e-6c82-402c-b9eb-9393d4b02fda": {
+          "type": "text",
+          "settings": {
+            "title": "Custom field",
+            "use_long_text": false,
+            "required": true
+          }
+        }
+      },
+      "block_order": [
+        "f316985e-6c82-402c-b9eb-9393d4b02fda"
+      ],
       "settings": {
         "full_width": true,
         "subheading": "Send a message",
