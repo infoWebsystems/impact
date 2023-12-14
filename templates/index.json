@@ -247,12 +247,13 @@
         "collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "frontpage",
+            "image": "shopify:\/\/shop_images\/brown-wooden-bridge_1.png",
             "subheading": "",
-            "title": "",
+            "title": "Garden decorations",
             "url": "",
             "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
+            "text_position": "bottom",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30
