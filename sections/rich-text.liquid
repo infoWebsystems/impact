@@ -5,7 +5,12 @@
     #shopify-section-{{ section.id }} {
       --rich-text-max-width: {% if section.settings.content_width == 'small' %}650px{% elsif section.settings.content_width == 'medium' %}780px{% else %}100%{% endif %}
     }
+    .rich-text-links-wrap  svg rect, .rich-text-links-wrap  svg path{
+      stroke: {{ section.settings.text_color }}
+    }
+
   </style>
+
 
   <div {% render 'section-properties' %}>
     {%- assign text_position = section.settings.text_position -%}
@@ -19,6 +24,23 @@
             {%- if block.settings.text != blank -%}
               <p class="bold" {{ block.shopify_attributes }}>{{ block.settings.text | escape }}</p>
             {%- endif -%}
+
+          {%- when 'contact-links' -%}
+          <div class="rich-text-contacts">
+            {%- if block.settings.email != blank -%}
+              <div class="rich-text-links-wrap " {{ block.shopify_attributes }}>
+                {% render 'icons', icon: 'email' %}
+                <a class="rich-text-link"  href="mailto:{{ block.settings.email }}">{{ block.settings.email }}</a>
+              </div>
+            {%- endif -%}
+            {%- if block.settings.tel != blank -%}
+              <div class="rich-text-links-wrap" {{ block.shopify_attributes }}>
+                {% render 'icons', icon: 'phone' %}
+              <a class="rich-text-link"   href="tel:+{{ block.settings.tel-href}} "> {{ block.settings.tel}}</a>
+            </div>
+            {%- endif -%}
+
+          </div>
 
           {%- when 'heading' -%}
             {%- if block.settings.text != blank -%}
@@ -220,6 +242,30 @@
         }
       ]
     },
+{
+"type": "contact-links",
+"name": "Contact links",
+"settings": [
+{
+"type": "text",
+"id": "email",
+"label": "Text",
+"default": "info@termo-mediena.lt"
+},
+{
+"type": "text",
+"id": "tel",
+"label": "Tel number",
+"default": "+370 (654) 41688"
+},
+{
+"type": "text",
+"id": "tel-href",
+"label": "Tel number JUST NUMBER",
+"default": "37065441688"
+}
+]
+},
     {
       "type": "heading",
       "name": "Heading",

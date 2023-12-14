@@ -9996,12 +9996,29 @@ split-lines {
 .textarea{
   height: 60px;
 }
-
+.rich-text-contacts{
+  display: flex;
+  flex-direction: column;
+}
+ div.rich-text-contacts div.rich-text-links-wrap {
+  margin: 0;
+  display: flex;
+  align-items: center;
+   margin: 12px 0;
+}
+.rich-text-link{
+  margin-left: 16px;
+}
 @media screen and (min-width: 700px){
   .big-txt{
     font-size: 32px;
   }
-
+  .rich-text-contacts{
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
 @media screen and (min-width: 1000px){
   .shop-the-look__products {
