@@ -131,12 +131,74 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "1c5d005e-a1f5-42aa-90e4-0af60dc877ab": {
+      "type": "slider",
+      "blocks": {
+        "0ca2a94c-2b2a-4cec-a788-2f4222a1308d": {
+          "type": "review",
+          "settings": {
+            "review_text": "The facade, terrace, and facing boards from your company are true works of art that give our home a unique look and comfort. Your courtyard board, in particular, has proven to be incredibly practical and aesthetically pleasing for our property. Every day, we enjoy the quality and durability of this material. The board withstands any weather conditions without losing its original appearance. We especially appreciate its ease of use and the ability to create diverse designer solutions.",
+            "review_author": "-",
+            "review_date": "12 November 2023"
+          }
+        },
+        "3dd5f79a-38ba-44cc-8a2f-b6211f6d733d": {
+          "type": "review",
+          "settings": {
+            "review_text": "The facade, terrace, and facing boards from your company are true works of art that give our home a unique look and comfort. Your courtyard board, in particular, has proven to be incredibly practical and aesthetically pleasing for our property. Every day, we enjoy the quality and durability of this material. The board withstands any weather conditions without losing its original appearance. We especially appreciate its ease of use and the ability to create diverse designer solutions.",
+            "review_author": "-",
+            "review_date": "12 November 2023"
+          }
+        },
+        "1b92f6ea-51c7-4714-82c8-7481f77f2790": {
+          "type": "review",
+          "settings": {
+            "review_text": "The facade, terrace, and facing boards from your company are true works of art that give our home a unique look and comfort. Your courtyard board, in particular, has proven to be incredibly practical and aesthetically pleasing for our property. Every day, we enjoy the quality and durability of this material. The board withstands any weather conditions without losing its original appearance. We especially appreciate its ease of use and the ability to create diverse designer solutions.",
+            "review_author": "-",
+            "review_date": "12 November 2023"
+          }
+        },
+        "477e2d96-a3c1-40e4-b5ed-4154017b942b": {
+          "type": "review",
+          "settings": {
+            "review_text": "The facade, terrace, and facing boards from your company are true works of art that give our home a unique look and comfort. Your courtyard board, in particular, has proven to be incredibly practical and aesthetically pleasing for our property. Every day, we enjoy the quality and durability of this material. The board withstands any weather conditions without losing its original appearance. We especially appreciate its ease of use and the ability to create diverse designer solutions.",
+            "review_author": "-",
+            "review_date": "12 November 2023"
+          }
+        }
+      },
+      "block_order": [
+        "0ca2a94c-2b2a-4cec-a788-2f4222a1308d",
+        "3dd5f79a-38ba-44cc-8a2f-b6211f6d733d",
+        "1b92f6ea-51c7-4714-82c8-7481f77f2790",
+        "477e2d96-a3c1-40e4-b5ed-4154017b942b"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_progress_bar": true,
+        "stack_products": true,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Slider",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
     "main",
     "3a8b8e59-8a75-4130-b7c7-e5ea7dda7e03",
     "60b98850-ac88-4f02-89a2-60bd93d74bd6",
-    "10378aa3-f99b-474b-bd55-abf64ec604d1"
+    "10378aa3-f99b-474b-bd55-abf64ec604d1",
+    "1c5d005e-a1f5-42aa-90e4-0af60dc877ab"
   ]
 }
