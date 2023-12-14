@@ -59,6 +59,7 @@
         },
         "87c48755-9143-45b2-8a11-813c509805e3": {
           "type": "divider",
+          "disabled": true,
           "settings": {
           }
         },
@@ -67,13 +68,24 @@
           "settings": {
             "liquid": "<p>Write custom Liquid code to include widget or dynamic code.<\/p>"
           }
+        },
+        "5ff53915-2c28-42fe-8f44-39935e538604": {
+          "type": "icon",
+          "settings": {
+            "icon": "picto-gift",
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": ""
+          }
         }
       },
       "block_order": [
         "template--15213123403841__a065534f-3222-4303-8ca4-71268d13f087-heading-1",
         "template--15213123403841__a065534f-3222-4303-8ca4-71268d13f087-richtext-1",
         "87c48755-9143-45b2-8a11-813c509805e3",
-        "f23ddfd1-f3e8-40d8-a21c-9d43d9324df1"
+        "f23ddfd1-f3e8-40d8-a21c-9d43d9324df1",
+        "5ff53915-2c28-42fe-8f44-39935e538604"
       ],
       "settings": {
         "full_width": true,
