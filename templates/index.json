@@ -501,6 +501,7 @@
       "blocks": {
         "f316985e-6c82-402c-b9eb-9393d4b02fda": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "title": "Custom field",
             "use_long_text": false,
@@ -510,7 +511,7 @@
         "eb469de4-b072-4996-a110-50a9f58dbb88": {
           "type": "dropdown",
           "settings": {
-            "title": "Custom field",
+            "title": "Subject",
             "values": "Account, Order, Press, Other"
           }
         }
