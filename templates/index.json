@@ -277,12 +277,13 @@
         "3f5e0371-bde8-460f-ac03-ef9935c611d1": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "frontpage",
+            "image": "shopify:\/\/shop_images\/rustic-deck-with-patio-furniture-and-vegetation_1.png",
             "subheading": "",
             "title": "",
             "url": "",
             "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
+            "text_position": "bottom",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30
