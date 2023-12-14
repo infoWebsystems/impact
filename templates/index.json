@@ -191,41 +191,6 @@
         "hot_spot_content_blur_radius": 3
       }
     },
-    "5902866a-a3aa-4127-88f5-3c560eba0220": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "template--15213123797057__5902866a-a3aa-4127-88f5-3c560eba0220-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "A properly installed system will be an excellent functional addition to the house.",
-            "heading_tag": "h2"
-          }
-        },
-        "template--15213123797057__5902866a-a3aa-4127-88f5-3c560eba0220-richtext-1": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15213123797057__5902866a-a3aa-4127-88f5-3c560eba0220-heading-1",
-        "template--15213123797057__5902866a-a3aa-4127-88f5-3c560eba0220-richtext-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": true,
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/vertical-shot-boardwalk-through-tall-grasses-trees-during-sunrise_1.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -327,6 +292,41 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
+      }
+    },
+    "5902866a-a3aa-4127-88f5-3c560eba0220": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--15213123797057__5902866a-a3aa-4127-88f5-3c560eba0220-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "A properly installed system will be an excellent functional addition to the house.",
+            "heading_tag": "h2"
+          }
+        },
+        "template--15213123797057__5902866a-a3aa-4127-88f5-3c560eba0220-richtext-1": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15213123797057__5902866a-a3aa-4127-88f5-3c560eba0220-heading-1",
+        "template--15213123797057__5902866a-a3aa-4127-88f5-3c560eba0220-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": true,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/vertical-shot-boardwalk-through-tall-grasses-trees-during-sunrise_1.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
     "multiple-images-with-text": {
@@ -474,8 +474,8 @@
     "slideshow",
     "featured-collection",
     "hot-spots",
-    "5902866a-a3aa-4127-88f5-3c560eba0220",
     "collection-list",
+    "5902866a-a3aa-4127-88f5-3c560eba0220",
     "multiple-images-with-text",
     "5a78c33b-5f10-4641-aa94-293eba6cd9f2",
     "04746b9e-bceb-480f-8ef9-f505d9648230"
