@@ -467,6 +467,27 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "06fad2ab-b60d-4af8-9ad1-290ffdabaecc": {
+      "type": "slider",
+      "settings": {
+        "full_width": true,
+        "show_progress_bar": true,
+        "stack_products": true,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Сustomers reviews",
+        "content": "<p>Read what our customers say.<\/p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
@@ -478,6 +499,7 @@
     "5902866a-a3aa-4127-88f5-3c560eba0220",
     "multiple-images-with-text",
     "5a78c33b-5f10-4641-aa94-293eba6cd9f2",
-    "04746b9e-bceb-480f-8ef9-f505d9648230"
+    "04746b9e-bceb-480f-8ef9-f505d9648230",
+    "06fad2ab-b60d-4af8-9ad1-290ffdabaecc"
   ]
 }
