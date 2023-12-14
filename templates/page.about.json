@@ -71,9 +71,9 @@
         "9dcd8226-29c3-4dc4-8f66-85835e7d3496": {
           "type": "item",
           "settings": {
-            "title": "100%",
-            "subheading": "Showcase a benefit of your product",
-            "content": "",
+            "title": "25",
+            "subheading": "",
+            "content": "<h3>Official Stores.<\/h3>",
             "button_text": "",
             "button_url": "",
             "animate_impact_text": false,
