@@ -42,12 +42,6 @@
     "a065534f-3222-4303-8ca4-71268d13f087": {
       "type": "rich-text",
       "blocks": {
-        "template--15213123403841__a065534f-3222-4303-8ca4-71268d13f087-subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
         "template--15213123403841__a065534f-3222-4303-8ca4-71268d13f087-heading-1": {
           "type": "heading",
           "settings": {
@@ -60,12 +54,11 @@
         "template--15213123403841__a065534f-3222-4303-8ca4-71268d13f087-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>We are available from monday to saturday. Our customer service will get back to you as soon as possible.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--15213123403841__a065534f-3222-4303-8ca4-71268d13f087-subheading-1",
         "template--15213123403841__a065534f-3222-4303-8ca4-71268d13f087-heading-1",
         "template--15213123403841__a065534f-3222-4303-8ca4-71268d13f087-richtext-1"
       ],
