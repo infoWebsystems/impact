@@ -40,10 +40,72 @@
         "overlay_color": "#000000",
         "overlay_opacity": 43
       }
+    },
+    "60b98850-ac88-4f02-89a2-60bd93d74bd6": {
+      "type": "impact-text",
+      "blocks": {
+        "template--15226598817857__60b98850-ac88-4f02-89a2-60bd93d74bd6-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "12%",
+            "subheading": "Talented Designers.",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "0dcc8029-cb85-4016-9fac-f743ff7f8d52": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "Showcase a benefit of your product",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "9dcd8226-29c3-4dc4-8f66-85835e7d3496": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "Showcase a benefit of your product",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "template--15226598817857__60b98850-ac88-4f02-89a2-60bd93d74bd6-item-1",
+        "0dcc8029-cb85-4016-9fac-f743ff7f8d52",
+        "9dcd8226-29c3-4dc4-8f66-85835e7d3496"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
     "main",
-    "3a8b8e59-8a75-4130-b7c7-e5ea7dda7e03"
+    "3a8b8e59-8a75-4130-b7c7-e5ea7dda7e03",
+    "60b98850-ac88-4f02-89a2-60bd93d74bd6"
   ]
 }
