@@ -49,7 +49,7 @@
           "settings": {
             "title": "12%",
             "subheading": "",
-            "content": "<p>Talented Designers.<\/p>",
+            "content": "<h3>Talented Designers.<\/h3>",
             "button_text": "",
             "button_url": "",
             "animate_impact_text": false,
