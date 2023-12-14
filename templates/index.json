@@ -256,6 +256,7 @@
         },
         "b8693eb0-1279-403e-a134-ca97b5f365cc": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "frontpage",
             "image": "shopify:\/\/shop_images\/beautiful-wooden-modern-house_1.png",
@@ -279,9 +280,9 @@
       ],
       "settings": {
         "full_width": true,
-        "stack_collections": false,
+        "stack_collections": true,
         "collections_per_row": 4,
-        "show_progress_bar": true,
+        "show_progress_bar": false,
         "subheading": "",
         "title": "Explore the collections",
         "content": "",
