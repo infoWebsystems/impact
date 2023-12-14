@@ -292,26 +292,13 @@
         "b8693eb0-1279-403e-a134-ca97b5f365cc": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "frontpage",
+            "image": "shopify:\/\/shop_images\/beautiful-wooden-modern-house_1.png",
             "subheading": "",
             "title": "",
             "url": "",
             "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "94c6284b-57d5-498a-8ffb-a4b854fec75b": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
+            "text_position": "bottom",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30
@@ -323,8 +310,7 @@
         "collection-2",
         "collection-3",
         "3f5e0371-bde8-460f-ac03-ef9935c611d1",
-        "b8693eb0-1279-403e-a134-ca97b5f365cc",
-        "94c6284b-57d5-498a-8ffb-a4b854fec75b"
+        "b8693eb0-1279-403e-a134-ca97b5f365cc"
       ],
       "settings": {
         "full_width": true,
