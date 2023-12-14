@@ -6,7 +6,7 @@
       --rich-text-max-width: {% if section.settings.content_width == 'small' %}650px{% elsif section.settings.content_width == 'medium' %}780px{% else %}100%{% endif %}
     }
     .rich-text-links-wrap  svg rect, .rich-text-links-wrap  svg path{
-      stroke: {{ section.settings.text_color }}
+      stroke: {{ section.settings.text_color | default: 'rgba(39, 39, 39, 1)' }}
     }
 
   </style>

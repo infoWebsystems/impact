@@ -9999,6 +9999,7 @@ split-lines {
 .rich-text-contacts{
   display: flex;
   flex-direction: column;
+  margin-bottom: 30px;
 }
  div.rich-text-contacts div.rich-text-links-wrap {
   margin: 0;
