@@ -60,8 +60,8 @@
           "type": "item",
           "settings": {
             "title": "100%",
-            "subheading": "Showcase a benefit of your product",
-            "content": "",
+            "subheading": "",
+            "content": "<h3>Passionate Team.<\/h3>",
             "button_text": "",
             "button_url": "",
             "animate_impact_text": false,
