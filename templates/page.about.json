@@ -22,18 +22,11 @@
             "text": "We do high- quality products",
             "heading_tag": "h1"
           }
-        },
-        "template--15226598817857__3a8b8e59-8a75-4130-b7c7-e5ea7dda7e03-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
         }
       },
       "block_order": [
         "template--15226598817857__3a8b8e59-8a75-4130-b7c7-e5ea7dda7e03-subheading-1",
-        "template--15226598817857__3a8b8e59-8a75-4130-b7c7-e5ea7dda7e03-heading-1",
-        "template--15226598817857__3a8b8e59-8a75-4130-b7c7-e5ea7dda7e03-richtext-1"
+        "template--15226598817857__3a8b8e59-8a75-4130-b7c7-e5ea7dda7e03-heading-1"
       ],
       "settings": {
         "full_width": true,
@@ -45,7 +38,7 @@
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 43
       }
     }
   },
