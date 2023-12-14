@@ -78,6 +78,12 @@
             "icon_background": "",
             "icon_color": ""
           }
+        },
+        "5ad7be0c-ac79-44f1-b73f-f9c8d5ed6e92": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p>Write custom Liquid code to include widget or dynamic code.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -85,7 +91,8 @@
         "template--15213123403841__a065534f-3222-4303-8ca4-71268d13f087-richtext-1",
         "87c48755-9143-45b2-8a11-813c509805e3",
         "f23ddfd1-f3e8-40d8-a21c-9d43d9324df1",
-        "5ff53915-2c28-42fe-8f44-39935e538604"
+        "5ff53915-2c28-42fe-8f44-39935e538604",
+        "5ad7be0c-ac79-44f1-b73f-f9c8d5ed6e92"
       ],
       "settings": {
         "full_width": true,
