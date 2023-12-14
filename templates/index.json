@@ -384,6 +384,67 @@
         "button_text_color": ""
       }
     },
+    "06fad2ab-b60d-4af8-9ad1-290ffdabaecc": {
+      "type": "slider",
+      "blocks": {
+        "2c0ca4da-b2ae-40ed-9c8c-118598f3719e": {
+          "type": "review",
+          "settings": {
+            "review_text": "The facade, terrace, and facing boards from your company are true works of art that give our home a unique look and comfort. Your courtyard board, in particular, has proven to be incredibly practical and aesthetically pleasing for our property. Every day, we enjoy the quality and durability of this material. The board withstands any weather conditions without losing its original appearance. We especially appreciate its ease of use and the ability to create diverse designer solutions.",
+            "review_author": "Mette Hay",
+            "review_date": "12 November 2023"
+          }
+        },
+        "eb27a0a2-b2e5-4d54-b4a1-4c8f6112f6d2": {
+          "type": "review",
+          "settings": {
+            "review_text": "The facade, terrace, and facing boards from your company are true works of art that give our home a unique look and comfort. Your courtyard board, in particular, has proven to be incredibly practical and aesthetically pleasing for our property. Every day, we enjoy the quality and durability of this material. The board withstands any weather conditions without losing its original appearance. We especially appreciate its ease of use and the ability to create diverse designer solutions.",
+            "review_author": "Mette Hay",
+            "review_date": "12 November 2023"
+          }
+        },
+        "c898a896-d66a-4304-8e8d-edb7ec071f60": {
+          "type": "review",
+          "settings": {
+            "review_text": "The facade, terrace, and facing boards from your company are true works of art that give our home a unique look and comfort. Your courtyard board, in particular, has proven to be incredibly practical and aesthetically pleasing for our property. Every day, we enjoy the quality and durability of this material. The board withstands any weather conditions without losing its original appearance. We especially appreciate its ease of use and the ability to create diverse designer solutions.",
+            "review_author": "Mette Hay",
+            "review_date": "12 November 2023"
+          }
+        },
+        "59fbe174-6206-42b4-8fc6-94bad9243628": {
+          "type": "review",
+          "settings": {
+            "review_text": "The facade, terrace, and facing boards from your company are true works of art that give our home a unique look and comfort. Your courtyard board, in particular, has proven to be incredibly practical and aesthetically pleasing for our property. Every day, we enjoy the quality and durability of this material. The board withstands any weather conditions without losing its original appearance. We especially appreciate its ease of use and the ability to create diverse designer solutions.",
+            "review_author": "Mette Hay",
+            "review_date": "12 November 2023"
+          }
+        }
+      },
+      "block_order": [
+        "2c0ca4da-b2ae-40ed-9c8c-118598f3719e",
+        "eb27a0a2-b2e5-4d54-b4a1-4c8f6112f6d2",
+        "c898a896-d66a-4304-8e8d-edb7ec071f60",
+        "59fbe174-6206-42b4-8fc6-94bad9243628"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_progress_bar": true,
+        "stack_products": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Сustomers reviews",
+        "content": "<p>Read what our customers say.<\/p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "5a78c33b-5f10-4641-aa94-293eba6cd9f2": {
       "type": "shop-the-look",
       "blocks": {
@@ -467,67 +528,6 @@
         "button_background": "",
         "button_text_color": ""
       }
-    },
-    "06fad2ab-b60d-4af8-9ad1-290ffdabaecc": {
-      "type": "slider",
-      "blocks": {
-        "2c0ca4da-b2ae-40ed-9c8c-118598f3719e": {
-          "type": "review",
-          "settings": {
-            "review_text": "The facade, terrace, and facing boards from your company are true works of art that give our home a unique look and comfort. Your courtyard board, in particular, has proven to be incredibly practical and aesthetically pleasing for our property. Every day, we enjoy the quality and durability of this material. The board withstands any weather conditions without losing its original appearance. We especially appreciate its ease of use and the ability to create diverse designer solutions.",
-            "review_author": "Mette Hay",
-            "review_date": "12 November 2023"
-          }
-        },
-        "eb27a0a2-b2e5-4d54-b4a1-4c8f6112f6d2": {
-          "type": "review",
-          "settings": {
-            "review_text": "The facade, terrace, and facing boards from your company are true works of art that give our home a unique look and comfort. Your courtyard board, in particular, has proven to be incredibly practical and aesthetically pleasing for our property. Every day, we enjoy the quality and durability of this material. The board withstands any weather conditions without losing its original appearance. We especially appreciate its ease of use and the ability to create diverse designer solutions.",
-            "review_author": "Mette Hay",
-            "review_date": "12 November 2023"
-          }
-        },
-        "c898a896-d66a-4304-8e8d-edb7ec071f60": {
-          "type": "review",
-          "settings": {
-            "review_text": "The facade, terrace, and facing boards from your company are true works of art that give our home a unique look and comfort. Your courtyard board, in particular, has proven to be incredibly practical and aesthetically pleasing for our property. Every day, we enjoy the quality and durability of this material. The board withstands any weather conditions without losing its original appearance. We especially appreciate its ease of use and the ability to create diverse designer solutions.",
-            "review_author": "Mette Hay",
-            "review_date": "12 November 2023"
-          }
-        },
-        "59fbe174-6206-42b4-8fc6-94bad9243628": {
-          "type": "review",
-          "settings": {
-            "review_text": "The facade, terrace, and facing boards from your company are true works of art that give our home a unique look and comfort. Your courtyard board, in particular, has proven to be incredibly practical and aesthetically pleasing for our property. Every day, we enjoy the quality and durability of this material. The board withstands any weather conditions without losing its original appearance. We especially appreciate its ease of use and the ability to create diverse designer solutions.",
-            "review_author": "Mette Hay",
-            "review_date": "12 November 2023"
-          }
-        }
-      },
-      "block_order": [
-        "2c0ca4da-b2ae-40ed-9c8c-118598f3719e",
-        "eb27a0a2-b2e5-4d54-b4a1-4c8f6112f6d2",
-        "c898a896-d66a-4304-8e8d-edb7ec071f60",
-        "59fbe174-6206-42b4-8fc6-94bad9243628"
-      ],
-      "settings": {
-        "full_width": true,
-        "show_progress_bar": true,
-        "stack_products": false,
-        "products_count": 6,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "Сustomers reviews",
-        "content": "<p>Read what our customers say.<\/p>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
     }
   },
   "order": [
@@ -538,8 +538,8 @@
     "collection-list",
     "5902866a-a3aa-4127-88f5-3c560eba0220",
     "multiple-images-with-text",
+    "06fad2ab-b60d-4af8-9ad1-290ffdabaecc",
     "5a78c33b-5f10-4641-aa94-293eba6cd9f2",
-    "04746b9e-bceb-480f-8ef9-f505d9648230",
-    "06fad2ab-b60d-4af8-9ad1-290ffdabaecc"
+    "04746b9e-bceb-480f-8ef9-f505d9648230"
   ]
 }
