@@ -5867,7 +5867,7 @@ split-lines {
   --text-color: var(--header-text);
   --header-part-gap: var(--spacing-3);
   --header-icon-list-spacing: var(--spacing-4);
-  --header-link-list-spacing: var(--spacing-6);
+  --header-link-list-spacing: var(--spacing-12);
   --header-logo-opacity: 1;
   will-change: transform;
   margin-inline-start: auto;
@@ -5977,7 +5977,7 @@ split-lines {
 
 @media screen and (min-width: 1150px) {
   .header__link-list {
-    gap: var(--spacing-4) var(--header-link-list-spacing);
+    gap: var(--spacing-4-5) var(--header-link-list-spacing);
     display: flex;
   }
 }
@@ -9824,7 +9824,7 @@ split-lines {
 
 .h1, .prose h1:not(.h0, .h1, .h2, .h3, .h4, .h5, .h6) {
   font-size: var(--text-h1);
-  line-height: 1.1;
+  line-height: 1.2;
 }
 
 .h2, .prose h2:not(.h0, .h1, .h2, .h3, .h4, .h5, .h6) {
@@ -9958,7 +9958,12 @@ split-lines {
   line-height: 110%;
   margin: 24px 0 8px 0;
 }
-
+.review-card__txt, .slider-review .prose p{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%
+}
 .review-card__date{
   color: rgba(0, 0, 0, 0.50);
   font-size: 16px;
@@ -9976,9 +9981,40 @@ split-lines {
   font-weight: 450;
   line-height: 110%;
 }
+.header__link-list a.bold{
+  font-weight: 600;
+}
+.footer .prose p{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+}
+.input{
+  border-color: rgb(var(--text-color));
+}
+.textarea{
+  height: 60px;
+}
 
 @media screen and (min-width: 700px){
   .big-txt{
     font-size: 32px;
   }
+
+}
+@media screen and (min-width: 1000px){
+  .shop-the-look__products {
+    padding-top: 70px;
+    padding-left: 40px;
+  }
+  .shopify-section--contact .section-stack__main{
+     width: 73%;
+  }
+  .shopify-section--contact .button--xl {
+    padding-block-start: 1.075rem;
+    padding-block-end: 1.075rem;
+    padding-inline-start: var(--spacing-14);
+    padding-inline-end: var(--spacing-14);
+}
 }
