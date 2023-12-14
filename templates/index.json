@@ -506,10 +506,18 @@
             "use_long_text": false,
             "required": true
           }
+        },
+        "eb469de4-b072-4996-a110-50a9f58dbb88": {
+          "type": "dropdown",
+          "settings": {
+            "title": "Custom field",
+            "values": "Account, Order, Press, Other"
+          }
         }
       },
       "block_order": [
-        "f316985e-6c82-402c-b9eb-9393d4b02fda"
+        "f316985e-6c82-402c-b9eb-9393d4b02fda",
+        "eb469de4-b072-4996-a110-50a9f58dbb88"
       ],
       "settings": {
         "full_width": true,
