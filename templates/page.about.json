@@ -234,12 +234,6 @@
     "f8658297-8534-4619-a5d4-a235021ea1b5": {
       "type": "rich-text",
       "blocks": {
-        "template--15226598817857__f8658297-8534-4619-a5d4-a235021ea1b5-subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
         "template--15226598817857__f8658297-8534-4619-a5d4-a235021ea1b5-heading-1": {
           "type": "heading",
           "settings": {
@@ -249,16 +243,24 @@
             "gradient": ""
           }
         },
+        "0191d094-279f-47d4-931f-cbe3ba8c11b2": {
+          "type": "contact-links",
+          "settings": {
+            "email": "info@termo-mediena.lt",
+            "tel": "+370 (654) 41688",
+            "tel-href": "37065441688"
+          }
+        },
         "template--15226598817857__f8658297-8534-4619-a5d4-a235021ea1b5-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>We are available from monday to saturday. Our customer service will get back to you as soon as possible.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--15226598817857__f8658297-8534-4619-a5d4-a235021ea1b5-subheading-1",
         "template--15226598817857__f8658297-8534-4619-a5d4-a235021ea1b5-heading-1",
+        "0191d094-279f-47d4-931f-cbe3ba8c11b2",
         "template--15226598817857__f8658297-8534-4619-a5d4-a235021ea1b5-richtext-1"
       ],
       "settings": {
