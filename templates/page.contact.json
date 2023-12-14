@@ -134,10 +134,10 @@
         "template--15213123403841__e74dd879-23b6-4f12-8203-93fed7c72549-item-2": {
           "type": "item",
           "settings": {
-            "icon": "picto-coupon",
+            "icon": "picto-customer-support",
             "mobile_icon_width": 24,
             "icon_width": 32,
-            "icon_background_type": "circle",
+            "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
             "title": "Customer service",
