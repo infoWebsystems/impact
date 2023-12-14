@@ -232,9 +232,10 @@
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "frontpage",
+            "image": "shopify:\/\/shop_images\/rustic-deck-with-patio-furniture-and-vegetation_1.png",
             "subheading": "",
-            "title": "",
+            "title": "Teracce view",
             "url": "",
             "heading_tag": "h2",
             "text_position": "bottom",
