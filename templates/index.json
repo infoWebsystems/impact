@@ -63,7 +63,7 @@
             "image": "shopify:\/\/shop_images\/picture-of-a-wooden-building-in-the-forest_2.png",
             "content_max_width": 980,
             "mobile_text_position": "place-self-center-start text-start",
-            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "subheading": "",
             "title": "Thermo-modified wood",
             "text": "Services for thermal modification of any wood, coniferous, deciduous and rare types. Sale of thermo- modified wood.",
