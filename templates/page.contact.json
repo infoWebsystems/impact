@@ -4,11 +4,39 @@
       "type": "main-page",
       "disabled": true,
       "settings": {
+        "content_width": "80ch"
       }
     },
     "contact": {
       "type": "contact",
+      "blocks": {
+        "648e2fad-4ebb-45f8-a4c1-4fcf63e3bc3a": {
+          "type": "dropdown",
+          "settings": {
+            "title": "Subject",
+            "values": "Account, Order, Press, Other"
+          }
+        }
+      },
+      "block_order": [
+        "648e2fad-4ebb-45f8-a4c1-4fcf63e3bc3a"
+      ],
       "settings": {
+        "full_width": true,
+        "subheading": "Contact Us",
+        "title": "Do you have any question?",
+        "content": "",
+        "text_position": "start",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     }
   },
