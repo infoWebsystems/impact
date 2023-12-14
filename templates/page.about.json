@@ -192,6 +192,40 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "d602548a-143c-4e2c-bf25-bfa1b23d6b2b": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--15226598817857__d602548a-143c-4e2c-bf25-bfa1b23d6b2b-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/stack-wooden-planks-sawmill-lumber-yard_1.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "picto-chat",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#272727",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15226598817857__d602548a-143c-4e2c-bf25-bfa1b23d6b2b-image-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
     }
   },
   "order": [
@@ -199,6 +233,7 @@
     "3a8b8e59-8a75-4130-b7c7-e5ea7dda7e03",
     "60b98850-ac88-4f02-89a2-60bd93d74bd6",
     "10378aa3-f99b-474b-bd55-abf64ec604d1",
-    "1c5d005e-a1f5-42aa-90e4-0af60dc877ab"
+    "1c5d005e-a1f5-42aa-90e4-0af60dc877ab",
+    "d602548a-143c-4e2c-bf25-bfa1b23d6b2b"
   ]
 }
