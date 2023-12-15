@@ -10010,6 +10010,10 @@ split-lines {
 .rich-text-link{
   margin-left: 16px;
 }
+.product-info__variant-picker{
+  background-color: #F2F2F2;
+  padding: 16px 16px 24px 16px;
+}
 @media screen and (min-width: 700px){
   .big-txt{
     font-size: 32px;
