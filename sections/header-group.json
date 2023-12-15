@@ -85,13 +85,14 @@
           "settings": {
             "menu_item": "Contact",
             "layout": "horizontal",
-            "submenu_style": "bold_heading",
+            "submenu_style": "bold_text",
             "image_1": "shopify:\/\/shop_images\/rustic-deck-with-patio-furniture-and-vegetation_1.png",
             "image_heading_1": "",
             "image_link_1": "shopify:\/\/pages\/faq",
             "image_text_color_1": "#ffffff",
+            "image_2": "shopify:\/\/shop_images\/image_3.png",
             "image_heading_2": "",
-            "image_link_2": "",
+            "image_link_2": "shopify:\/\/pages\/about",
             "image_text_color_2": "#ffffff",
             "image_heading_3": "",
             "image_link_3": "",
@@ -99,7 +100,7 @@
             "product": "",
             "product_card_background": "",
             "product_card_text_color": "",
-            "promo_content_layout": "grid",
+            "promo_content_layout": "collage",
             "stretch_promo": false,
             "drawer_link_image": "hide"
           }
