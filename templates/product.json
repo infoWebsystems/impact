@@ -14,15 +14,16 @@
             "heading_tag": "h2"
           }
         },
-        "badges": {
-          "type": "badges",
-          "settings": {
-          }
-        },
-        "price": {
+        "255009b6-dcd6-4f57-9a16-c5907e126883": {
           "type": "price",
           "settings": {
             "show_taxes_notice": false
+          }
+        },
+        "047e9856-b508-4dff-8716-2202400f9efc": {
+          "type": "inventory",
+          "settings": {
+            "low_inventory_threshold": 0
           }
         },
         "rating": {
@@ -77,8 +78,8 @@
       "block_order": [
         "vendor",
         "title",
-        "badges",
-        "price",
+        "255009b6-dcd6-4f57-9a16-c5907e126883",
+        "047e9856-b508-4dff-8716-2202400f9efc",
         "rating",
         "payment_terms",
         "separator",
