@@ -497,6 +497,18 @@
         "background_dots": "#272727"
       }
     },
+    "e0aafa27-e252-475a-86d9-d7817286ad0e": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style=\"height: 1px\"><\/div>",
+        "background": "#bebdb9",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "04746b9e-bceb-480f-8ef9-f505d9648230": {
       "type": "contact",
       "blocks": {
@@ -550,6 +562,7 @@
     "multiple-images-with-text",
     "06fad2ab-b60d-4af8-9ad1-290ffdabaecc",
     "5a78c33b-5f10-4641-aa94-293eba6cd9f2",
+    "e0aafa27-e252-475a-86d9-d7817286ad0e",
     "04746b9e-bceb-480f-8ef9-f505d9648230"
   ]
 }
