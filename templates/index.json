@@ -538,6 +538,63 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "86785950-02bf-467e-84aa-e57c05884078": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--15213123797057__86785950-02bf-467e-84aa-e57c05884078-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brown-wooden-bridge1.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-start text-start",
+            "icon": "picto-coupon",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#272727",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "97522922-1547-47b6-8185-2cb48501f0a1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/beautiful-wooden-modern-house_1.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15213123797057__86785950-02bf-467e-84aa-e57c05884078-image-1",
+        "97522922-1547-47b6-8185-2cb48501f0a1"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
     }
   },
   "order": [
@@ -550,6 +607,7 @@
     "multiple-images-with-text",
     "06fad2ab-b60d-4af8-9ad1-290ffdabaecc",
     "5a78c33b-5f10-4641-aa94-293eba6cd9f2",
-    "04746b9e-bceb-480f-8ef9-f505d9648230"
+    "04746b9e-bceb-480f-8ef9-f505d9648230",
+    "86785950-02bf-467e-84aa-e57c05884078"
   ]
 }
