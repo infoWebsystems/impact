@@ -51,9 +51,9 @@
             "product": "terraced-board",
             "product_card_background": "",
             "product_card_text_color": "",
-            "promo_content_layout": "collage",
-            "stretch_promo": false,
-            "drawer_link_image": "show"
+            "promo_content_layout": "grid",
+            "stretch_promo": true,
+            "drawer_link_image": "hide"
           }
         },
         "65934d29-bdd4-402b-8f07-25581918ec9a": {
