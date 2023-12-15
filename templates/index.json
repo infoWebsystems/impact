@@ -528,95 +528,15 @@
         "content": "<p>We are experiencing higher than normal volume and are working to respond as timely as possible. Please note that it may take us up to 2 business days to reply. We appreciate your patience during this time.<\/p>",
         "text_position": "start",
         "contact_form_size": "large",
-        "background": "",
+        "background": "#f2f2f2",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#272727",
         "heading_color": "",
         "heading_gradient": "",
         "contact_background": "",
         "contact_text_color": "",
         "button_background": "",
         "button_text_color": ""
-      }
-    },
-    "86785950-02bf-467e-84aa-e57c05884078": {
-      "type": "media-with-text",
-      "blocks": {
-        "template--15213123797057__86785950-02bf-467e-84aa-e57c05884078-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/brown-wooden-bridge1.png",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-start text-start",
-            "icon": "picto-coupon",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Heading",
-            "content": "<p>ТЕРМОМОДИФІКАЦІЯ ДЕРЕВИНИ – це процес термічної обробки заснований на використанні високих температур та пару.<\/p><p> Жодні хімікати в процесі термообробки не використовуються.<\/p><p> Метод термомодифікації покращує стабільність розмірів та біологічну стійкість деревини.<\/p><p> Процес покращує термоізоляційні властивості деревини, оскільки процес термомодифікації призводить до зниження теплопровідності.<\/p><p> Обробка досить високою температурою видаляє з деревини смоли.<\/p><p> <\/p><p><\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#272727",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "97522922-1547-47b6-8185-2cb48501f0a1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/beautiful-wooden-modern-house_1.png",
-            "media_width": 50,
-            "media_position": "end",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "",
-            "content": "<p><strong>СУШКА<\/strong> - спочатку температура сягає 130 градусів. Вода, яка була в камері та встигла ввібралася в деревину, починає випаровуватися при температурі близько 100 градусів, внаслідок чого відбувається процес сушіння деревини парою. Ця пара є природним захистом для запобігання розтріскування деревини. До того ж вона розм'якшує деревину готуючи її для хімічних змін і модифікації.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#272727",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "a5945f3d-0fc4-45e4-af12-30ce7f24d26f": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/rustic-deck-with-patio-furniture-and-vegetation_1.png",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Heading",
-            "content": "<p><strong>ТЕРМОМОДИФІКАЦІЯ<\/strong>– температура в камері підвищується до позначки 185-225 градусів. Рівень температури залежить від бажаного кінцевого результату, що обумовлений способом застосування деревини. При досягненні пікової температури відбувається її фіксація та підтримка на 2-3 години (час залежить від типу деревини, її кількості та геометричних розмірів). У цей період парове середовище захищає деревину від спалаху, а також впливає на хімічні процеси, що відбуваються в деревині.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#272727",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15213123797057__86785950-02bf-467e-84aa-e57c05884078-image-1",
-        "97522922-1547-47b6-8185-2cb48501f0a1",
-        "a5945f3d-0fc4-45e4-af12-30ce7f24d26f"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "small"
       }
     }
   },
@@ -630,7 +550,6 @@
     "multiple-images-with-text",
     "06fad2ab-b60d-4af8-9ad1-290ffdabaecc",
     "5a78c33b-5f10-4641-aa94-293eba6cd9f2",
-    "04746b9e-bceb-480f-8ef9-f505d9648230",
-    "86785950-02bf-467e-84aa-e57c05884078"
+    "04746b9e-bceb-480f-8ef9-f505d9648230"
   ]
 }
