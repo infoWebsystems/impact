@@ -34,7 +34,7 @@
           "type": "mega_menu",
           "settings": {
             "menu_item": "дlalal",
-            "layout": "horizontal_center",
+            "layout": "horizontal",
             "submenu_style": "bold_heading",
             "image_1": "shopify:\/\/shop_images\/brown-wooden-bridge1.png",
             "image_heading_1": "1",
@@ -48,7 +48,7 @@
             "image_heading_3": "3",
             "image_link_3": "shopify:\/\/pages\/faq",
             "image_text_color_3": "#ffffff",
-            "product": "",
+            "product": "terraced-board",
             "product_card_background": "",
             "product_card_text_color": "",
             "promo_content_layout": "carousel",
