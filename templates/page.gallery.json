@@ -81,10 +81,94 @@
         "heading_color": "",
         "heading_gradient": ""
       }
+    },
+    "e22eaf05-ec61-4f2b-9228-81844f5852e7": {
+      "type": "media-grid",
+      "blocks": {
+        "template--15229750804545__e22eaf05-ec61-4f2b-9228-81844f5852e7-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brown-wooden-bridge1.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15229750804545__e22eaf05-ec61-4f2b-9228-81844f5852e7-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3d-rendering-of-house-model_1.png",
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15229750804545__e22eaf05-ec61-4f2b-9228-81844f5852e7-image-3": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15229750804545__e22eaf05-ec61-4f2b-9228-81844f5852e7-image-1",
+        "template--15229750804545__e22eaf05-ec61-4f2b-9228-81844f5852e7-image-2",
+        "template--15229750804545__e22eaf05-ec61-4f2b-9228-81844f5852e7-image-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
     }
   },
   "order": [
     "main",
-    "5a876b8e-d8a5-43bf-b666-bdde212f2659"
+    "5a876b8e-d8a5-43bf-b666-bdde212f2659",
+    "e22eaf05-ec61-4f2b-9228-81844f5852e7"
   ]
 }
