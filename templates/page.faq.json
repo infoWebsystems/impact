@@ -99,11 +99,32 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "8af038e9-e261-481f-8d69-62cb5dd6606f": {
+      "type": "contact",
+      "settings": {
+        "full_width": true,
+        "subheading": "Contact Us",
+        "title": "Do you have any question?",
+        "content": "<p>If you do not find the answer to your question in our FAQ, you can send us a message by filling out the form below.<\/p>",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "background": "#f2f2f2",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "#ffffff",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
     "main",
     "6bdd5baf-ddf3-4bbd-82df-8c001636558f",
-    "75b698b7-c543-4b25-bea4-5a3c7543dc82"
+    "75b698b7-c543-4b25-bea4-5a3c7543dc82",
+    "8af038e9-e261-481f-8d69-62cb5dd6606f"
   ]
 }
