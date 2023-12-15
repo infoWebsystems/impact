@@ -528,7 +528,7 @@
         "content": "<p>We are experiencing higher than normal volume and are working to respond as timely as possible. Please note that it may take us up to 2 business days to reply. We appreciate your patience during this time.<\/p>",
         "text_position": "start",
         "contact_form_size": "large",
-        "background": "#f2f2f2",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "#272727",
         "heading_color": "",
