@@ -3,10 +3,87 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "5a876b8e-d8a5-43bf-b666-bdde212f2659": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "template--15229750804545__5a876b8e-d8a5-43bf-b666-bdde212f2659-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brown-wooden-bridge1.png",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15229750804545__5a876b8e-d8a5-43bf-b666-bdde212f2659-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brown-wooden-bridge_1.png",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15229750804545__5a876b8e-d8a5-43bf-b666-bdde212f2659-item-3": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15229750804545__5a876b8e-d8a5-43bf-b666-bdde212f2659-item-4": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15229750804545__5a876b8e-d8a5-43bf-b666-bdde212f2659-item-1",
+        "template--15229750804545__5a876b8e-d8a5-43bf-b666-bdde212f2659-item-2",
+        "template--15229750804545__5a876b8e-d8a5-43bf-b666-bdde212f2659-item-3",
+        "template--15229750804545__5a876b8e-d8a5-43bf-b666-bdde212f2659-item-4"
+      ],
+      "settings": {
+        "full_width": true,
+        "block_size": "large",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "5a876b8e-d8a5-43bf-b666-bdde212f2659"
   ]
 }
