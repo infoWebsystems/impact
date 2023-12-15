@@ -47,10 +47,63 @@
         "background": "#F2F2F2",
         "background_gradient": ""
       }
+    },
+    "75b698b7-c543-4b25-bea4-5a3c7543dc82": {
+      "type": "faq",
+      "blocks": {
+        "template--15213123207233__75b698b7-c543-4b25-bea4-5a3c7543dc82-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--15213123207233__75b698b7-c543-4b25-bea4-5a3c7543dc82-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--15213123207233__75b698b7-c543-4b25-bea4-5a3c7543dc82-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15213123207233__75b698b7-c543-4b25-bea4-5a3c7543dc82-item-1",
+        "template--15213123207233__75b698b7-c543-4b25-bea4-5a3c7543dc82-item-2",
+        "template--15213123207233__75b698b7-c543-4b25-bea4-5a3c7543dc82-item-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Popular questions from our customers",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
+        "answer_time": "Average answer time: 24h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
     }
   },
   "order": [
     "main",
-    "6bdd5baf-ddf3-4bbd-82df-8c001636558f"
+    "6bdd5baf-ddf3-4bbd-82df-8c001636558f",
+    "75b698b7-c543-4b25-bea4-5a3c7543dc82"
   ]
 }
