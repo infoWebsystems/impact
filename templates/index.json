@@ -585,11 +585,34 @@
             "button_background": "",
             "button_text_color": ""
           }
+        },
+        "a5945f3d-0fc4-45e4-af12-30ce7f24d26f": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/brown-wooden-bridge1.png",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#272727",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
         }
       },
       "block_order": [
         "template--15213123797057__86785950-02bf-467e-84aa-e57c05884078-image-1",
-        "97522922-1547-47b6-8185-2cb48501f0a1"
+        "97522922-1547-47b6-8185-2cb48501f0a1",
+        "a5945f3d-0fc4-45e4-af12-30ce7f24d26f"
       ],
       "settings": {
         "full_width": false,
