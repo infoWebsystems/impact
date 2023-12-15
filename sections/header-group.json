@@ -29,9 +29,41 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "2713f10f-241f-4371-9af3-c5b644ac890d": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "дlalal",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify:\/\/shop_images\/brown-wooden-bridge1.png",
+            "image_heading_1": "1",
+            "image_link_1": "shopify:\/\/pages\/about",
+            "image_text_color_1": "#ffffff",
+            "image_2": "shopify:\/\/shop_images\/beautiful-wooden-modern-house_1.png",
+            "image_heading_2": "2",
+            "image_link_2": "shopify:\/\/blogs\/news",
+            "image_text_color_2": "#ffffff",
+            "image_3": "shopify:\/\/shop_images\/stack-wooden-planks-sawmill-lumber-yard_1.png",
+            "image_heading_3": "3",
+            "image_link_3": "shopify:\/\/pages\/faq",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "carousel",
+            "stretch_promo": false,
+            "drawer_link_image": "show"
+          }
+        }
+      },
+      "block_order": [
+        "2713f10f-241f-4371-9af3-c5b644ac890d"
+      ],
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
+        "show_logo": false,
         "logo": "{{shop.brand.logo}}",
         "logo_max_width": 120,
         "logo_mobile_max_width": 100,
