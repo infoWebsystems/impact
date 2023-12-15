@@ -102,6 +102,18 @@
     },
     "8af038e9-e261-481f-8d69-62cb5dd6606f": {
       "type": "contact",
+      "blocks": {
+        "b537d992-2e74-45dd-82d2-65e7fb4a8c97": {
+          "type": "dropdown",
+          "settings": {
+            "title": "Subject",
+            "values": "Account, Order, Press, Other"
+          }
+        }
+      },
+      "block_order": [
+        "b537d992-2e74-45dd-82d2-65e7fb4a8c97"
+      ],
       "settings": {
         "full_width": true,
         "subheading": "Contact Us",
