@@ -60,10 +60,10 @@
           "type": "mega_menu",
           "settings": {
             "menu_item": "Shop",
-            "layout": "horizontal_center",
+            "layout": "horizontal",
             "submenu_style": "bold_heading",
             "image_1": "shopify:\/\/shop_images\/brown-wooden-bridge1.png",
-            "image_heading_1": "",
+            "image_heading_1": "bb",
             "image_link_1": "shopify:\/\/pages\/gallery",
             "image_text_color_1": "#ffffff",
             "image_heading_2": "",
