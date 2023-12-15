@@ -52,11 +52,34 @@
             "button_background": "",
             "button_text_color": ""
           }
+        },
+        "9d444b63-21f9-450b-afdf-5da9cf38b6ef": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vertical-shot-boardwalk-through-tall-grasses-trees-during-sunrise_1.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p><p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#272727",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
         }
       },
       "block_order": [
         "template--15229800874049__6cd1b0b6-2404-4961-b404-54e642da5044-image-1",
-        "21433ca9-c364-41b5-838c-7350f09483fc"
+        "21433ca9-c364-41b5-838c-7350f09483fc",
+        "9d444b63-21f9-450b-afdf-5da9cf38b6ef"
       ],
       "settings": {
         "full_width": false,
