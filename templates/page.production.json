@@ -56,6 +56,7 @@
         "eded6fa5-eb7f-4d09-99c6-9be4b7875cd1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/3d-rendering-of-house-model_1.png",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
@@ -66,9 +67,9 @@
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
             "link_text": "",
             "link_url": "",
-            "background": "#000000",
+            "background": "#ffffff",
             "background_gradient": "",
-            "text_color": "#ffffff",
+            "text_color": "#272727",
             "text_gradient": "",
             "button_background": "",
             "button_text_color": ""
