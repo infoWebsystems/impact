@@ -3,10 +3,90 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "896e64bb-27de-4b79-bfbe-6a0f3f0d3a9b": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--15229800972353__896e64bb-27de-4b79-bfbe-6a0f3f0d3a9b-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3d-rendering-of-house-model_1.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "picto-tree",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Production",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#272727",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "aed9e876-9c56-4b6d-9231-009621494fa1": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "eded6fa5-eb7f-4d09-99c6-9be4b7875cd1": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15229800972353__896e64bb-27de-4b79-bfbe-6a0f3f0d3a9b-image-1",
+        "aed9e876-9c56-4b6d-9231-009621494fa1",
+        "eded6fa5-eb7f-4d09-99c6-9be4b7875cd1"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "896e64bb-27de-4b79-bfbe-6a0f3f0d3a9b"
   ]
 }
