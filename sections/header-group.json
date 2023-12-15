@@ -59,11 +59,12 @@
         "65934d29-bdd4-402b-8f07-25581918ec9a": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "",
+            "menu_item": "Shop",
             "layout": "horizontal_center",
             "submenu_style": "bold_heading",
+            "image_1": "shopify:\/\/shop_images\/brown-wooden-bridge1.png",
             "image_heading_1": "",
-            "image_link_1": "",
+            "image_link_1": "shopify:\/\/pages\/gallery",
             "image_text_color_1": "#ffffff",
             "image_heading_2": "",
             "image_link_2": "",
