@@ -504,7 +504,7 @@
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
         "liquid": "<div style=\"height: 1px\"><\/div>",
-        "background": "#bebdb9",
+        "background": "#f2f2f2",
         "background_gradient": "",
         "text_color": ""
       }
