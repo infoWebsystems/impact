@@ -3,10 +3,90 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "eb2858f5-3210-4272-830c-a5dc08adea54": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--15229800906817__eb2858f5-3210-4272-830c-a5dc08adea54-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/picture-of-a-wooden-building-in-the-forest_2.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "picto-question",
+            "icon_width": 32,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#272727",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "ce182298-eeed-482b-a9c7-4fe0c1bfabed": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "10dd92dc-4d7b-4cdf-ba8c-c5cb751f2bd2": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15229800906817__eb2858f5-3210-4272-830c-a5dc08adea54-image-1",
+        "ce182298-eeed-482b-a9c7-4fe0c1bfabed",
+        "10dd92dc-4d7b-4cdf-ba8c-c5cb751f2bd2"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "eb2858f5-3210-4272-830c-a5dc08adea54"
   ]
 }
