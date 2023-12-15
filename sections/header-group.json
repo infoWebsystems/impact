@@ -92,7 +92,7 @@
         "logo_max_width": 120,
         "logo_mobile_max_width": 100,
         "menu": "main-menu",
-        "sidebar_menu": "main-menu",
+        "sidebar_menu": "footer",
         "secondary_menu": "",
         "menu_open_trigger": "hover",
         "opening_from": "bottom",
