@@ -56,7 +56,7 @@ button.splide__arrow--next {
     line-height: 110%;
     width: 50px;
     position: absolute;
-    bottom: 30px;
+    bottom: 25px;
     right: 22px;
 }
 .splide .splide__arrow svg {
@@ -90,6 +90,9 @@ button.splide__arrow--next {
         flex-direction: column;
         justify-content: end;
         padding-bottom: 120px;
+    }
+    .slide-counter{
+        bottom: 28px;
     }
 }
 @media screen and (min-width: 1000px){
