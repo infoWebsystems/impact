@@ -83,6 +83,10 @@
       {%- when 'separator' -%}
         <hr class="product-info__separator" {{ block.shopify_attributes }}>
 
+      {%- when 'calculator' -%}
+
+        {%- render 'calculator' -%}
+
       {%- when 'description' -%}
         {%- if block.settings.collapse_content -%}
           {%- if product.description != blank -%}
