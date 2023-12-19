@@ -330,59 +330,33 @@
         "overlay_opacity": 30
       }
     },
-    "multiple-images-with-text": {
-      "type": "multiple-images-with-text",
+    "568bfe75-4e2e-4bb4-91d4-3645f4a74885": {
+      "type": "slider-wide-slide",
       "blocks": {
-        "1664424486a2b084ab-0": {
-          "type": "item",
+        "b00d9072-473f-415d-93a3-1c3904140bbf": {
+          "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/stack-wooden-planks-sawmill-lumber-yard_1.png",
-            "image_rotation_degrees": 0,
             "subheading": "Thermowood production process",
             "title": "Drying",
-            "content": "<p>The temperature rises to 130 degrees Celsius , since there is water in the chamber, and at a temperature of about 100 degrees, the water both in the chamber and in the wood begins to evaporate, due to which the wood is dried with steam, steam is a natural protection to prevent cracking of the wood. Steam also softens the wood, preparing it for chemical changes and modifications.<\/p>",
-            "button_url": "",
-            "button_text": ""
+            "text": "The temperature rises to 130 degrees Celsius , since there is water in the chamber, and at a temperature of about 100 degrees, the water both in the chamber and in the wood begins to evaporate, due to which the wood is dried with steam, steam is a natural protection to prevent cracking of the wood. Steam also softens the wood, preparing it for chemical changes and modifications."
           }
         },
-        "1664424486a2b084ab-1": {
-          "type": "item",
+        "a990c686-37ca-4d46-b4a7-19b08c02b26b": {
+          "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/stack-wooden-planks-sawmill-lumber-yard_1.png",
-            "image_rotation_degrees": 1.5,
-            "subheading": "Thermowood production process",
+            "subheading": "Drying",
             "title": "Drying",
-            "content": "<p>The temperature rises to 130 degrees Celsius , since there is water in the chamber, and at a temperature of about 100 degrees, the water both in the chamber and in the wood begins to evaporate, due to which the wood is dried with steam, steam is a natural protection to prevent cracking of the wood. Steam also softens the wood, preparing it for chemical changes and modifications.<\/p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        },
-        "49f30995-da08-4484-aa08-e572830bd1be": {
-          "type": "item",
-          "settings": {
-            "image_rotation_degrees": 0,
-            "subheading": "Thermowood production process",
-            "title": "Drying",
-            "content": "<p>The temperature rises to 130 degrees Celsius , since there is water in the chamber, and at a temperature of about 100 degrees, the water both in the chamber and in the wood begins to evaporate, due to which the wood is dried with steam, steam is a natural protection to prevent cracking of the wood. Steam also softens the wood, preparing it for chemical changes and modifications.<\/p>",
-            "button_url": "",
-            "button_text": ""
+            "text": "The temperature rises to 130 degrees Celsius , since there is water in the chamber, and at a temperature of about 100 degrees, the water both in the chamber and in the wood begins to evaporate, due to which the wood is dried with steam, steam is a natural protection to prevent cracking of the wood. Steam also softens the wood, preparing it for chemical changes and modifications."
           }
         }
       },
       "block_order": [
-        "1664424486a2b084ab-0",
-        "1664424486a2b084ab-1",
-        "49f30995-da08-4484-aa08-e572830bd1be"
+        "b00d9072-473f-415d-93a3-1c3904140bbf",
+        "a990c686-37ca-4d46-b4a7-19b08c02b26b"
       ],
       "settings": {
-        "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
       }
     },
     "06fad2ab-b60d-4af8-9ad1-290ffdabaecc": {
@@ -559,7 +533,7 @@
     "hot-spots",
     "collection-list",
     "5902866a-a3aa-4127-88f5-3c560eba0220",
-    "multiple-images-with-text",
+    "568bfe75-4e2e-4bb4-91d4-3645f4a74885",
     "06fad2ab-b60d-4af8-9ad1-290ffdabaecc",
     "5a78c33b-5f10-4641-aa94-293eba6cd9f2",
     "e0aafa27-e252-475a-86d9-d7817286ad0e",
