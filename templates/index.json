@@ -550,6 +550,25 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "568bfe75-4e2e-4bb4-91d4-3645f4a74885": {
+      "type": "slider-wide-slide",
+      "blocks": {
+        "b00d9072-473f-415d-93a3-1c3904140bbf": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/stack-wooden-planks-sawmill-lumber-yard_1.png",
+            "subheading": "Thermowood production process",
+            "title": "Drying",
+            "text": "The temperature rises to 130 degrees Celsius , since there is water in the chamber, and at a temperature of about 100 degrees, the water both in the chamber and in the wood begins to evaporate, due to which the wood is dried with steam, steam is a natural protection to prevent cracking of the wood. Steam also softens the wood, preparing it for chemical changes and modifications."
+          }
+        }
+      },
+      "block_order": [
+        "b00d9072-473f-415d-93a3-1c3904140bbf"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -563,6 +582,7 @@
     "06fad2ab-b60d-4af8-9ad1-290ffdabaecc",
     "5a78c33b-5f10-4641-aa94-293eba6cd9f2",
     "e0aafa27-e252-475a-86d9-d7817286ad0e",
-    "04746b9e-bceb-480f-8ef9-f505d9648230"
+    "04746b9e-bceb-480f-8ef9-f505d9648230",
+    "568bfe75-4e2e-4bb4-91d4-3645f4a74885"
   ]
 }
