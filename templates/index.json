@@ -562,10 +562,20 @@
             "title": "Drying",
             "text": "The temperature rises to 130 degrees Celsius , since there is water in the chamber, and at a temperature of about 100 degrees, the water both in the chamber and in the wood begins to evaporate, due to which the wood is dried with steam, steam is a natural protection to prevent cracking of the wood. Steam also softens the wood, preparing it for chemical changes and modifications."
           }
+        },
+        "a990c686-37ca-4d46-b4a7-19b08c02b26b": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/stack-wooden-planks-sawmill-lumber-yard_1.png",
+            "subheading": "Drying",
+            "title": "Drying",
+            "text": "The temperature rises to 130 degrees Celsius , since there is water in the chamber, and at a temperature of about 100 degrees, the water both in the chamber and in the wood begins to evaporate, due to which the wood is dried with steam, steam is a natural protection to prevent cracking of the wood. Steam also softens the wood, preparing it for chemical changes and modifications."
+          }
         }
       },
       "block_order": [
-        "b00d9072-473f-415d-93a3-1c3904140bbf"
+        "b00d9072-473f-415d-93a3-1c3904140bbf",
+        "a990c686-37ca-4d46-b4a7-19b08c02b26b"
       ],
       "settings": {
       }
