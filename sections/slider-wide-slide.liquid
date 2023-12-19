@@ -1,0 +1,135 @@
+<script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+<link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
+{{ 'slider-wide-slide.css' | asset_url | stylesheet_tag: preload: true}}
+    {%- render 'section-spacing-collapsing' -%}
+    <div {% render 'section-properties' %}>
+        <div class="splide slide-container" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+                <ul class="splide__list">
+                        {% for block in section.blocks %}
+                            {% assign block_count = section.blocks | size %}
+                                <li class="splide__slide">
+                                    <div class="slide">
+                                        <div class="slide-img-box">
+                                            {% if block.settings.image != blank %}
+                                             <img class="slide-img" src="{{block.settings.image | img_url: 'large'}}" alt="{{block.settings.image.alt}}" width="560" height="520">
+                                            {% endif %}
+                                        </div>
+                                        <div class="slide-text-box">
+                                            {% if block.settings.subheading != blank %}
+                                                <p class="subheading">{{ block.settings.subheading }}</p>
+                                            {% endif %}
+                                            {% if block.settings.title != blank %}
+                                                <p class="h2" reveal-on-scroll="true" style="opacity: 1;">{{ block.settings.title }}</p>
+
+                                            {% endif %}
+                                            {% if block.settings.text != blank %}
+                                                <p class="txt">{{ block.settings.text }}</p>
+
+                                            {% endif %}
+
+                                        </div>
+                                    </div>
+                                </li>
+                        {% endfor %}
+                </ul>
+
+                <ul class="splide__pagination splide__pagination--ltr" role="tablist" aria-label="Select a slide to show">
+                    <li role="presentation">
+                        <button
+                                class="splide__pagination__page is-active"
+                                type="button"
+                                role="tab"
+                                aria-controls="splide01-slide01"
+                                aria-label="Go to slide 1"
+                                aria-selected="true">
+                        </button>
+                    </li>
+
+                    <li role="presentation">
+                        <button
+                                class="splide__pagination__page"
+                                type="button"
+                                role="tab"
+                                aria-controls="splide01-slide02"
+                                aria-label="Go to slide 2"
+                                tabindex="-1"
+                        >
+                        </button>
+                    </li>
+                </ul>
+                <div class="slide-counter" ><span>01</span>/0{{  block_count }}</div>
+            </div>
+        </div>
+    </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var splideElements = document.querySelectorAll('.splide');
+
+        splideElements.forEach(function (element, index) {
+            var splide = new Splide(element, {
+                pagination: false
+            });
+            splide.mount();
+
+            var counterElement = element.closest('.slide-container').querySelector('.slide-counter');
+
+            if (counterElement) {
+                var totalSlides = splide.length;
+
+                splide.on('moved', function (newIndex) {
+                    var currentSlideNumber = newIndex + 1;
+                    counterElement.innerHTML = `<span>0${currentSlideNumber}</span>/0${totalSlides}`;
+                });
+            }
+        });
+    });
+</script>
+{% schema %}
+{
+"name": "Slider with wide slide",
+"class": "slider",
+"tag": "section",
+
+"settings": [
+],
+"blocks": [
+{
+"name": "slide",
+"type": "slide",
+"settings": [
+    {
+    "type": "image_picker",
+    "id": "image",
+    "label": "Image"
+    },
+    {
+    "type": "text",
+    "id": "subheading",
+    "label": "Subheading"
+    },
+    {
+    "type": "text",
+    "id": "title",
+    "label": "Heading"
+    },
+    {
+    "type": "textarea",
+    "id": "text",
+    "label": "Description"
+    }
+]
+}
+],
+"presets": [
+{
+"name": "Slider with wide slide"
+}
+]
+}
+{% endschema %}
