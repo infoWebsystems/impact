@@ -57,15 +57,11 @@
           "settings": {
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_payment_button": false,
+            "show_quantity": true,
             "show_gift_card_recipient": true,
             "atc_button_background": "",
             "atc_button_text_color": "",
@@ -105,7 +101,6 @@
         "separator",
         "variant_picker",
         "fb54d3a1-00a1-47e4-ab61-7c2b36f090d6",
-        "quantity_selector",
         "buy_buttons",
         "description",
         "babb6f61-649f-4bdd-8600-73e69453c91e",
