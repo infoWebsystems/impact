@@ -49,8 +49,8 @@ Supported variables
       <fieldset class="variant-picker__option no-js:hidden">
         <div class="variant-picker__option-info">
           <div class="h-stack gap-2">
-            <legend class="text-subdued bold">{{ option.name }}:</legend>
-            <variant-option-value form="{{ form_id }}" for="option{{ option.position }}">{{ option.selected_value }}</variant-option-value>
+            <legend class="h5 ">{{ option.name }}:</legend>
+            <variant-option-value class="text-lg" form="{{ form_id }}" for="option{{ option.position }}">{{ option.selected_value }}</variant-option-value>
           </div>
 
           {%- if hide_size_chart != true and block.settings.size_chart_page != blank and size_label_list contains option_downcase -%}
@@ -96,7 +96,10 @@ Supported variables
             <div data-option-selector class="variant-picker__option-values {% if block.settings.stack_blocks %}wrap{% else %}scroll-area bleed sm:unbleed{% endif %} {% if selector_type == 'color' and settings.color_swatch_style == 'rectangle' %}variant-picker__option-values--color gap-4{% else %}gap-2{% endif %}">
               {%- assign name = 'option' | append: option.position -%}
 
+              {%- assign option_name = option.name | downcase -%}
+
               {%- for value in option.values -%}
+
                 {%- assign selected = false -%}
 
                 {%- if value == option.selected_value -%}
@@ -110,15 +113,25 @@ Supported variables
                   {%- when 'color' -%}
                     {%- render 'swatch', type: 'colors', value: value, selected: selected, name: name, form: form_id -%}
                   {%- when 'block' -%}
-                    {%- render 'swatch', type: 'block', value: value, selected: selected, name: name, form: form_id -%}
-                  {%- when 'block_swatch' -%}
+
+                  {% if option_name  == 'profile' %}
+                    {%- render 'swatch', type: 'block', value: value, selected: selected, name: name, form: form_id, is_profile: true -%}
+
+                  {% else %}
+                    {%- render 'swatch', type: 'block', value: value, selected: selected, name: name, form: form_id-%}
+
+                  {% endif %}
+                    {%- when 'block_swatch' -%}
                     {%- render 'swatch', type: 'block', value: value, selected: selected, name: name, form: form_id, show_colors: true -%}
                 {%- endcase -%}
+
+
               {%- endfor -%}
             </div>
           </div>
         {%- endif -%}
       </fieldset>
+
     {%- endfor -%}
 
     <noscript>

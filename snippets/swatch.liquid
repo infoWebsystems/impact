@@ -140,6 +140,25 @@ Color swatch specific parameters:
       </a>
 
     {%- else -%}
+
+      {% if is_profile %}
+        <label class="block-swatch is_profile " for="{{ id | escape }}" data-option-value>
+
+          {% comment %}<span>{{ label | default: value }}</span>{% endcomment %}
+          {%- assign label_value_downcase = value | downcase -%}
+          {% comment %}{{ label_value_downcase  }}{% endcomment %}
+
+
+          {% render 'profiles', profile: label_value_downcase %}
+
+
+
+
+        </label>
+
+
+
+      {% else %}
       <label class="block-swatch" for="{{ id | escape }}" data-option-value>
         {%- if show_colors -%}
           <span class="block-swatch__color {% if white_label == value_downcase %}ring-inset{% endif %}" style="{{ swatch_style }}"></span>
@@ -147,7 +166,10 @@ Color swatch specific parameters:
 
         <span>{{ label | default: value }}</span>
       </label>
+      {% endif %}
     {%- endif -%}
+
+
 
   {%- when 'colors' -%}
     {%- assign white_label = 'general.label.white' | t | downcase -%}
