@@ -117,7 +117,10 @@
       "settings": {
         "recommendations_count": 6,
         "products": [
-
+          "facing-board",
+          "facing-board-2",
+          "terraced-board",
+          "yard-board"
         ],
         "full_width": true,
         "stack_products": true,
