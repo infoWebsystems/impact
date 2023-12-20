@@ -42,12 +42,6 @@
           "settings": {
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -56,6 +50,11 @@
             "selector_mode": "block",
             "color_mode": "color",
             "size_chart_page": ""
+          }
+        },
+        "fb54d3a1-00a1-47e4-ab61-7c2b36f090d6": {
+          "type": "calculator",
+          "settings": {
           }
         },
         "quantity_selector": {
@@ -74,9 +73,10 @@
             "payment_button_text_color": ""
           }
         },
-        "fb54d3a1-00a1-47e4-ab61-7c2b36f090d6": {
-          "type": "calculator",
+        "description": {
+          "type": "description",
           "settings": {
+            "collapse_content": false
           }
         }
       },
@@ -88,11 +88,11 @@
         "rating",
         "payment_terms",
         "separator",
-        "description",
         "variant_picker",
+        "fb54d3a1-00a1-47e4-ab61-7c2b36f090d6",
         "quantity_selector",
         "buy_buttons",
-        "fb54d3a1-00a1-47e4-ab61-7c2b36f090d6"
+        "description"
       ],
       "settings": {
         "full_width": true,
