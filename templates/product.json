@@ -42,12 +42,6 @@
           "settings": {
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -58,6 +52,11 @@
             "size_chart_page": ""
           }
         },
+        "fb54d3a1-00a1-47e4-ab61-7c2b36f090d6": {
+          "type": "calculator",
+          "settings": {
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -66,12 +65,33 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_payment_button": true,
+            "show_payment_button": false,
             "show_gift_card_recipient": true,
             "atc_button_background": "",
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "babb6f61-649f-4bdd-8600-73e69453c91e": {
+          "type": "badges",
+          "settings": {
+          }
+        },
+        "05bfecef-bd3c-40d8-a41d-cf1fbe04c67f": {
+          "type": "associated_products",
+          "settings": {
+            "title": "Buy it with",
+            "stack_products": true,
+            "products_count": 5,
+            "background": "#bebdb9",
+            "text_color": ""
           }
         }
       },
@@ -83,10 +103,13 @@
         "rating",
         "payment_terms",
         "separator",
-        "description",
         "variant_picker",
+        "fb54d3a1-00a1-47e4-ab61-7c2b36f090d6",
         "quantity_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "description",
+        "babb6f61-649f-4bdd-8600-73e69453c91e",
+        "05bfecef-bd3c-40d8-a41d-cf1fbe04c67f"
       ],
       "settings": {
         "full_width": true,
@@ -111,11 +134,14 @@
       "settings": {
         "recommendations_count": 6,
         "products": [
-
+          "facing-board",
+          "facing-board-2",
+          "terraced-board",
+          "yard-board"
         ],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
+        "full_width": false,
+        "stack_products": false,
+        "show_progress_bar": true,
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 3,
         "subheading": "",
