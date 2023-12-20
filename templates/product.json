@@ -78,6 +78,21 @@
           "settings": {
             "collapse_content": false
           }
+        },
+        "babb6f61-649f-4bdd-8600-73e69453c91e": {
+          "type": "badges",
+          "settings": {
+          }
+        },
+        "05bfecef-bd3c-40d8-a41d-cf1fbe04c67f": {
+          "type": "associated_products",
+          "settings": {
+            "title": "Buy it with",
+            "stack_products": true,
+            "products_count": 5,
+            "background": "#bebdb9",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
@@ -92,7 +107,9 @@
         "fb54d3a1-00a1-47e4-ab61-7c2b36f090d6",
         "quantity_selector",
         "buy_buttons",
-        "description"
+        "description",
+        "babb6f61-649f-4bdd-8600-73e69453c91e",
+        "05bfecef-bd3c-40d8-a41d-cf1fbe04c67f"
       ],
       "settings": {
         "full_width": true,
