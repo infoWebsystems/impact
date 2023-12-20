@@ -26,11 +26,6 @@
             "show_empty": true
           }
         },
-        "payment_terms": {
-          "type": "payment_terms",
-          "settings": {
-          }
-        },
         "separator": {
           "type": "separator",
           "settings": {
@@ -79,7 +74,7 @@
           "settings": {
             "title": "Buy it with",
             "stack_products": true,
-            "products_count": 5,
+            "products_count": 3,
             "background": "#bebdb9",
             "text_color": ""
           }
@@ -90,7 +85,6 @@
         "title",
         "255009b6-dcd6-4f57-9a16-c5907e126883",
         "rating",
-        "payment_terms",
         "separator",
         "variant_picker",
         "fb54d3a1-00a1-47e4-ab61-7c2b36f090d6",
