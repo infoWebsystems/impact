@@ -72,8 +72,8 @@
         "05bfecef-bd3c-40d8-a41d-cf1fbe04c67f": {
           "type": "associated_products",
           "settings": {
-            "title": "Buy it with",
-            "stack_products": true,
+            "title": "You may also like:",
+            "stack_products": false,
             "products_count": 1,
             "background": "#f2f2f2",
             "text_color": ""
