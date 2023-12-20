@@ -20,16 +20,10 @@
             "show_taxes_notice": false
           }
         },
-        "047e9856-b508-4dff-8716-2202400f9efc": {
-          "type": "inventory",
-          "settings": {
-            "low_inventory_threshold": 0
-          }
-        },
         "rating": {
           "type": "rating",
           "settings": {
-            "show_empty": false
+            "show_empty": true
           }
         },
         "payment_terms": {
@@ -95,7 +89,6 @@
         "vendor",
         "title",
         "255009b6-dcd6-4f57-9a16-c5907e126883",
-        "047e9856-b508-4dff-8716-2202400f9efc",
         "rating",
         "payment_terms",
         "separator",
