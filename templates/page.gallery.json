@@ -6,170 +6,47 @@
         "content_width": "80ch"
       }
     },
-    "5a876b8e-d8a5-43bf-b666-bdde212f2659": {
-      "type": "image-link-blocks",
+    "49b6f696-47a6-48d4-b7eb-e65c53c0b4b6": {
+      "type": "gallery",
       "blocks": {
-        "template--15229750804545__5a876b8e-d8a5-43bf-b666-bdde212f2659-item-1": {
-          "type": "item",
+        "cb6c4b8d-d2ef-4fea-b8e3-9b985400491f": {
+          "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brown-wooden-bridge1.png",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "image": "shopify:\/\/shop_images\/3d-rendering-of-house-model_1.png"
           }
         },
-        "template--15229750804545__5a876b8e-d8a5-43bf-b666-bdde212f2659-item-2": {
-          "type": "item",
+        "1a043365-625f-4a12-8205-96069e1332ba": {
+          "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brown-wooden-bridge_1.png",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "image": "shopify:\/\/shop_images\/picture-of-a-wooden-building-in-the-forest_2.png"
           }
         },
-        "template--15229750804545__5a876b8e-d8a5-43bf-b666-bdde212f2659-item-3": {
-          "type": "item",
+        "bc971f51-7200-4c6c-a9c1-f7909585d85e": {
+          "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/stack-wooden-planks-sawmill-lumber-yard_1.png",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "image": "shopify:\/\/shop_images\/parents-looking-their-daughter-communicating-steps-house_1.png"
           }
         },
-        "template--15229750804545__5a876b8e-d8a5-43bf-b666-bdde212f2659-item-4": {
-          "type": "item",
+        "1020342d-476b-43ca-9e40-281b11413cdd": {
+          "type": "image",
           "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "image": "shopify:\/\/shop_images\/parents-looking-their-daughter-communicating-steps-house_1.png"
           }
         }
       },
       "block_order": [
-        "template--15229750804545__5a876b8e-d8a5-43bf-b666-bdde212f2659-item-1",
-        "template--15229750804545__5a876b8e-d8a5-43bf-b666-bdde212f2659-item-2",
-        "template--15229750804545__5a876b8e-d8a5-43bf-b666-bdde212f2659-item-3",
-        "template--15229750804545__5a876b8e-d8a5-43bf-b666-bdde212f2659-item-4"
+        "cb6c4b8d-d2ef-4fea-b8e3-9b985400491f",
+        "1a043365-625f-4a12-8205-96069e1332ba",
+        "bc971f51-7200-4c6c-a9c1-f7909585d85e",
+        "1020342d-476b-43ca-9e40-281b11413cdd"
       ],
       "settings": {
-        "full_width": true,
-        "block_size": "large",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
-    "e22eaf05-ec61-4f2b-9228-81844f5852e7": {
-      "type": "media-grid",
-      "blocks": {
-        "template--15229750804545__e22eaf05-ec61-4f2b-9228-81844f5852e7-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/brown-wooden-bridge1.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--15229750804545__e22eaf05-ec61-4f2b-9228-81844f5852e7-image-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3d-rendering-of-house-model_1.png",
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--15229750804545__e22eaf05-ec61-4f2b-9228-81844f5852e7-image-3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/abstract-background-wall-concept-with-copy-space1_1.png",
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--15229750804545__e22eaf05-ec61-4f2b-9228-81844f5852e7-image-1",
-        "template--15229750804545__e22eaf05-ec61-4f2b-9228-81844f5852e7-image-2",
-        "template--15229750804545__e22eaf05-ec61-4f2b-9228-81844f5852e7-image-3"
-      ],
-      "settings": {
-        "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
-        "background": "",
-        "background_gradient": ""
+        "desktop_media_layout": "grid"
       }
     }
   },
   "order": [
     "main",
-    "5a876b8e-d8a5-43bf-b666-bdde212f2659",
-    "e22eaf05-ec61-4f2b-9228-81844f5852e7"
+    "49b6f696-47a6-48d4-b7eb-e65c53c0b4b6"
   ]
 }
