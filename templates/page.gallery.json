@@ -1,7 +1,43 @@
 {
   "sections": {
+    "1a957520-ee17-490f-853f-c7ef26ad1239": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--15277786136641__1a957520-ee17-490f-853f-c7ef26ad1239-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Gallery",
+            "heading_tag": "h1"
+          }
+        },
+        "template--15277786136641__1a957520-ee17-490f-853f-c7ef26ad1239-richtext-1": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15277786136641__1a957520-ee17-490f-853f-c7ef26ad1239-heading-1",
+        "template--15277786136641__1a957520-ee17-490f-853f-c7ef26ad1239-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/vertical-shot-boardwalk-through-tall-grasses-trees-during-sunrise_1.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "content_width": "80ch"
       }
@@ -46,6 +82,7 @@
     }
   },
   "order": [
+    "1a957520-ee17-490f-853f-c7ef26ad1239",
     "main",
     "49b6f696-47a6-48d4-b7eb-e65c53c0b4b6"
   ]

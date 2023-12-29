@@ -132,7 +132,7 @@ only way to do it on Shopify right now.
             </media-carousel>
 
 
-                <div class="product-gallery__zoom {% if section.settings.desktop_media_layout contains 'grid' %}md:hidden{% endif %}">
+                <div class="product-gallery__zoom gallery-zoom {% if section.settings.desktop_media_layout contains 'grid' %}md:hidden{% endif %}">
                     <button type="button" is="product-zoom-button" class="circle-button circle-button--fill ring">
                         <span class="sr-only">{{ 'product.gallery.zoom' | t }}</span>
                         {%- render 'icon' with 'image-zoom' -%}
@@ -200,7 +200,10 @@ only way to do it on Shopify right now.
 </product-gallery>
 <style>
     .gallery{
-        margin-bottom: 80px;
+        margin: 80px 0;
+    }
+    .gallery .product-gallery__zoom{
+        right: calc(50% - 21px);
     }
     @media (max-width: 999px){
         media-carousel.gallery{
@@ -212,6 +215,12 @@ only way to do it on Shopify right now.
         }
         media-carousel.gallery .product-gallery__zoom{
             display: block !important;
+        }
+        .gallery-zoom{
+            display: none;
+        }
+        .gallery .product-gallery__zoom{
+            top: calc(100% - 40px);
         }
     }
 </style>
