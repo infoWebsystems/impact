@@ -518,7 +518,7 @@
           "type": "dropdown",
           "settings": {
             "title": "Subject",
-            "values": "Account, Order, Press, Other"
+            "values": "Wholesale order, Consultation"
           }
         }
       },
@@ -528,9 +528,9 @@
       ],
       "settings": {
         "full_width": true,
-        "subheading": "Send a message",
-        "title": "Do you have any question?",
-        "content": "<p>We are experiencing higher than normal volume and are working to respond as timely as possible. Please note that it may take us up to 2 business days to reply. We appreciate your patience during this time.<\/p>",
+        "subheading": "For wholesale buyers",
+        "title": "Fill out the form, and we'll call you right away.",
+        "content": "<p>For wholesale customers, we have special offers. Our manager will be happy to tell you all about it.<\/p>",
         "text_position": "start",
         "contact_form_size": "large",
         "background": "#ffffff",
