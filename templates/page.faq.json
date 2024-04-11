@@ -258,6 +258,7 @@
         "template--15213123207233__79011d37-2c72-45a1-ac3c-25e659e81f18-item-3",
         "21672baf-64f9-4f95-a0fc-b5004bb38e97"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
