@@ -227,10 +227,10 @@
         "collection-3": {
           "type": "collection",
           "settings": {
-            "collection": "frontpage",
+            "collection": "",
             "image": "shopify:\/\/shop_images\/beautiful-wooden-modern-house_1.png",
             "subheading": "",
-            "title": "",
+            "title": "Building timber",
             "url": "",
             "heading_tag": "h2",
             "text_position": "bottom",
@@ -258,10 +258,10 @@
           "type": "collection",
           "disabled": true,
           "settings": {
-            "collection": "frontpage",
+            "collection": "",
             "image": "shopify:\/\/shop_images\/beautiful-wooden-modern-house_1.png",
             "subheading": "",
-            "title": "",
+            "title": "Finished products",
             "url": "",
             "heading_tag": "h2",
             "text_position": "bottom",
