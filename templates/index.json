@@ -354,9 +354,10 @@
         "slide_rUQFKV": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/poizvod1.jpg",
             "subheading": "Thermowood production process",
             "title": "Cooling",
-            "text": ""
+            "text": "The temperature in the chamber gradually decreases to 50-60 degrees, after which the wood is ready for mechanical processing."
           }
         }
       },
