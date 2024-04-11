@@ -127,22 +127,21 @@
       "blocks": {
         "1664424434f5b7d0e0-0": {
           "type": "item",
-          "disabled": true,
           "settings": {
-            "horizontal_position": 24,
-            "vertical_position": 70,
+            "horizontal_position": 44,
+            "vertical_position": 49,
             "horizontal_position_mobile": 24,
             "vertical_position_mobile": 70,
             "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
+            "title": "Building timber",
+            "content": "<p>Weather-resistant, reliable, strong, and stable.<\/p>"
           }
         },
         "1664424434f5b7d0e0-1": {
           "type": "item",
           "settings": {
-            "horizontal_position": 54,
-            "vertical_position": 14,
+            "horizontal_position": 61,
+            "vertical_position": 13,
             "horizontal_position_mobile": 62,
             "vertical_position_mobile": 14,
             "icon_width": 24,
@@ -153,8 +152,8 @@
         "1664424434f5b7d0e0-2": {
           "type": "item",
           "settings": {
-            "horizontal_position": 49,
-            "vertical_position": 59,
+            "horizontal_position": 79,
+            "vertical_position": 80,
             "horizontal_position_mobile": 83,
             "vertical_position_mobile": 75,
             "icon_width": 24,
