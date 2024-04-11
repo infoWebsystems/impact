@@ -33,7 +33,7 @@
         "65934d29-bdd4-402b-8f07-25581918ec9a": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "Shop",
+            "menu_item": "Articles",
             "layout": "horizontal",
             "submenu_style": "bold_text",
             "image_1": "shopify:\/\/shop_images\/beautiful-wooden-modern-house_1.png",
