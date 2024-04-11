@@ -403,13 +403,22 @@
             "review_author": "Thomas Sjöberg",
             "review_date": "18 July 2022"
           }
+        },
+        "review_gbthM4": {
+          "type": "review",
+          "settings": {
+            "review_text": "We collaborate with the team as builders. We chose this one because it's the highest quality on the market! We're not worried about our reputation! Thank you!",
+            "review_author": "Amanda",
+            "review_date": "19 June 2023"
+          }
         }
       },
       "block_order": [
         "2c0ca4da-b2ae-40ed-9c8c-118598f3719e",
         "eb27a0a2-b2e5-4d54-b4a1-4c8f6112f6d2",
         "c898a896-d66a-4304-8e8d-edb7ec071f60",
-        "59fbe174-6206-42b4-8fc6-94bad9243628"
+        "59fbe174-6206-42b4-8fc6-94bad9243628",
+        "review_gbthM4"
       ],
       "settings": {
         "full_width": true,
