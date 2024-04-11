@@ -34,7 +34,7 @@
           "type": "mega_menu",
           "settings": {
             "menu_item": "Articles",
-            "layout": "drawer",
+            "layout": "horizontal_center",
             "submenu_style": "bold_text",
             "image_1": "shopify:\/\/shop_images\/beautiful-wooden-modern-house_1.png",
             "image_heading_1": "Production",
