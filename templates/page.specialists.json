@@ -13,15 +13,15 @@
         "template--15229800906817__eb2858f5-3210-4272-830c-a5dc08adea54-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/picture-of-a-wooden-building-in-the-forest_2.png",
+            "image": "shopify:\/\/shop_images\/poizvo3.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
-            "icon": "picto-question",
+            "icon": "none",
             "icon_width": 32,
             "subheading": "",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "title": "THERMO-MODIFICATION",
+            "content": "<p>The production process of thermo-modification is based on the use of high temperatures and steam. No chemicals or additives are used in the heat treatment process. The process improves dimensional stability and biological resistance of wood. It also improves the thermal insulation properties of wood, since the process of thermal modification leads to a decrease in thermal conductivity. The heat treatment removes the resin from the wood.<\/p><p>While heating the wood there is a change in a number of its chemical and physical properties. The change in properties is predominatly caused by the thermal destruction of hemicellulose. The desired changes begin to appear at a temperature of 150ºC already and do not cease as the temperature gradually increases. As a result, swelling and shrinking levels are reduced, durability is improved, color darkens, some extractives are released, equilibrium moisture levels are reduced, acidity \"pH\" is reduced, and thermal insulation properties are improved. However, the strength and hardness of wood also changes.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -35,37 +35,15 @@
         "ce182298-eeed-482b-a9c7-4fe0c1bfabed": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/beautiful-wooden-modern-house_1.png",
+            "image": "shopify:\/\/shop_images\/poizvod4.jpg",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p><p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p><p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#272727",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "10dd92dc-4d7b-4cdf-ba8c-c5cb751f2bd2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/stack-wooden-planks-sawmill-lumber-yard_1.png",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "title": "Stages of the heat treatment process",
+            "content": "<p><strong>Wood steaming<\/strong><\/p><p>At this stage, the temperature in the chamber increases to 130 degrees Celsius, there is water in the chamber, and at a temperature of about 100 degrees, the water in the chamber and the wood begins to evaporate, therefore the wood is dried with steam, steam is a natural protection to prevent cracking of the wood. Steam also softens the wood, preparing it for chemical change and modification.<\/p><p><strong>Thermo modification<\/strong><\/p><p>The temperature level in the chamber rises to 185-225 degrees Celsius. The peak temperature depends on the requested final result, depending on the application. When the peak temperature is reached, it is fixed for 2-3 hours (the time depends both on the type of wood and its quantity and geometric dimensions). The steam environment protects the wood from fire and also influences the chemical processes in the wood.<\/p><p><strong>Cooling<\/strong><\/p><p>The temperature level in the chamber is reduced to 50-60 degrees Celsius, after which the wood is ready for further processing.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -79,17 +57,49 @@
       },
       "block_order": [
         "template--15229800906817__eb2858f5-3210-4272-830c-a5dc08adea54-image-1",
-        "ce182298-eeed-482b-a9c7-4fe0c1bfabed",
-        "10dd92dc-4d7b-4cdf-ba8c-c5cb751f2bd2"
+        "ce182298-eeed-482b-a9c7-4fe0c1bfabed"
       ],
       "settings": {
         "full_width": false,
         "spacing": "small"
       }
+    },
+    "rich_text_gk7j7x": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TrkGFb": {
+          "type": "heading",
+          "settings": {
+            "text": "Thermo-wood properties",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_DeMpan": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Density<\/strong><\/p><p>Density is measured by comparing of the weight and dimensions of the sample. Unit of measure kg \/ m3. The thermal modification process reduces the density by 10% on average.<\/p><p><strong>Strength<\/strong><\/p><p>As a rule, the strength of wood is directly related to density. As a result of a decrease in density during heat treatment, strength also decreases, but the weight-strength ratio practically does not change.<\/p><p><strong>Flexural strength and modulus of elasticity<\/strong><\/p><p>Material treated at temperatures below 200 degrees Celsius does not exposed to the significant loss of flexural strength. A pronounced decrease in horizontal flexural strength can be found in materials processed at temperatures above 200 degrees Celsius. Material processed at these temperatures is not recommended for horizontal loading, but only for structural use (vertical loading or thermal insulation).<\/p><p><strong>Compressive strength<\/strong><\/p><p>The compressive strength depends on the actual density of the wood. According to the test data, the heat treatment of wood has no significant effect on the ultimate strength in compression.<\/p><p><strong>Splitting resistance<\/strong><\/p><p>Heat-treated wood is less resistant to splitting. The higher the heat treatment temperature, the lower the splitting resistance. On average, splitting resistance is reduced by 30-40%.<\/p><p><strong>Screw holding ability<\/strong><\/p><p>This ability directly depends on the density of the wood, with a pre-drilling of a hole of a smaller diameter, the results are better.<\/p><p><strong>Hardness<\/strong><\/p><p>The increase in performance is negligible and has a limited impact on hardness.<\/p><p><strong>Humidity equilibrium<\/strong><\/p><p>Heat treatment reduces the equilibrium moisture content of the wood. When exposed to at the highest temperatures, the moisture content can be 40-50% lower compared to untreated wood.<\/p><p><strong>Swelling and shrinkage due to moisture<\/strong><\/p><p>Heat treatment significantly reduces radial swelling in tangential delamination. Heat-treated wood is not stressed while drying. The swelling and contraction of the wood is very low.<\/p><p><strong>Permeability<\/strong><\/p><p>The heat treatment process reduces the water absorption of the wood by 20-30%.<\/p><p><strong>Thermal conductivity<\/strong><\/p><p>Tests have shown that the thermal conductivity of heat-treated wood is reduced by 20-25% compared to conventional softwoods dried in a conventional furnace, thus improving the efficiency of the insulating properties of the wood.<\/p><p><strong>Fire safety<\/strong><\/p><p>Heat-treated wood does not differ significantly from ordinary wood when it comes to fire safety. Fire resistance class - D.<\/p><p><strong>Biological longevity<\/strong><\/p><p>Standard tests (EN113, ENV 807) performed in laboratory have shown significant improvements in biological resistance and improvements in biological longevity due to the removal of the natural food source from the wood, as well as changes in the chemical and structural composition of the wood.<\/p><p>We recommend not to use heat treatment technology for structures that involve deep contact with the soil and determine the operational characteristics of the structure as a whole. It is assumed that the corresponding loss of strength is due to moisture and not caused by microorganisms.<\/p><p>Real life experience shows that the use in structures that provide for deep contact with the soil, but do not play a significant role for the operational characteristics of the structure as a whole, coupled with periodic drying of surfaces, does not cause any significant damage to the material. This is especially true when the soil is effectively drained and the soil itself includes sand and gravel.<\/p><p><strong>Weather resistance<\/strong><\/p><p>Like most natural materials, this wood is not able to resist UV radiation. As a result, the color after some time changes from the original brown to gray when exposed to direct sunlight.<\/p><p>The original color can be preserved with pigment-containing preservatives or preservatives with UV filter<\/p><p>- When exposing the heat-treated wood under atmospheric influence, the natural moisture content during 5 years of operation is two times lower than that of untreated wood.<\/p><p>As with all materials exposed to natural weather conditions, mold growth can occur on the surface of heat-treated wood. Bacteria in the air or rain-borne dirt can cause fungus to grow on an untreated surface. However, this is only observed on the surface and can be removed - wiped off or scraped off.<\/p><p>The most optimal protective coating systems for heat-treated wood included an oily primer and a soluble-based alkyd topcoat or a water-based acrylic layer.<\/p><p>The thermo-modification process can be applied to the most types of wood. The process must be optimized individually for each type of wood and take into account its geometric dimensions.<\/p><p>The smoke-like smell from heat-treated wood comes mainly from furfural. After a while, the smell disappears, and can disappear with a protective surface treatment. The VOCs released from the heat-treated wood are just fractions of common pine components.<\/p><p>No toxic or harmful components were found in heat-treated wood. Such wood has even been tested as a bone substitute. However, if chips get under the skin, they must be removed as soon as possible, as is the case with ordinary wood.<\/p><p>Working with heat-treated wood.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TrkGFb",
+        "richtext_DeMpan"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "main",
-    "eb2858f5-3210-4272-830c-a5dc08adea54"
+    "eb2858f5-3210-4272-830c-a5dc08adea54",
+    "rich_text_gk7j7x"
   ]
 }
