@@ -44,7 +44,7 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
       }
     },
@@ -54,15 +54,15 @@
         "template--15213123207233__75b698b7-c543-4b25-bea4-5a3c7543dc82-item-1": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+            "title": "How expensive is wood thermal modification?",
+            "content": "<p>This type of wood treatment is the best and the only 100% environmentally friendly method of protection, which does not require reapplication. The processes that occur in the wood after thermal modification are irreversible. Products made from thermally modified wood are typically 1.5-2 times more expensive than similar products using vacuum impregnation.<\/p>"
           }
         },
         "template--15213123207233__75b698b7-c543-4b25-bea4-5a3c7543dc82-item-2": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+            "title": "Which types of wood can be thermally modified?",
+            "content": "<p>The thermal modification method is suitable for most wood species. The process needs to be individually optimized for each type of wood, taking into account its geometric dimensions.<\/p>"
           }
         },
         "template--15213123207233__75b698b7-c543-4b25-bea4-5a3c7543dc82-item-3": {
