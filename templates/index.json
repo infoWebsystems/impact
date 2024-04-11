@@ -66,7 +66,7 @@
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "subheading": "",
             "title": "Thermo-modified wood",
-            "text": "Services for thermal modification of any wood, coniferous, deciduous and rare types. Sale of thermo- modified wood.",
+            "text": "Four-generation length quality",
             "heading_tag": "h0",
             "button_text": "View catalog",
             "button_link": "",
@@ -109,8 +109,8 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "subheading": "",
-        "title": "New arrivals",
-        "content": "<p>We are inspired by the realities of life today, in which traditional divides between personal and professional space are more fluid.<\/p>",
+        "title": "Our products",
+        "content": "<p>We confidently offer quality goods, tested by decades and hundreds of clients<\/p>",
         "link_url": "",
         "link_text": "View all",
         "background": "",
@@ -146,8 +146,8 @@
             "horizontal_position_mobile": 62,
             "vertical_position_mobile": 14,
             "icon_width": 24,
-            "title": "",
-            "content": "<p>Share useful information about your product features.<\/p>"
+            "title": "Facade board",
+            "content": "<p>Does not lose color and is not subject to corrosion.<\/p>"
           }
         },
         "1664424434f5b7d0e0-2": {
@@ -158,8 +158,8 @@
             "horizontal_position_mobile": 83,
             "vertical_position_mobile": 75,
             "icon_width": 24,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
+            "title": "Decking board",
+            "content": "<p>Thanks to wood treatment technology, the board is not afraid of moisture and does not fade.<\/p>"
           }
         }
       },
@@ -171,8 +171,8 @@
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/photo_2024-01-05_14-35-59.jpg",
-        "title": "TardeX facing board",
-        "content": "<p>Siding made of this material is not afraid of rain, wind, sun and frost, and can withstand temperatures from -60 to +80 degrees Celsius.<\/p>",
+        "title": "Application",
+        "content": "<p>Our wood is not afraid of temperature fluctuations, moisture, and does not lose its color even after years of use.<\/p>",
         "button_text": "View product",
         "button_url": "",
         "desktop_text_position": "place-self-center-start text-start",
@@ -200,7 +200,7 @@
             "collection": "frontpage",
             "image": "shopify:\/\/shop_images\/rustic-deck-with-patio-furniture-and-vegetation_1.png",
             "subheading": "",
-            "title": "Teracce view",
+            "title": "Decking Board",
             "url": "",
             "heading_tag": "h2",
             "text_position": "bottom",
@@ -215,7 +215,7 @@
             "collection": "frontpage",
             "image": "shopify:\/\/shop_images\/brown-wooden-bridge_1.png",
             "subheading": "",
-            "title": "Garden decorations",
+            "title": "Facade board",
             "url": "",
             "heading_tag": "h2",
             "text_position": "bottom",
