@@ -68,15 +68,79 @@
         "template--15213123207233__75b698b7-c543-4b25-bea4-5a3c7543dc82-item-3": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+            "title": "Does the strength of the wood decrease after thermal modification?",
+            "content": "<p>As a rule, the strength of wood is directly related to its density. However, after thermal modification, the weight-to-strength ratio practically does not change.<\/p>"
+          }
+        },
+        "item_LGxKGJ": {
+          "type": "item",
+          "settings": {
+            "title": "Is it true that thermally modified wood is not durable and brittle?",
+            "content": "<p>Wood that undergoes thermal modification is less resistant to splitting. The higher the temperature of the thermal treatment, the lower the resistance to splitting (on average decreased by 30-40%). Therefore, we recommend pre-drilling.<\/p>"
+          }
+        },
+        "item_6e4Ajj": {
+          "type": "item",
+          "settings": {
+            "title": "How does thermally modified wood absorb moisture?",
+            "content": "<p>Thermal modification reduces the equilibrium moisture content of the wood. Under the influence of the highest temperatures, the moisture content can be 40-50% lower compared to untreated wood. Thermal modification significantly reduces radial swelling in the tangential plane of the wood. Additionally, wood subjected to thermal modification does not undergo stress during drying, and its compression and swelling levels are very low. Moreover, the thermal modification process reduces water absorption by 20-30%.<\/p>"
+          }
+        },
+        "item_nAawRm": {
+          "type": "item",
+          "settings": {
+            "title": "How durable is thermally modified wood?",
+            "content": "<p>Standard tests (EN113, ENV 807), conducted under laboratory conditions, have demonstrated significant improvement in biological resistance and enhanced biological durability due to the removal of natural food sources from the wood, as well as changes in the chemical and structural composition of the wood. As a result, the service life is higher compared to regular wood by 3-5 times.<\/p>"
+          }
+        },
+        "item_p9CfKc": {
+          "type": "item",
+          "settings": {
+            "title": "Does ultraviolet radiation affect thermally modified wood?",
+            "content": "<p>Like most natural materials, such wood cannot withstand ultraviolet radiation. Under the influence of direct sunlight, the color of the wood changes over time from the initial brown to gray. The original color can be preserved with the help of preservatives containing pigment or UV filters.<\/p>"
+          }
+        },
+        "item_y78jMm": {
+          "type": "item",
+          "settings": {
+            "title": "Is wood resistant to atmospheric influences?",
+            "content": "<p>Over 5 years of use, thermally modified wood is exposed to atmospheric influences, with the natural moisture content being half that of untreated wood. Surface mold growth may be observed on thermally modified wood due to exposure to natural atmospheric conditions. This phenomenon occurs with all materials exposed to natural atmospheric conditions. Mold may appear on untreated surfaces due to bacteria in the air or dirt carried by rain. However, this is only observed on the surface and can be removed by wiping or scraping.<\/p><p>Optimal protective coating systems for thermally modified wood have included: oil-based primer and topcoat or alkyd-based topcoat on a solvent basis, or acrylic topcoat on a water basis.<\/p>"
+          }
+        },
+        "item_7H7Fcb": {
+          "type": "item",
+          "settings": {
+            "title": "What scent does thermally modified wood have?",
+            "content": "<p>The smell from thermal treatment of wood resembles the smell of smoke. This aroma is caused by the evaporation of furfuraldehyde. When the surface is treated with protective coatings, the smell completely disappears. The volatile organic compounds emitted by thermally modified wood are only fractions of the components of regular pine.<\/p>"
+          }
+        },
+        "item_8He3GF": {
+          "type": "item",
+          "settings": {
+            "title": "Is thermally modified wood toxic?",
+            "content": "<p>Thermally modified wood does not contain any toxic or harmful components. Such wood has even been tested as a substitute for bone. However, if splinters get under the skin, they should be removed as soon as possible, similar to untreated wood.<\/p>"
+          }
+        },
+        "item_aigpMG": {
+          "type": "item",
+          "settings": {
+            "title": "What is the fire safety of thermally modified wood?",
+            "content": "<p>When it comes to fire safety, thermally modified wood does not have significant differences compared to untreated wood.<\/p>"
           }
         }
       },
       "block_order": [
         "template--15213123207233__75b698b7-c543-4b25-bea4-5a3c7543dc82-item-1",
         "template--15213123207233__75b698b7-c543-4b25-bea4-5a3c7543dc82-item-2",
-        "template--15213123207233__75b698b7-c543-4b25-bea4-5a3c7543dc82-item-3"
+        "template--15213123207233__75b698b7-c543-4b25-bea4-5a3c7543dc82-item-3",
+        "item_LGxKGJ",
+        "item_6e4Ajj",
+        "item_nAawRm",
+        "item_p9CfKc",
+        "item_y78jMm",
+        "item_7H7Fcb",
+        "item_8He3GF",
+        "item_aigpMG"
       ],
       "settings": {
         "full_width": true,
