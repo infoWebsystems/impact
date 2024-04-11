@@ -250,8 +250,8 @@
             "heading_tag": "h2",
             "text_position": "bottom",
             "text_color": "#ffffff",
-            "overlay_color": "#bebdb9",
-            "overlay_opacity": 80
+            "overlay_color": "#f2f2f2",
+            "overlay_opacity": 75
           }
         }
       },
