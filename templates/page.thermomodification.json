@@ -17,11 +17,33 @@
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
-            "icon": "picto-target",
+            "icon": "none",
             "icon_width": 48,
             "subheading": "",
             "title": "Thermomodification",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>THERMO-MODIFICATION OF WOOD is a heat treatment process based on the use of high temperatures and steam.<\/p><p>No chemicals are used in the heat treatment process.<\/p><p>The process improves dimensional stability and biological resistance of wood.<\/p><p>Improves the thermal insulation properties of wood, since the process of thermal modification leads to a decrease in thermal conductivity.<\/p><p> Heat treatment removes the resin from the wood.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#272727",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "9d444b63-21f9-450b-afdf-5da9cf38b6ef": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grafik-en.jpg",
+            "media_width": 60,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Thermo-modification process graph",
+            "content": "",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -43,29 +65,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#272727",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "9d444b63-21f9-450b-afdf-5da9cf38b6ef": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/vertical-shot-boardwalk-through-tall-grasses-trees-during-sunrise_1.png",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p><p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p><strong>DRYING<\/strong> - The temperature rises to 130 degrees Celsius , since there is water in the chamber, and at a temperature of about 100 degrees, the water both in the chamber and in the wood begins to evaporate, due to which the wood is dried with steam, steam is a natural protection to prevent cracking of the wood. Steam also softens the wood, preparing it for chemical changes and modifications<\/p><p><strong>THERMO-MODIFICATION<\/strong> - The temperature in the chamber rises to around 185-225 degrees Celsius . The maximum temperature depends on the desired end result, due to the way the wood will be used. When the peak temperature is reached, it is fixed for 2-3 hours (the time depends not only on the type of wood but also its quantity and geometric dimensions). The steam environment protects the wood from fire and also influences the chemical processes in the wood.<\/p><p><strong>COOLING<\/strong> - The temperature in the chamber is reduced to 50-60 degrees Celsius, after which the wood is ready for mechanical processing.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -79,8 +79,8 @@
       },
       "block_order": [
         "template--15229800874049__6cd1b0b6-2404-4961-b404-54e642da5044-image-1",
-        "21433ca9-c364-41b5-838c-7350f09483fc",
-        "9d444b63-21f9-450b-afdf-5da9cf38b6ef"
+        "9d444b63-21f9-450b-afdf-5da9cf38b6ef",
+        "21433ca9-c364-41b5-838c-7350f09483fc"
       ],
       "settings": {
         "full_width": false,
