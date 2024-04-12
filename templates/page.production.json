@@ -13,15 +13,15 @@
         "template--15229800972353__896e64bb-27de-4b79-bfbe-6a0f3f0d3a9b-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3d-rendering-of-house-model_1.png",
+            "image": "shopify:\/\/shop_images\/marking-wood-to-cut.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
             "icon": "picto-tree",
             "icon_width": 48,
             "subheading": "",
-            "title": "Production",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "title": "Thermowood production process",
+            "content": "<p>THERMO-MODIFICATION OF WOOD is a heat treatment process based on the use of high temperatures and steam.<\/p><p>No chemicals are used in the heat treatment process.<\/p><p>The process improves dimensional stability and biological resistance of wood.<\/p><p>Improves the thermal insulation properties of wood, since the process of thermal modification leads to a decrease in thermal conductivity.<\/p><p> Heat treatment removes the resin from the wood.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -34,6 +34,7 @@
         },
         "aed9e876-9c56-4b6d-9231-009621494fa1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/beautiful-wooden-modern-house_1.png",
             "media_width": 50,
@@ -56,6 +57,7 @@
         },
         "eded6fa5-eb7f-4d09-99c6-9be4b7875cd1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/3d-rendering-of-house-model_1.png",
             "media_width": 50,
