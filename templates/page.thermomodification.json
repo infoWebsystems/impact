@@ -36,7 +36,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/grafik-en.jpg",
-            "media_width": 60,
+            "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center text-center",
             "icon": "none",
