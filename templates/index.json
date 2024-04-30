@@ -196,7 +196,7 @@
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "frontpage",
+            "collection": "terrace",
             "image": "shopify:\/\/shop_images\/rustic-deck-with-patio-furniture-and-vegetation_1.png",
             "subheading": "",
             "title": "Decking Board",
@@ -211,7 +211,7 @@
         "collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "frontpage",
+            "collection": "facade",
             "image": "shopify:\/\/shop_images\/brown-wooden-bridge_1.png",
             "subheading": "",
             "title": "Facade board",
@@ -230,7 +230,7 @@
             "image": "shopify:\/\/shop_images\/beautiful-wooden-modern-house_1.png",
             "subheading": "",
             "title": "Building timber",
-            "url": "",
+            "url": "shopify:\/\/collections\/timber",
             "heading_tag": "h2",
             "text_position": "bottom",
             "text_color": "#ffffff",
