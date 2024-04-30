@@ -226,11 +226,11 @@
         "collection-3": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "timber",
             "image": "shopify:\/\/shop_images\/beautiful-wooden-modern-house_1.png",
             "subheading": "",
             "title": "Building timber",
-            "url": "shopify:\/\/collections\/timber",
+            "url": "",
             "heading_tag": "h2",
             "text_position": "bottom",
             "text_color": "#ffffff",
