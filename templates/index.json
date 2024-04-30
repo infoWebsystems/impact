@@ -427,7 +427,7 @@
         "template--15213123797057__5a78c33b-5f10-4641-aa94-293eba6cd9f2-product-1": {
           "type": "product",
           "settings": {
-            "product": "copy-of-terraced-board",
+            "product": "facade-board-ash-three-92-mm-width",
             "horizontal_position": 52,
             "vertical_position": 25
           }
@@ -436,15 +436,15 @@
           "type": "product",
           "settings": {
             "product": "yard-board",
-            "horizontal_position": 75,
-            "vertical_position": 53
+            "horizontal_position": 90,
+            "vertical_position": 58
           }
         },
         "template--15213123797057__5a78c33b-5f10-4641-aa94-293eba6cd9f2-product-3": {
           "type": "product",
           "settings": {
-            "product": "facing-board",
-            "horizontal_position": 33,
+            "product": "facade-board-ash-three-185-mm-width",
+            "horizontal_position": 53,
             "vertical_position": 73
           }
         }
