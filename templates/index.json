@@ -435,8 +435,8 @@
         "template--15213123797057__5a78c33b-5f10-4641-aa94-293eba6cd9f2-product-2": {
           "type": "product",
           "settings": {
-            "product": "yard-board",
-            "horizontal_position": 90,
+            "product": "decking-board-pine-117mm-width",
+            "horizontal_position": 87,
             "vertical_position": 58
           }
         },
@@ -445,7 +445,7 @@
           "settings": {
             "product": "facade-board-ash-three-185-mm-width",
             "horizontal_position": 53,
-            "vertical_position": 73
+            "vertical_position": 74
           }
         }
       },
