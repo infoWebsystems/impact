@@ -13,7 +13,7 @@
         "template--15229800874049__6cd1b0b6-2404-4961-b404-54e642da5044-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3d-rendering-of-house-model_1.png",
+            "image": "shopify:\/\/shop_images\/20240414_083424.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
@@ -57,9 +57,9 @@
         "21433ca9-c364-41b5-838c-7350f09483fc": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/beautiful-wooden-modern-house_1.png",
+            "image": "shopify:\/\/shop_images\/20240416_151501.jpg",
             "media_width": 50,
-            "media_position": "end",
+            "media_position": "start",
             "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 48,
