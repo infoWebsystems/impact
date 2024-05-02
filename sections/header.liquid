@@ -5,11 +5,13 @@ extremely sensitive code that should (if possible) not be touched unless you hav
 the underlying logic of the menu.
 {%- endcomment -%}
 
-{%- if section.settings.show_country_selector and localization.available_countries.size > 1 -%}
+{% comment %}{%- if section.settings.show_country_selector and localization.available_countries.size > 1 -%}{% endcomment %}
+{%- if section.settings.show_country_selector-%}
   {%- assign will_show_country_selector = true -%}
 {%- endif -%}
 
-{%- if section.settings.show_locale_selector and localization.available_languages.size > 1 -%}
+{% comment %}{%- if section.settings.show_locale_selector and localization.available_languages.size > 1 -%}{% endcomment %}
+{%- if section.settings.show_locale_selector -%}
   {%- assign will_show_locale_selector = true -%}
 {%- endif -%}
 
@@ -95,6 +97,7 @@ the underlying logic of the menu.
             <span class="sr-only">{{ 'header.general.open_search' | t }}</span>
             {%- render 'icon' with 'search' -%}
           </a>
+
 
           {%- if section.settings.layout != 'drawer' and section.settings.menu.links.size > 0 -%}
             <nav class="header__link-list {% if section.settings.layout == 'logo_left_navigation_center' %}justify-center{% endif %} wrap" role="navigation">
@@ -258,7 +261,7 @@ the underlying logic of the menu.
             <span class="sr-only">{{ 'header.general.open_search' | t }}</span>
             {%- render 'icon' with 'search' -%}
           </a>
-          
+
           {%- if shop.customer_accounts_enabled -%}
             <a href="{% if customer %}{{ routes.account_url }}{% else %}{{ routes.account_login_url }}{% endif %}" class="hidden tap-area sm:block">
               <span class="sr-only">{{ 'header.general.open_account' | t }}</span>

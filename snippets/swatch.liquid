@@ -63,7 +63,7 @@ Color swatch specific parameters:
           echo color | append: ' ' | append: angle | append: 'deg '
           assign angle = angle | plus: angle_increment
           echo angle | append: 'deg'
-          
+
           unless forloop.last
             echo ', '
           endunless
@@ -150,9 +150,6 @@ Color swatch specific parameters:
 
 
           {% render 'profiles', profile: label_value_downcase %}
-
-
-
 
         </label>
 

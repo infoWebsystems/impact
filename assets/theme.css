@@ -10035,6 +10035,7 @@ split-lines {
 .block-swatch.is_profile svg{
   height: 24px;
   width: auto;
+  max-width: 100%;
 }
 .block-swatch.is_profile:before{
   display: none;
