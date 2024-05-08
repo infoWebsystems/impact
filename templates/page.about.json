@@ -170,13 +170,22 @@
             "review_author": "-",
             "review_date": "12 November 2023"
           }
+        },
+        "review_RGKxtw": {
+          "type": "review",
+          "settings": {
+            "review_text": "Review",
+            "review_author": "-",
+            "review_date": "12 November 2024"
+          }
         }
       },
       "block_order": [
         "0ca2a94c-2b2a-4cec-a788-2f4222a1308d",
         "3dd5f79a-38ba-44cc-8a2f-b6211f6d733d",
         "1b92f6ea-51c7-4714-82c8-7481f77f2790",
-        "477e2d96-a3c1-40e4-b5ed-4154017b942b"
+        "477e2d96-a3c1-40e4-b5ed-4154017b942b",
+        "review_RGKxtw"
       ],
       "settings": {
         "full_width": true,
