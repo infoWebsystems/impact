@@ -424,6 +424,14 @@
     "5a78c33b-5f10-4641-aa94-293eba6cd9f2": {
       "type": "shop-the-look",
       "blocks": {
+        "product_eaxE79": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "horizontal_position": 9,
+            "vertical_position": 80
+          }
+        },
         "template--15213123797057__5a78c33b-5f10-4641-aa94-293eba6cd9f2-product-1": {
           "type": "product",
           "settings": {
@@ -450,6 +458,7 @@
         }
       },
       "block_order": [
+        "product_eaxE79",
         "template--15213123797057__5a78c33b-5f10-4641-aa94-293eba6cd9f2-product-1",
         "template--15213123797057__5a78c33b-5f10-4641-aa94-293eba6cd9f2-product-2",
         "template--15213123797057__5a78c33b-5f10-4641-aa94-293eba6cd9f2-product-3"
