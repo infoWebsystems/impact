@@ -25,6 +25,7 @@
     "heading_text_transform": "normal",
     "heading_letter_spacing": -1,
     "text_font": "futura_n4",
+    "currency_code_enabled": false,
     "heading_apparition": "split_rotation",
     "color_swatch_style": "rectangle",
     "product_color_display": "swatch",
@@ -33,7 +34,10 @@
     "checkout_body_background_color": "#f2f2f2",
     "checkout_sidebar_background_color": "#ffffff",
     "checkout_accent_color": "#3c619e",
-    "checkout_button_color": "#3c619e"
+    "checkout_button_color": "#3c619e",
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Sound": {
