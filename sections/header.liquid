@@ -251,6 +251,7 @@ the underlying logic of the menu.
             </div>
           {%- endif -%}
 
+
           {%- if section.settings.show_locale_selector and localization.available_languages.size > 1 -%}
             <div class="hidden md:block shrink-0">
               {%- render 'localization-selector', type: 'locale', popover_vertical_position: 'end' -%}
