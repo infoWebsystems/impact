@@ -421,5 +421,17 @@
         "other": "Gauta atsiliepimų apie prekę: {{ count }}."
       }
     }
+  },
+  "shopify": {
+    "checkout": {
+      "wallets": {
+        "return_to_checkout": "Grįžti į kasą",
+        "errors": {
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} šiuo metu nepasiekiamas jūsų užsakymui. Norėdami tęsti pirkimą, pasirinkite kitą atsiskaitymo būdą."
+          }
+        }
+      }
+    }
   }
 }
