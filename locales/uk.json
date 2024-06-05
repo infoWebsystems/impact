@@ -1239,7 +1239,12 @@
         "no_method_error": "Цей магазин зараз не може приймати платежі.",
         "not_configured_error": "Цей магазин зараз не може приймати платежі.",
         "order_covered_by_store_credit_notice": "Ваше замовлення покривається кредитом вашого магазину.",
-        "proposed_gateway_unavailable": "Запропонований платіжний шлюз недоступний"
+        "proposed_gateway_unavailable": "Запропонований платіжний шлюз недоступний",
+        "subscription_agreement_label": "Один або кілька товарів у вашому кошику є відкладеною покупкою або покупкою за підпискою. Продовжуючи платіж, ви погоджуєтеся, що з вашого методу оплати автоматично стягуватиметься плата за ціною та частотою, указаними на цій сторінці, доки він не закінчиться або ви не скасуєте його. Усі скасування підпадають під дію %{cancelled}.",
+        "purchase_options_agreement_label": "Один або кілька товарів у вашому кошику є відкладеною або повторюваною покупкою. Продовжуючи платіж, ви погоджуєтеся, що з вашого методу оплати автоматично стягуватиметься плата за ціною та частотою, указаними на цій сторінці, доки він не закінчиться або ви не скасуєте його. Усі скасування регулюються %{cancellation_policy_label}.",
+        "purchase_options_agreement_label_html": "Я розумію, що один або кілька товарів у моєму кошику є відкладеною або повторюваною покупкою. Продовжуючи, я погоджуюся з\n <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">політика скасування<\/a>\n і дозволяю вам стягувати плату за мій спосіб оплати за цінами, частотою та датами, зазначеними на цій сторінці, до моєї\n замовлення виконано або я скасовую, якщо це дозволено.\n",
+        "mor_disclaimer_html": "Натиснувши нижче та завершивши своє замовлення, ви погоджуєтеся придбати ваші товари в Global-e як офіційний продавець\n для цієї трансакції згідно з <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Умовами<\/a> Global-e\n і <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Політика конфіденційності<\/a> . Global-e є міжнародним\n постачальник послуг доставки для %{shop_name}\n",
+        "purchase_options_and_vaulting_agreement_label": "Один або кілька товарів у вашому кошику є відкладеною покупкою або покупкою за підпискою. Продовжуючи платіж, ви погоджуєтеся, що з вашого методу оплати автоматично стягуватиметься плата за ціною та частотою, указаними на цій сторінці, доки він не закінчиться або ви не скасуєте його. Усі скасування регулюються %{cancellation_policy_label}."
       },
       "billing": {
         "edit": "Редагувати",
@@ -2022,7 +2027,8 @@
         },
         "sms": {
           "disclaimer": {
-            "privacy_policy": "Політика конфіденційності"
+            "privacy_policy": "Політика конфіденційності",
+            "description_html": "Реєструючись за допомогою текстового повідомлення, ви погоджуєтеся отримувати періодичні автоматизовані маркетингові повідомлення, включаючи нагадування про кошик, на вказаний номер телефону. Згода не є умовою покупки. Щоб скасувати підписку, надішліть відповідь STOP. Щоб отримати допомогу, надішліть відповідь HELP. Частота повідомлень різна. Може стягуватися плата за повідомлення та передачу даних. Перегляньте наші %{privacy_policy_link} і %{terms_of_service_link}."
           },
           "get_offers_by_text": "Отримувати пропозиції за допомогою текстового повідомлення"
         },
@@ -2523,7 +2529,9 @@
         "carousel": {
           "next": "Далі",
           "previous": "Попередній",
-          "one_products_accessibility_label": "Замовлення включає {{lineItemName1}} кількість {{lineItemQuantity1}}"
+          "one_products_accessibility_label": "Замовлення включає {{lineItemName1}} кількість {{lineItemQuantity1}}",
+          "six_products_accessibility_label": "Замовлення включає {{lineItemName1}} кількість {{lineItemQuantity1}} , {{lineItemName2}} кількість {{lineItemQuantity2}} , {{lineItemName3}} кількість {{lineItemQuantity3}} , {{lineItemName4}} кількість {{lineItemQuantity4}} , {{lineItemName5}} кількість {{lineItemQuantity5}} , {{lineItemName6}} кількість {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "Замовлення включає {{lineItemName1}} кількість {{lineItemQuantity1}} , {{lineItemName2}} кількість {{lineItemQuantity2}} , {{lineItemName3}} кількість {{lineItemQuantity3}} , {{lineItemName4}} кількість {{lineItemQuantity4}} , {{lineItemName5}} кількість {{lineItemQuantity5}} , {{lineItemName6}} кількість {{lineItemQuantity6}} і більше"
         },
         "pagination": {
           "next": "Далі",
@@ -3126,7 +3134,10 @@
         "deleted_successfully": "Спосіб оплати успішно видалено.",
         "delete_and_replace_button_accessibility_label": "Видаліть {{currentPaymentMethodName}} і замініть на {{newPaymentMethodName}} .",
         "title": "Видалити спосіб оплати",
-        "payment_method_selector_no_alternative_payment": "Без способу заміни"
+        "payment_method_selector_no_alternative_payment": "Без способу заміни",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "Видалення цього способу оплати вплине на попередні авторизації платежів. Якщо ви не виберете інший спосіб оплати, з цього способу оплати все одно стягуватиметься плата за будь-які непогашені залишки за наявними замовленнями. Вибір альтернативного способу оплати дозволить вам безперервно отримувати наступні замовлення на підписку."
+        }
       },
       "add_payment_method": {
         "billing_address": {
