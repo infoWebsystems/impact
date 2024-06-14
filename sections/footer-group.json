@@ -98,16 +98,9 @@
             "menu_title": ""
           }
         },
-        "7f273e71-8d78-4386-98f3-082eaa9b782b": {
-          "type": "links",
-          "settings": {
-            "menu": "footer",
-            "show_menu_title": true,
-            "menu_title": ""
-          }
-        },
         "319bec84-64c9-4905-83a8-8039cc3e8059": {
           "type": "links",
+          "disabled": true,
           "settings": {
             "menu": "footer",
             "show_menu_title": true,
@@ -126,7 +119,6 @@
       "block_order": [
         "newsletter",
         "links",
-        "7f273e71-8d78-4386-98f3-082eaa9b782b",
         "319bec84-64c9-4905-83a8-8039cc3e8059",
         "text"
       ],
