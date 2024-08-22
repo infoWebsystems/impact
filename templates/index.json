@@ -75,7 +75,7 @@
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "subheading": "",
             "title": "Thermo-modified wood",
-            "text": "Four-generation length quality",
+            "text": "The quality you can trust",
             "heading_tag": "h0",
             "button_text": "View catalog",
             "button_link": "shopify:\/\/collections",
@@ -95,7 +95,7 @@
       "settings": {
         "full_width": true,
         "allow_transparent_header": true,
-        "image_size": "auto",
+        "image_size": "fill",
         "controls_type": "none",
         "transition_type": "fade_with_text",
         "autoplay": true,
