@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -19,7 +28,7 @@
         "template--15226598817857__3a8b8e59-8a75-4130-b7c7-e5ea7dda7e03-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "We do high- quality products",
+            "text": "We do high-quality products",
             "heading_tag": "h1"
           }
         }
