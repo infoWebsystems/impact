@@ -56,21 +56,9 @@
         "template--15226598817857__60b98850-ac88-4f02-89a2-60bd93d74bd6-item-1": {
           "type": "item",
           "settings": {
-            "title": "12%",
+            "title": "17",
             "subheading": "",
-            "content": "<h3>Talented Designers.<\/h3>",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
-          }
-        },
-        "0dcc8029-cb85-4016-9fac-f743ff7f8d52": {
-          "type": "item",
-          "settings": {
-            "title": "100%",
-            "subheading": "",
-            "content": "<h3>Passionate Team.<\/h3>",
+            "content": "<h3><strong>Export countries<\/strong><\/h3>",
             "button_text": "",
             "button_url": "",
             "animate_impact_text": false,
@@ -80,9 +68,21 @@
         "9dcd8226-29c3-4dc4-8f66-85835e7d3496": {
           "type": "item",
           "settings": {
-            "title": "25",
+            "title": "3",
             "subheading": "",
-            "content": "<h3>Official Stores.<\/h3>",
+            "content": "<h3>Continents<\/h3>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "0dcc8029-cb85-4016-9fac-f743ff7f8d52": {
+          "type": "item",
+          "settings": {
+            "title": "280",
+            "subheading": "",
+            "content": "<h3>Satisfied customers<\/h3>",
             "button_text": "",
             "button_url": "",
             "animate_impact_text": false,
@@ -92,8 +92,8 @@
       },
       "block_order": [
         "template--15226598817857__60b98850-ac88-4f02-89a2-60bd93d74bd6-item-1",
-        "0dcc8029-cb85-4016-9fac-f743ff7f8d52",
-        "9dcd8226-29c3-4dc4-8f66-85835e7d3496"
+        "9dcd8226-29c3-4dc4-8f66-85835e7d3496",
+        "0dcc8029-cb85-4016-9fac-f743ff7f8d52"
       ],
       "settings": {
         "full_width": true,
@@ -121,11 +121,11 @@
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
-            "icon": "picto-chat",
+            "icon": "picto-tree",
             "icon_width": 48,
             "subheading": "",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "title": "200 000 sq meters of the thermo wood producedannually",
+            "content": "",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
