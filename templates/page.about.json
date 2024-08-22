@@ -244,6 +244,7 @@
       "block_order": [
         "template--15226598817857__9fd0b6df-ac32-4465-b84d-e8697537558c-image-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "spacing": "small"
