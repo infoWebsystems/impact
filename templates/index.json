@@ -142,7 +142,7 @@
             "horizontal_position_mobile": 24,
             "vertical_position_mobile": 70,
             "icon_width": 32,
-            "title": "Building timber",
+            "title": "Batten",
             "content": "<p>Weather-resistant, reliable, strong, and stable.<\/p>"
           }
         },
@@ -154,7 +154,7 @@
             "horizontal_position_mobile": 62,
             "vertical_position_mobile": 14,
             "icon_width": 24,
-            "title": "Facade board",
+            "title": "Cladding boards",
             "content": "<p>Does not lose color and is not subject to corrosion.<\/p>"
           }
         },
