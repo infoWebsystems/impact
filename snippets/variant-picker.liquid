@@ -114,7 +114,7 @@ Supported variables
                     {%- render 'swatch', type: 'colors', value: value, selected: selected, name: name, form: form_id -%}
                   {%- when 'block' -%}
 
-                  {% if option_name  == 'profile' %}
+                  {% if option_name  == 'profile' or option_name  == 'профіль' %}
                     {%- render 'swatch', type: 'block', value: value, selected: selected, name: name, form: form_id, is_profile: true -%}
 
                   {% else %}
