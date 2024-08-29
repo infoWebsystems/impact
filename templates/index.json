@@ -275,10 +275,10 @@
         "collections_per_row": 4,
         "show_progress_bar": false,
         "subheading": "",
-        "title": "Explore the collections",
+        "title": "Tyrinėkite kolekcijas",
         "content": "",
         "link_url": "",
-        "link_text": "View all",
+        "link_text": "Peržiūrėti visus",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -292,7 +292,7 @@
         "template--15213123797057__5902866a-a3aa-4127-88f5-3c560eba0220-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "The coziness you'll create with our products will last not only for you, but also for your children and grandchildren.",
+            "text": "Jaukumo, kurį sukursite naudodami mūsų gaminius, išliks ne tik jums, bet ir jūsų  vaikams bei anūkams.",
             "heading_tag": "h2"
           }
         },
@@ -328,27 +328,27 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/stack-wooden-planks-sawmill-lumber-yard_1.png",
-            "subheading": "Thermowood production process",
-            "title": "Drying",
-            "text": "The temperature rises to 130 degrees Celsius , since there is water in the chamber, and at a temperature of about 100 degrees, the water both in the chamber and in the wood begins to evaporate, due to which the wood is dried with steam, steam is a natural protection to prevent cracking of the wood. Steam also softens the wood, preparing it for chemical changes and modifications."
+            "subheading": "Termo medienos gamybos procesas",
+            "title": "Džiovinimas",
+            "text": "Temperatūra pakyla iki 130 laipsnių Celsijaus , kadangi kameroje yra vandens, o esant apie 100 laipsnių temperatūrai, vanduo tiek kameroje, tiek medienoje pradeda garuoti, dėl ko mediena džiovinama garais, garais yra natūrali apsauga, apsauganti nuo medienos įtrūkimų. Garai taip pat minkština medieną, paruošdami ją cheminiams pokyčiams ir modifikacijoms."
           }
         },
         "a990c686-37ca-4d46-b4a7-19b08c02b26b": {
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/poizvo3.jpg",
-            "subheading": "Thermowood production process",
-            "title": "Thermo modification",
-            "text": "The temperature level depends on the desired final result, which is determined by the method of wood application. Once the peak temperature is reached, it is fixed and maintained for 2-3 hours (the time depends on the type of wood, its quantity, and geometric dimensions). During this period, the steam environment protects the wood from ignition and also influences the chemical processes occurring within the wood."
+            "subheading": "Termo medienos gamybos procesas",
+            "title": "Termo modifikacija",
+            "text": "Temperatūros lygis priklauso nuo pageidaujamo galutinio rezultato, kuris nustatomas pagal medienos dengimo būdą. Pasiekus maksimalią temperatūrą, ji fiksuojama ir palaikoma 2-3 valandas (laikas priklauso nuo medienos rūšies, jos kiekio, geometrinių matmenų). Šiuo laikotarpiu garų aplinka apsaugo medieną nuo užsidegimo ir taip pat įtakoja medienoje vykstančius cheminius procesus."
           }
         },
         "slide_rUQFKV": {
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/poizvod4.jpg",
-            "subheading": "Thermowood production process",
-            "title": "Cooling",
-            "text": "The temperature in the chamber gradually decreases to 50-60 degrees, after which the wood is ready for mechanical processing."
+            "subheading": "Termo medienos gamybos procesas",
+            "title": "Aušinimas",
+            "text": "Temperatūra kameroje palaipsniui mažėja iki 50-60 laipsnių, po to mediena yra paruošta mechaniniam apdorojimui."
           }
         }
       },
