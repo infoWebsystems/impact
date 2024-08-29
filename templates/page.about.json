@@ -22,13 +22,13 @@
         "template--15226598817857__3a8b8e59-8a75-4130-b7c7-e5ea7dda7e03-subheading-1": {
           "type": "subheading",
           "settings": {
-            "text": "About us"
+            "text": "Apie mus"
           }
         },
         "template--15226598817857__3a8b8e59-8a75-4130-b7c7-e5ea7dda7e03-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "We do high-quality products",
+            "text": "Gaminame aukštos kokybės gaminius",
             "heading_tag": "h1"
           }
         }
@@ -58,7 +58,7 @@
           "settings": {
             "title": "17",
             "subheading": "",
-            "content": "<h3><strong>Export countries<\/strong><\/h3>",
+            "content": "<h3><strong>Eksporto šalys<\/strong><\/h3>",
             "button_text": "",
             "button_url": "",
             "animate_impact_text": false,
@@ -70,7 +70,7 @@
           "settings": {
             "title": "3",
             "subheading": "",
-            "content": "<h3>Continents<\/h3>",
+            "content": "<h3><strong>Žemynai<\/strong><\/h3>",
             "button_text": "",
             "button_url": "",
             "animate_impact_text": false,
@@ -124,7 +124,7 @@
             "icon": "picto-tree",
             "icon_width": 48,
             "subheading": "",
-            "title": "200 000 sq meters of the thermo wood produced annually",
+            "title": "Kasmet pagaminama 200 000 kv.m termo medienos",
             "content": "",
             "link_text": "",
             "link_url": "",
@@ -204,7 +204,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 3,
         "subheading": "",
-        "title": "Сustomers reviews",
+        "title": "Klientų atsiliepimai",
         "content": "",
         "background": "",
         "background_gradient": "",
