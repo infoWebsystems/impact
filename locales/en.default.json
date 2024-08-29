@@ -97,7 +97,8 @@
       "size_chart": "Size chart",
       "available_colors_count": {
         "one": "{{ count }} color available",
-        "other": "{{ count }} colors available"
+        "other": "{{ count }} colors available",
+        "few": "Available in {{ count }} colors"
       }
     },
     "gallery": {
@@ -118,7 +119,8 @@
     "rating_count": {
       "zero": "No reviews",
       "one": "{{ count }} review",
-      "other": "{{ count }} reviews"
+      "other": "{{ count }} reviews",
+      "few": "{{ count }} views"
     },
     "inventory": {
       "in_stock": "In stock",
@@ -126,7 +128,8 @@
       "incoming_stock": "Re-stocking on {{ next_incoming_date }}",
       "low_stock_with_quantity_count": {
         "one": "Only {{count}} unit left",
-        "other": "Only {{count}} units left"
+        "other": "Only {{count}} units left",
+        "few": "Only {{count}} units left"
       }
     },
     "store_availability": {
@@ -148,7 +151,8 @@
     "products_count": {
       "zero": "0 products",
       "one": "1 product",
-      "other": "{{ count }} products"
+      "other": "{{ count }} products",
+      "few": "{{ count }} items"
     },
     "faceting": {
       "filters": "Filters",
@@ -191,7 +195,8 @@
       "count": {
         "zero": "{{ count }} comments",
         "one": "{{ count }} comment",
-        "other": "{{ count }} comments"
+        "other": "{{ count }} comments",
+        "few": "{{ count }} comments"
       }
     }
   },
@@ -371,7 +376,8 @@
     "results_count": {
       "zero": "0 results for \"{{ terms }}\"",
       "one": "1 result for \"{{ terms }}\"",
-      "other": "{{ count }} results for \"{{ terms }}\""
+      "other": "{{ count }} results for \"{{ terms }}\"",
+      "few": "{{ count }} results for \" {{ terms }} \""
     }
   },
   "gift_card": {
@@ -678,7 +684,179 @@
           "title": {
             "few": "Unable to deliver %{count} items",
             "many": "Unable to deliver %{count} items"
+          },
+          "message": {
+            "few": "These items will be removed from the cart as they cannot be delivered to your address.",
+            "many": "These items will be removed from the cart as they cannot be delivered to your address."
           }
+        }
+      },
+      "pickup_point": {
+        "paginator": {
+          "header": {
+            "few": "Showing %{first}-%{last} of %{count} places",
+            "many": "Showing %{first}-%{last} of %{count} places"
+          },
+          "selected_pickup_point_label": {
+            "few": "%{pickup_point_index} of %{count} locations",
+            "many": "%{pickup_point_index} of %{count} locations"
+          },
+          "selected_page": {
+            "few": "%{first} - %{last} of %{count} places",
+            "many": "%{first} - %{last} of %{count} places"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "few": "%{count} pickup location(s) near your location",
+          "many": "%{count} pickup location(s) near your location"
+        }
+      },
+      "local_pickup": {
+        "location_information": {
+          "few": "There are %{count} store(s) near %{address} that carry these items",
+          "many": "There are %{count} store(s) near %{address} that carry these items"
+        },
+        "paginator": {
+          "label": {
+            "few": "%{first}-%{last} of %{count} stores",
+            "many": "%{first}-%{last} of %{count} stores"
+          }
+        },
+        "reveal_more_label": {
+          "few": "Show %{count} more locations",
+          "many": "Show %{count} more locations"
+        }
+      }
+    },
+    "notices": {
+      "order": {
+        "cancel_reason": {
+          "few": "Other",
+          "many": "Other"
+        }
+      }
+    },
+    "page_titles": {
+      "search_results": {
+        "few": "Search: %{count} results for %{terms}",
+        "many": "Search: %{count} results for %{terms}"
+      }
+    }
+  },
+  "customer_accounts": {
+    "orders": {
+      "order_list": {
+        "items": {
+          "few": "{{count}} item(s)",
+          "many": "{{count}} item(s)"
+        }
+      },
+      "order_status": {
+        "delivered_description_gift_card": {
+          "few": "Gift cards have been sent by e-mail. by post",
+          "many": "Gift cards have been sent by e-mail. by post"
+        },
+        "gift_card_label": {
+          "few": "Gift cards",
+          "many": "Gift cards"
+        },
+        "gift_card_resend": {
+          "few": "Forward email letters again",
+          "many": "Forward email letters again"
+        },
+        "gift_card_resend_description": {
+          "few": "If you haven't received it, please forward the email. letters again or",
+          "many": "If you haven't received it, please forward the email. letters again or"
+        },
+        "confirmed_gift_card_additional_description": {
+          "few": "Each gift card will be sent by separate email. by letter",
+          "many": "Each gift card will be sent by separate email. by letter"
+        },
+        "delivered_description_gift_card_text": {
+          "few": "Gift cards sent via text message.",
+          "many": "Gift cards sent via text message."
+        },
+        "gift_card_resend_text": {
+          "few": "Re-send",
+          "many": "Re-send"
+        },
+        "gift_card_resend_description_text": {
+          "few": "If you didn't receive it, please resend the text messages or",
+          "many": "If you didn't receive it, please resend the text messages or"
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "few": "Each gift card will be sent via a separate text message.",
+          "many": "Each gift card will be sent via a separate text message."
+        },
+        "gift_resend_success": {
+          "few": "Gift cards have been re-sent",
+          "many": "Gift cards have been re-sent"
+        },
+        "gift_resend_failure": {
+          "few": "There was a problem transferring your gift cards. Please try again or contact us.",
+          "many": "There was a problem transferring your gift cards. Please try again or contact us."
+        },
+        "delivered_description_digital": {
+          "few": "These items have been delivered.",
+          "many": "These items have been delivered."
+        }
+      },
+      "if_not_received": {
+        "few": "If you have not received",
+        "many": "If you have not received"
+      }
+    },
+    "B2B": {
+      "orders": {
+        "draft_order_list": {
+          "pending_tab_accessibility_label": {
+            "pending_orders": {
+              "few": "You have {{count}} outstanding order(s)",
+              "many": "You have {{count}} outstanding order(s)"
+            }
+          }
+        }
+      },
+      "draft_order_details": {
+        "payment_status": {
+          "pending": {
+            "banner_overdue": {
+              "few": "You are {{count}} days late.",
+              "many": "You are {{count}} days late."
+            },
+            "banner_due": {
+              "few": "Payment is due in {{count}} days.",
+              "many": "Payment is due in {{count}} days."
+            }
+          }
+        }
+      }
+    },
+    "errors": {
+      "banner_title": {
+        "few": "{{count}} error(s) occurred",
+        "many": "{{count}} error(s) occurred"
+      }
+    },
+    "ui_components": {
+      "autocompleteOptionsAvailable": {
+        "few": "Items left: {{count}}",
+        "many": "Items left: {{count}}"
+      },
+      "month": {
+        "few": "month",
+        "many": "month"
+      },
+      "mapClusterTitle": {
+        "few": "A group of {{number}} markers",
+        "many": "A group of {{number}} markers"
+      }
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneHourAgo": {
+          "few": "{{count}} min ago",
+          "many": "{{count}} min ago"
         }
       }
     }
