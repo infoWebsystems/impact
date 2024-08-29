@@ -74,10 +74,10 @@
             "mobile_text_position": "place-self-center-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "subheading": "",
-            "title": "Thermo-modified wood",
-            "text": "The quality you can trust",
+            "title": "Termiškai modifikuota mediena",
+            "text": "Kokybė kuria galima pasitikėti",
             "heading_tag": "h0",
-            "button_text": "View catalog",
+            "button_text": "Žiūrėti katalogą",
             "button_link": "shopify:\/\/collections",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
@@ -118,10 +118,10 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "subheading": "",
-        "title": "Our products",
-        "content": "<p>We confidently offer high quality thermo wood , tested by generations and<br\/>hundreds of clients worldwide.<\/p>",
+        "title": "Mūsų produktai",
+        "content": "<p>Mes užtikrintai siūlome aukštos kokybės termomedieną, išbandytą per kartas ir šimtus klientų visame pasaulyje.<\/p>",
         "link_url": "",
-        "link_text": "View all",
+        "link_text": "Peržiūrėti visus",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -142,8 +142,8 @@
             "horizontal_position_mobile": 24,
             "vertical_position_mobile": 70,
             "icon_width": 32,
-            "title": "Batten",
-            "content": "<p>Weather-resistant, reliable, strong, and stable.<\/p>"
+            "title": "Statybinė mediena",
+            "content": "<p>Atsparus oro sąlygoms, patikimas, tvirtas ir stabilus.<\/p>"
           }
         },
         "1664424434f5b7d0e0-1": {
@@ -154,8 +154,8 @@
             "horizontal_position_mobile": 62,
             "vertical_position_mobile": 14,
             "icon_width": 24,
-            "title": "Cladding boards",
-            "content": "<p>Does not lose color and is not subject to corrosion.<\/p>"
+            "title": "Fasadinė lenta",
+            "content": "<p>Nepraranda spalvos ir nėra veikiamas korozijos.<\/p>"
           }
         },
         "1664424434f5b7d0e0-2": {
@@ -166,8 +166,8 @@
             "horizontal_position_mobile": 83,
             "vertical_position_mobile": 75,
             "icon_width": 24,
-            "title": "Decking board",
-            "content": "<p>Thanks to wood treatment technology, the board is not afraid of moisture and does not fade.<\/p>"
+            "title": "Dengimo lenta",
+            "content": "<p>Medienos apdorojimo technologijos dėka lenta nebijo drėgmės ir neblunka.<\/p>"
           }
         }
       },
@@ -179,9 +179,9 @@
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/photo_2024-01-05_14-35-59.jpg",
-        "title": "Application",
-        "content": "<p>Our wood is not afraid of temperature fluctuations, moisture,<br\/>and does not lose geometrical form even after years of use.<\/p>",
-        "button_text": "Our Products",
+        "title": "Taikymas",
+        "content": "<p>Mūsų mediena nebijo temperatūrų svyravimų, drėgmės, nepraranda spalvos net ir po naudojimo daugelį metų.<\/p>",
+        "button_text": "Mūsų produktai",
         "button_url": "shopify:\/\/collections\/frontpage",
         "desktop_text_position": "place-self-center-start text-start",
         "image_background": "",
