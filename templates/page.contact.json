@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -20,7 +29,7 @@
         "template--15213123403841__29bc9d13-5ea5-4b73-824b-0d8b74d03667-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Contact us",
+            "text": "Susisiekite su mumis",
             "heading_tag": "h1"
           }
         }
@@ -58,8 +67,8 @@
       ],
       "settings": {
         "full_width": true,
-        "subheading": "Contact Us",
-        "title": "Do you have any question?",
+        "subheading": "Susisiekite su mumis",
+        "title": "Ar turite klausimų?",
         "content": "",
         "text_position": "start",
         "contact_form_size": "large",
@@ -80,7 +89,7 @@
         "template--15213123403841__a065534f-3222-4303-8ca4-71268d13f087-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Contact us directly",
+            "text": "Susisiekite su mumis tiesiogiai",
             "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
@@ -97,7 +106,7 @@
         "template--15213123403841__a065534f-3222-4303-8ca4-71268d13f087-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>We are available from monday to saturday. Our customer service will get back to you as soon as possible.<\/p>"
+            "content": "<p>Esame pasiekiami nuo pirmadienio iki šeštadienio. Mūsų klientų aptarnavimo tarnyba susisieks su jumis kuo greičiau.<\/p>"
           }
         }
       },
@@ -127,8 +136,8 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Free shipping",
-            "content": "<p>Get free shipping on orders of $100 or more<\/p>"
+            "title": "Nemokamas pristatymas",
+            "content": "<p>Gaukite nemokamą pristatymą užsakydami už 100 USD ar daugiau<\/p>"
           }
         },
         "template--15213123403841__e74dd879-23b6-4f12-8203-93fed7c72549-item-2": {
@@ -140,8 +149,8 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Customer service",
-            "content": "<p>We are available from monday to friday to answer your questions.<\/p>"
+            "title": "Klientų aptarnavimas",
+            "content": "<p>Esame pasirengę nuo pirmadienio iki penktadienio atsakyti į jūsų klausimus.<\/p>"
           }
         },
         "template--15213123403841__e74dd879-23b6-4f12-8203-93fed7c72549-item-3": {
@@ -153,8 +162,8 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Refer a friend",
-            "content": "<p>Refer a friend and get 15% off each other<\/p>"
+            "title": "Pasiūlyti draugui",
+            "content": "<p>Pasiūlykite draugą ir gaukite 15% nuolaidą vienas kitam<\/p>"
           }
         },
         "747acf45-7b7d-4595-b466-9b26c7170532": {
@@ -166,8 +175,8 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Secure payment",
-            "content": "<p>Your payment information is processed securely<\/p>"
+            "title": "Saugus mokėjimas",
+            "content": "<p>Jūsų mokėjimo informacija apdorojama saugiai<\/p>"
           }
         }
       },
