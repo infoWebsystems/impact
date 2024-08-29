@@ -95,7 +95,7 @@
             "image": "shopify:\/\/shop_images\/image_3.png",
             "image_width": 80,
             "heading_size": "h3",
-            "title": "Sign up for new stories and personal offers",
+            "title": "Prisiregistruokite, kad gautumėte naujų istorijų ir asmeninių pasiūlymų",
             "content": ""
           }
         },
@@ -104,7 +104,7 @@
           "settings": {
             "menu": "footer",
             "show_menu_title": true,
-            "menu_title": "Menu"
+            "menu_title": "Meniu"
           }
         },
         "319bec84-64c9-4905-83a8-8039cc3e8059": {
@@ -119,8 +119,8 @@
         "text": {
           "type": "text",
           "settings": {
-            "title": "About",
-            "content": "<p>Services for thermal modification of various wood species. Coniferous, deciduous, and rare species. Sale of thermally modified wood.<\/p><p>UAB Donteks<br\/>Kalno g., Pagirių k. 4, A, <br\/>LT-14118 Vilniaus r.<br\/>Reg. number 302927774<br\/>VAT number LT100008415818<br\/>Phone +370 654 41688<br\/>e-mail info@donteks.lt<\/p>",
+            "title": "Apie",
+            "content": "<p>Įvairių medienos rūšių terminio modifikavimo paslaugos. Spygliuočių, lapuočių ir retos rūšys. Termiškai modifikuotos medienos pardavimas.<br\/><br\/>UAB Donteks<br\/>Kalno g., Pagirių k. 4, A, LT-14118 Vilniaus r.<br\/>Įmonės kodas 302927774<br\/>PVM Mokėtojo kodas LT100008415818<br\/>tel. +370 654 41688<br\/>el.p info@donteks.lt<\/p>",
             "enable_follow_on_shop": true
           }
         }
