@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -20,8 +29,8 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Thermo-modification",
-            "content": "<p><strong>THERMO-MODIFICATION<\/strong>– is the most modern, 100% environmentally friendly technology of biological and atmospheric protection of wood without any use of chemicals. The service life of products made of thermo-wood is 3-5 times longer in comparison with classical methods of protection including antiseptics and impregnants<\/p>",
+            "title": "Termo modifikacija",
+            "content": "<p><strong>TERMO MODIFIKACIJA<\/strong> – tai moderniausia, 100% aplinką tausojanti medienos biologinės ir atmosferinės apsaugos technologija, nenaudojant jokių chemikalų. Gaminių, pagamintų iš termomedžio, tarnavimo laikas yra 3-5 kartus ilgesnis, palyginti su klasikiniais apsaugos būdais, įskaitant antiseptikus ir impregnantus.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -42,7 +51,7 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Thermo-modification process graph",
+            "title": "Termodifikacijos proceso grafikas",
             "content": "",
             "link_text": "",
             "link_url": "",
@@ -65,7 +74,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "",
-            "content": "<p><strong>DRYING<\/strong> - The temperature rises to 130 degrees Celsius , since there is water in the chamber, and at a temperature of about 100 degrees, the water both in the chamber and in the wood begins to evaporate, due to which the wood is dried with steam, steam is a natural protection to prevent cracking of the wood. Steam also softens the wood, preparing it for chemical changes and modifications<\/p><p><strong>THERMO-MODIFICATION<\/strong> - The temperature in the chamber rises to around 185-225 degrees Celsius . The maximum temperature depends on the desired end result, due to the way the wood will be used. When the peak temperature is reached, it is fixed for 2-3 hours (the time depends not only on the type of wood but also its quantity and geometric dimensions). The steam environment protects the wood from fire and also influences the chemical processes in the wood.<\/p><p><strong>COOLING<\/strong> - The temperature in the chamber is reduced to 50-60 degrees Celsius, after which the wood is ready for mechanical processing.<\/p>",
+            "content": "<p><strong>DŽIOVINIMAS - <\/strong>Temperatūra pakyla iki 130 laipsnių Celsijaus, kadangi kameroje yra vandens, o esant apie 100 laipsnių temperatūrai, vanduo tiek kameroje, tiek medienoje pradeda garuoti, dėl ko mediena džiovinama garais. , garai yra natūrali apsauga, apsauganti nuo medienos skilinėjimo. Garai taip pat minkština medieną, paruošdami ją cheminiams pokyčiams ir modifikacijoms<br\/><br\/><strong>TERMO MODIFIKACIJA<\/strong> - Temperatūra kameroje pakyla iki maždaug 185-225 laipsnių Celsijaus. Maksimali temperatūra priklauso nuo pageidaujamo galutinio rezultato, atsižvelgiant į medienos panaudojimo būdą. Pasiekus aukščiausią temperatūrą, ji fiksuojama 2-3 valandoms (laikas priklauso ne tik nuo medienos rūšies, bet ir nuo jos kiekio bei geometrinių matmenų). Garų aplinka apsaugo medieną nuo ugnies, taip pat įtakoja cheminius procesus medienoje.<br\/><br\/><strong>VĖSINIMAS<\/strong> – temperatūra kameroje sumažinama iki 50-60 laipsnių Celsijaus, po to mediena yra paruošta mechaniniam apdirbimui..<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
