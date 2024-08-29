@@ -366,41 +366,41 @@
         "2c0ca4da-b2ae-40ed-9c8c-118598f3719e": {
           "type": "review",
           "settings": {
-            "review_text": "My team specializes in landscape design.\nWe've been working with this wood for several years now. Always recommend it to new clients. Truly great quality and very loyal and calm owners.",
-            "review_author": "Aaron Broten",
-            "review_date": "12 November 2020"
+            "review_text": "Mano komanda specializuojasi kraštovaizdžio dizaino srityje. Su šia mediena dirbame jau keletą metų. Visada rekomenduoju naujiems klientams. Tikrai puiki kokybė ir labai ištikimi bei ramūs šeimininkai.",
+            "review_author": "Aronas Brotenas",
+            "review_date": "2020 m. lapkričio 12 d"
           }
         },
         "eb27a0a2-b2e5-4d54-b4a1-4c8f6112f6d2": {
           "type": "review",
           "settings": {
-            "review_text": "Easy to install, aesthetically pleasing. Good packaging and delivery.",
-            "review_author": "Haaland Robin",
-            "review_date": "3 May 2022"
+            "review_text": "Lengva montuoti, estetiška. Geras įpakavimas ir pristatymas.",
+            "review_author": "Haalandas Robinas",
+            "review_date": "2022 m. gegužės 3 d"
           }
         },
         "c898a896-d66a-4304-8e8d-edb7ec071f60": {
           "type": "review",
           "settings": {
-            "review_text": "Very beautiful!\nWe had the opportunity to test all the products because we ordered decking boards, facade boards, and timber. There are no complaints, everything was delivered and packaged very well. The color corresponds to reality, but the wood effect creates an even more impressive impression than in the photos.",
+            "review_text": "Labai gražu! Turėjome galimybę išbandyti visus gaminius, nes užsisakėme terasines lentas, fasadines lentas, medieną. Jokių nusiskundimų nėra, viskas buvo pristatyta ir supakuota labai gerai. Spalva atitinka tikrovę, tačiau medžio efektas sukuria dar įspūdingesnį įspūdį nei nuotraukose.",
             "review_author": "Nina Solheim",
-            "review_date": "21 April 2023"
+            "review_date": "2023 m. balandžio 21 d"
           }
         },
         "59fbe174-6206-42b4-8fc6-94bad9243628": {
           "type": "review",
           "settings": {
-            "review_text": "Excellent wood quality!\n\nThank you!",
-            "review_author": "Thomas Sjöberg",
-            "review_date": "18 July 2022"
+            "review_text": "Puiki medienos kokybė! \nAčiū!",
+            "review_author": "Tomas Sjöbergas",
+            "review_date": "2022 m. liepos 18 d"
           }
         },
         "review_gbthM4": {
           "type": "review",
           "settings": {
-            "review_text": "We collaborate with the team as builders. We chose this one because it's the highest quality on the market! We're not worried about our reputation! Thank you!",
+            "review_text": "Su komanda bendradarbiaujame kaip statybininkai. Pasirinkome šį, nes tai aukščiausios kokybės rinkoje! Mes nesijaudiname dėl savo reputacijos! Ačiū!",
             "review_author": "Amanda",
-            "review_date": "19 June 2023"
+            "review_date": "2023 m. birželio 19 d"
           }
         }
       },
@@ -419,8 +419,8 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 3,
         "subheading": "",
-        "title": "Сustomers reviews",
-        "content": "<p>Read what our customers say.<\/p>",
+        "title": "Klientų atsiliepimai",
+        "content": "<p>Skaitykite, ką sako mūsų klientai.<\/p>",
         "background": "",
         "background_gradient": "",
         "text_color": "",
