@@ -3007,6 +3007,34 @@ var UnitPrice = class extends HTMLElement {
     this.hidden = false;
   }
 };
+var PricePerItm = class extends HTMLElement {
+  constructor() {
+    super();
+    this._onVariantChangedListener = this._onVariantChanged.bind(this);
+  }
+  connectedCallback() {
+    document.forms[this.getAttribute("form")]?.addEventListener("variant:change", this._onVariantChangedListener);
+  }
+  disconnectedCallback() {
+    document.forms[this.getAttribute("form")]?.removeEventListener("variant:change", this._onVariantChangedListener);
+  }
+  _onVariantChanged(event) {
+    const variant = event.detail.variant;
+    const pricesJson = JSON.parse(this.querySelector('[type="application/json"]').textContent);
+    let currentPrice = pricesJson.pricesPerItm.find(function (itm){
+      if(Object.keys(itm).toString() == variant.id.toString()){
+        return itm;
+      }
+    })
+    let currentPriceValue = Object.values(currentPrice)[0];
+    if(currentPriceValue != ""){
+      this.querySelector('[data-price]').innerHTML = currentPriceValue
+      this.hidden = false;
+    }else{
+      this.hidden = true;
+    }
+  }
+};
 if (!window.customElements.get("sale-price")) {
   window.customElements.define("sale-price", SalePrice);
 }
@@ -3015,6 +3043,9 @@ if (!window.customElements.get("compare-at-price")) {
 }
 if (!window.customElements.get("unit-price")) {
   window.customElements.define("unit-price", UnitPrice);
+}
+if (!window.customElements.get("price-per-itm")) {
+  window.customElements.define("price-per-itm", PricePerItm);
 }
 var _onVariantChanged, onVariantChanged_fn;
 var SoldOutBadge = class extends HTMLElement {

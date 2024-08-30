@@ -101,7 +101,8 @@
     "price": {
       "regular_price": "Běžná cena",
       "sale_price": "Prodejní cena",
-      "from_price_html": "Od {{ price_min }}"
+      "from_price_html": "Od {{ price_min }}",
+      "price_per_item": "price per sq.m."
     },
     "quantity": {
       "label": "Množství",

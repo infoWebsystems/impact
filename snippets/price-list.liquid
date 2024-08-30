@@ -193,4 +193,27 @@ Supported variables
       </unit-price>
     {%- endif -%}
   {%- endunless -%}
+
+    <price-per-itm {% if form_id %}form="{{ form_id }}"{% endif %} {% unless variant.metafields.custom.price_per_sq_m != blank %}hidden{% endunless %}>
+      {% capture priceBlock %}
+        {%- if settings.currency_code_enabled -%}
+          <span data-price>{{ variant.metafields.custom.price_per_sq_m.value | money_with_currency }}</span>
+        {%- else -%}
+          <span data-price>{{ variant.metafields.custom.price_per_sq_m.value | money }}</span>
+        {%- endif -%}
+      {% endcapture %}
+      <div class="{{ regular_price_classes }}">{{ 'product.price.price_per_item' | t }} {{ priceBlock }}</div>
+      <script type="application/json">
+        {
+          "pricesPerItm": [
+            {%- for variant in product.variants -%}
+                {
+                  "{{ variant.id }}": "{{- variant.metafields.custom.price_per_sq_m.value | money -}}"
+                }{%- if forloop.last == false %},{%- endif -%}
+            {%- endfor -%}
+          ]
+        }
+
+      </script>
+    </price-per-itm>
 </price-list>

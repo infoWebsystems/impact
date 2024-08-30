@@ -99,7 +99,8 @@
     "price": {
       "regular_price": "السعر قبل الخصم",
       "sale_price": "السعر بعد الخصم",
-      "from_price_html": "السعر من {{ price_min }}"
+      "from_price_html": "السعر من {{ price_min }}",
+      "price_per_item": "price per sq.m."
     },
     "quantity": {
       "label": "الكمية",

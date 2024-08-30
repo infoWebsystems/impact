@@ -99,7 +99,8 @@
     "price": {
       "regular_price": "Обычная цена",
       "sale_price": "Цена по акции",
-      "from_price_html": "От {{ price_min }}"
+      "from_price_html": "От {{ price_min }}",
+      "price_per_item": "price per sq.m."
     },
     "quantity": {
       "label": "Количество",

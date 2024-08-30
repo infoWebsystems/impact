@@ -99,7 +99,8 @@
     "price": {
       "regular_price": "정상 가격",
       "sale_price": "할인 가격",
-      "from_price_html": "{{ price_min }}부터"
+      "from_price_html": "{{ price_min }}부터",
+      "price_per_item": "price per sq.m."
     },
     "quantity": {
       "label": "수량",

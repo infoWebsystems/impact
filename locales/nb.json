@@ -99,7 +99,8 @@
     "price": {
       "regular_price": "Normalpris",
       "sale_price": "Salgspris",
-      "from_price_html": "Fra {{ price_min }}"
+      "from_price_html": "Fra {{ price_min }}",
+      "price_per_item": "price per sq.m."
     },
     "quantity": {
       "label": "Antall",

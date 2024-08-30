@@ -99,7 +99,8 @@
     "price": {
       "regular_price": "Prezzo ",
       "sale_price": "Prezzo scontato",
-      "from_price_html": "A partire da {{ price_min }}"
+      "from_price_html": "A partire da {{ price_min }}",
+      "price_per_item": "price per sq.m."
     },
     "quantity": {
       "label": "Quantità",

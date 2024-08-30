@@ -101,7 +101,8 @@
     "price": {
       "regular_price": "Cena regularna",
       "sale_price": "Cena promocyjna",
-      "from_price_html": "Od {{ price_min }}"
+      "from_price_html": "Od {{ price_min }}",
+      "price_per_item": "price per sq.m."
     },
     "quantity": {
       "label": "Ilość",

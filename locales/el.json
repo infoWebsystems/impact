@@ -99,7 +99,8 @@
     "price": {
       "regular_price": "Κανονική τιμή",
       "sale_price": "Τιμή πώλησης",
-      "from_price_html": "Από {{ price_min }}"
+      "from_price_html": "Από {{ price_min }}",
+      "price_per_item": "price per sq.m."
     },
     "quantity": {
       "label": "Ποσότητα",

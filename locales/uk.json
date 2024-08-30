@@ -99,7 +99,8 @@
     "price": {
       "regular_price": "Звичайна ціна",
       "sale_price": "Ціна зі знижкою",
-      "from_price_html": "Від {{ price_min }}"
+      "from_price_html": "Від {{ price_min }}",
+      "price_per_item": "ціна за кв.м."
     },
     "quantity": {
       "label": "Кількість",

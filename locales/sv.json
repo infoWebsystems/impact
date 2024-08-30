@@ -99,7 +99,8 @@
     "price": {
       "regular_price": "Pris",
       "sale_price": "REA-pris",
-      "from_price_html": "Från {{ price_min }}"
+      "from_price_html": "Från {{ price_min }}",
+      "price_per_item": "price per sq.m."
     },
     "quantity": {
       "label": "Antal",

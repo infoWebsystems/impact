@@ -99,7 +99,8 @@
     "price": {
       "regular_price": "Normaali hinta",
       "sale_price": "Alennushinta",
-      "from_price_html": "Alkaen {{ price_min }}"
+      "from_price_html": "Alkaen {{ price_min }}",
+      "price_per_item": "price per sq.m."
     },
     "quantity": {
       "label": "Määrä",

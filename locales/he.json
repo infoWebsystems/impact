@@ -99,7 +99,8 @@
     "price": {
       "regular_price": "מחיר רגיל",
       "sale_price": "מחיר מבצע",
-      "from_price_html": "מ-{{ price_min }}"
+      "from_price_html": "מ-{{ price_min }}",
+      "price_per_item": "price per sq.m."
     },
     "quantity": {
       "label": "כמות",

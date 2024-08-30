@@ -99,7 +99,8 @@
     "price": {
       "regular_price": "Preț normal",
       "sale_price": "Preț redus",
-      "from_price_html": "De la {{ price_min }}"
+      "from_price_html": "De la {{ price_min }}",
+      "price_per_item": "price per sq.m."
     },
     "quantity": {
       "label": "Cantitate",

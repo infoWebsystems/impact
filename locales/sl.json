@@ -101,7 +101,8 @@
     "price": {
       "regular_price": "Redna cena",
       "sale_price": "Znižana cena",
-      "from_price_html": "Že od {{ price_min }}"
+      "from_price_html": "Že od {{ price_min }}",
+      "price_per_item": "price per sq.m."
     },
     "quantity": {
       "label": "Količina",

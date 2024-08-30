@@ -99,7 +99,8 @@
     "price": {
       "regular_price": "原價",
       "sale_price": "促銷價",
-      "from_price_html": "{{ price_min }} 起"
+      "from_price_html": "{{ price_min }} 起",
+      "price_per_item": "price per sq.m. {{ price }}"
     },
     "quantity": {
       "label": "數量",

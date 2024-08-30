@@ -99,7 +99,8 @@
     "price": {
       "regular_price": "Precio normal",
       "sale_price": "Precio de oferta",
-      "from_price_html": "Desde {{ price_min }}"
+      "from_price_html": "Desde {{ price_min }}",
+      "price_per_item": "price per sq.m."
     },
     "quantity": {
       "label": "Cantidad",
