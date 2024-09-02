@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "type": "header",
   "name": "Header group",
@@ -33,7 +42,7 @@
         "65934d29-bdd4-402b-8f07-25581918ec9a": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "Articles",
+            "menu_item": "Straipsnius",
             "layout": "horizontal_center",
             "submenu_style": "bold_text",
             "image_1": "shopify:\/\/shop_images\/poizvod4.jpg",
