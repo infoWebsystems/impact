@@ -68,7 +68,7 @@
         "0f5d8c6f-c01f-44f7-b47a-9efe07ed6cb5": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "About",
+            "menu_item": "Apie",
             "layout": "horizontal",
             "submenu_style": "bold_heading",
             "image_heading_1": "",
