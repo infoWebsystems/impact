@@ -19,15 +19,14 @@
         "show_collection_description": true,
         "show_collection_image": false,
         "collection_title_size": "h3",
-        "image_size": "lg",
-        "image": "shopify:\/\/shop_images\/Wood-Profile-42x92_7ffb04a2-d594-4d0b-b8b0-8f777f3245af.jpg",
+        "image_size": "auto",
         "mobile_text_position": "place-self-start-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "featured_product": "",
         "featured_product_heading": "Featured product",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 35
       }
     },
     "main": {
@@ -36,7 +35,7 @@
         "products_per_page": 24,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 3,
-        "filter_layout": "sidebar",
+        "filter_layout": "drawer",
         "show_sort_by": true,
         "show_filters": true,
         "show_filter_group_name": false,
