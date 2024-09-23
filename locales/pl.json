@@ -102,7 +102,9 @@
       "regular_price": "Cena regularna",
       "sale_price": "Cena promocyjna",
       "from_price_html": "Od {{ price_min }}",
-      "price_per_item": "price per sq.m."
+      "price_per_item": "price per sq.m.",
+      "price_per_sqr": "/m2",
+      "vat_include": "Price incl VAT"
     },
     "quantity": {
       "label": "Ilość",

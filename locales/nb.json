@@ -100,7 +100,9 @@
       "regular_price": "Normalpris",
       "sale_price": "Salgspris",
       "from_price_html": "Fra {{ price_min }}",
-      "price_per_item": "price per sq.m."
+      "price_per_item": "price per sq.m.",
+      "price_per_sqr": "/m2",
+      "vat_include": "Price incl VAT"
     },
     "quantity": {
       "label": "Antall",

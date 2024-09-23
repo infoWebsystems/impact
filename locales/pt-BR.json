@@ -100,7 +100,9 @@
       "regular_price": "Preço normal",
       "sale_price": "Preço promocional",
       "from_price_html": "De {{ price_min }}",
-      "price_per_item": "price per sq.m."
+      "price_per_item": "price per sq.m.",
+      "price_per_sqr": "/m2",
+      "vat_include": "Price incl VAT"
     },
     "quantity": {
       "label": "Quantidade",

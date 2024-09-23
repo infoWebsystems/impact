@@ -10107,3 +10107,11 @@ height: 40px;
 .header__link-list a,.header__link-list summary {
   text-transform: inherit;
 }
+.product-page-list.price-list{
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.product-info__price .product-info__badge-list{
+  align-self: flex-start;
+  margin-left: auto;
+}

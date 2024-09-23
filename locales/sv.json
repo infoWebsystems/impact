@@ -100,7 +100,9 @@
       "regular_price": "Pris",
       "sale_price": "REA-pris",
       "from_price_html": "Från {{ price_min }}",
-      "price_per_item": "price per sq.m."
+      "price_per_item": "price per sq.m.",
+      "price_per_sqr": "/m2",
+      "vat_include": "Price incl VAT"
     },
     "quantity": {
       "label": "Antal",

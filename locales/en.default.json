@@ -110,7 +110,9 @@
       "regular_price": "Regular price",
       "sale_price": "Sale price",
       "from_price_html": "From {{ price_min }}",
-      "price_per_item": "price per sq.m. {{ price }}"
+      "price_per_item": "/pc",
+      "price_per_sqr": "/m2",
+      "vat_include": "Price incl VAT"
     },
     "quantity": {
       "label": "Quantity",

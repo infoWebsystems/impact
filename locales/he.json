@@ -100,7 +100,9 @@
       "regular_price": "מחיר רגיל",
       "sale_price": "מחיר מבצע",
       "from_price_html": "מ-{{ price_min }}",
-      "price_per_item": "price per sq.m."
+      "price_per_item": "price per sq.m.",
+      "price_per_sqr": "/m2",
+      "vat_include": "Price incl VAT"
     },
     "quantity": {
       "label": "כמות",

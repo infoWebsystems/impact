@@ -100,7 +100,9 @@
       "regular_price": "Standarta cena",
       "sale_price": "Akcijas cena",
       "from_price_html": "No {{ price_min }}",
-      "price_per_item": "price per sq.m."
+      "price_per_item": "price per sq.m.",
+      "price_per_sqr": "/m2",
+      "vat_include": "Price incl VAT"
     },
     "quantity": {
       "label": "Daudzums",

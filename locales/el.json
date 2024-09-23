@@ -100,7 +100,9 @@
       "regular_price": "Κανονική τιμή",
       "sale_price": "Τιμή πώλησης",
       "from_price_html": "Από {{ price_min }}",
-      "price_per_item": "price per sq.m."
+      "price_per_item": "price per sq.m.",
+      "price_per_sqr": "/m2",
+      "vat_include": "Price incl VAT"
     },
     "quantity": {
       "label": "Ποσότητα",

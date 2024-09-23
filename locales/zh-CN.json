@@ -100,7 +100,9 @@
       "regular_price": "原价",
       "sale_price": "促销价格",
       "from_price_html": "{{ price_min }} 起",
-      "price_per_item": "price per sq.m. {{ price }}"
+      "price_per_item": "price per sq.m. {{ price }}",
+      "price_per_sqr": "/m2",
+      "vat_include": "Price incl VAT"
     },
     "quantity": {
       "label": "数量",

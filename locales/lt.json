@@ -101,7 +101,9 @@
       "regular_price": "Įprasta kaina",
       "sale_price": "Pardavimo kaina",
       "from_price_html": "Nuo {{ price_min }}",
-      "price_per_item": "kaina už kv.m."
+      "price_per_item": "/vnt",
+      "price_per_sqr": "/m2",
+      "vat_include": "Kaina su PVM"
     },
     "quantity": {
       "label": "Kiekis",

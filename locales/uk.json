@@ -100,7 +100,9 @@
       "regular_price": "Звичайна ціна",
       "sale_price": "Ціна зі знижкою",
       "from_price_html": "Від {{ price_min }}",
-      "price_per_item": "ціна за кв.м."
+      "price_per_item": "/од",
+      "price_per_sqr": "/m2",
+      "vat_include": "Ціна з ПДВ"
     },
     "quantity": {
       "label": "Кількість",

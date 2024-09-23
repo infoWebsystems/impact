@@ -100,7 +100,9 @@
       "regular_price": "Normal fiyat",
       "sale_price": "İndirimli fiyat",
       "from_price_html": "{{ price_min }}'den başlayan",
-      "price_per_item": "price per sq.m."
+      "price_per_item": "price per sq.m.",
+      "price_per_sqr": "/m2",
+      "vat_include": "Price incl VAT"
     },
     "quantity": {
       "label": "Miktar",

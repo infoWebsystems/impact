@@ -100,7 +100,9 @@
       "regular_price": "Обычная цена",
       "sale_price": "Цена по акции",
       "from_price_html": "От {{ price_min }}",
-      "price_per_item": "price per sq.m."
+      "price_per_item": "price per sq.m.",
+      "price_per_sqr": "/m2",
+      "vat_include": "Price incl VAT"
     },
     "quantity": {
       "label": "Количество",

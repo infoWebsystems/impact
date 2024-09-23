@@ -100,7 +100,9 @@
       "regular_price": "السعر قبل الخصم",
       "sale_price": "السعر بعد الخصم",
       "from_price_html": "السعر من {{ price_min }}",
-      "price_per_item": "price per sq.m."
+      "price_per_item": "price per sq.m.",
+      "price_per_sqr": "/m2",
+      "vat_include": "Price incl VAT"
     },
     "quantity": {
       "label": "الكمية",
