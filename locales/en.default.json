@@ -548,6 +548,10 @@
         "discount_order_stacking": {
           "few": "Booking discounts",
           "many": "Booking discounts"
+        },
+        "subtotal_label_with_quantity": {
+          "few": "Subtotal (%{count} item(s))",
+          "many": "Subtotal (%{count} item(s))"
         }
       },
       "payment": {
@@ -860,6 +864,14 @@
         "lessThanOneHourAgo": {
           "few": "{{count}} min ago",
           "many": "{{count}} min ago"
+        }
+      }
+    },
+    "order_details": {
+      "image_gallery": {
+        "load_more_items": {
+          "few": "Load {{count}} more item(s)",
+          "many": "Load {{count}} more item(s)"
         }
       }
     }

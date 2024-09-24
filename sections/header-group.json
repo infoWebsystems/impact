@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "type": "header",
   "name": "Header group",
@@ -33,19 +42,19 @@
         "65934d29-bdd4-402b-8f07-25581918ec9a": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "Articles",
+            "menu_item": "Straipsnius",
             "layout": "horizontal_center",
             "submenu_style": "bold_text",
-            "image_1": "shopify:\/\/shop_images\/poizvod4.jpg",
-            "image_heading_1": "Production",
+            "image_1": "shopify:\/\/shop_images\/IMG_2978_ac05950d-c6ce-478e-a102-ea0aaa1f5944.jpg",
+            "image_heading_1": "Gamyba",
             "image_link_1": "shopify:\/\/pages\/production",
             "image_text_color_1": "#ffffff",
-            "image_2": "shopify:\/\/shop_images\/poizvo3.jpg",
-            "image_heading_2": "For Specialists",
+            "image_2": "shopify:\/\/shop_images\/IMG_3629_685e775f-5a88-4616-85ec-671f3f6254bd.jpg",
+            "image_heading_2": "Specialistai",
             "image_link_2": "shopify:\/\/pages\/specialists",
             "image_text_color_2": "#ffffff",
-            "image_3": "shopify:\/\/shop_images\/stack-wooden-planks-sawmill-lumber-yard_1.png",
-            "image_heading_3": "Modification",
+            "image_3": "shopify:\/\/shop_images\/IMG_0246_5559de18-00d7-4f1b-b421-021ffc7a7d1c.jpg",
+            "image_heading_3": "Termodifikacija",
             "image_link_3": "shopify:\/\/pages\/thermomodification",
             "image_text_color_3": "#ffffff",
             "product": "",
@@ -59,7 +68,7 @@
         "0f5d8c6f-c01f-44f7-b47a-9efe07ed6cb5": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "About",
+            "menu_item": "Apie",
             "layout": "horizontal",
             "submenu_style": "bold_heading",
             "image_heading_1": "",
