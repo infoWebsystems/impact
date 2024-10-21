@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin language editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "page": "Page {{ page }}",
@@ -93,7 +93,7 @@
       "view_in_space": "View in your space",
       "taxes_included": "Tax included.",
       "taxes_excluded": "Tax excluded.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Shipping calculated<\/a> at checkout",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Shipping calculated</a> at checkout",
       "size_chart": "Size chart",
       "available_colors_count": {
         "one": "{{ count }} color available",
@@ -318,9 +318,9 @@
       "weight": "Weight",
       "subtotal": "Subtotal",
       "total": "Total",
-      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\" class=\"link\">shipping<\/a> calculated at checkout",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\" class=\"link\">shipping</a> calculated at checkout",
       "taxes_included_but_shipping_at_checkout": "Tax included and shipping calculated at checkout",
-      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\" class=\"link\">Shipping<\/a> calculated at checkout.",
+      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\" class=\"link\">Shipping</a> calculated at checkout.",
       "taxes_and_shipping_at_checkout": "Taxes and shipping calculated at checkout",
       "add_order_note": "Add order note",
       "edit_order_note": "Edit order note",
@@ -475,6 +475,50 @@
           "free_for_first_n_order": {
             "few": "For first %{count} orders",
             "many": "For first %{count} orders"
+          },
+          "free_shipping_cycles": {
+            "few": "Free shipping on another %{count} delivery(s)",
+            "many": "Free shipping on another %{count} delivery(s)"
+          },
+          "free_shipping_cycles_delivery_not_included": {
+            "few": "Free shipping on %{count} delivery(s)",
+            "many": "Free shipping on %{count} delivery(s)"
+          },
+          "first_n_order_free_with_cycle": {
+            "few": "Free shipping for %{count} more delivery(s), then %{recurring_order_shipping_price}",
+            "many": "Free shipping for %{count} more deliveries, then %{recurring_order_shipping_price}"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "few": "Free shipping on %{count} delivery(s) then %{recurring_order_shipping_price}",
+            "many": "Free shipping on %{count} delivery(s) then %{recurring_order_shipping_price}"
+          },
+          "max_cycles_base_shipping": {
+            "few": "Another %{count} delivery(s) at %{shipping_price} each",
+            "many": "Another %{count} delivery(s) at %{shipping_price} each"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "few": "Another %{count} delivery(s) at %{shipping_price} each",
+            "many": "Another %{count} delivery(s) at %{shipping_price} each"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "few": "Free shipping on first %{cycle}, then %{recurring_order_shipping_price}",
+            "many": "Free shipping on first %{cycle}, then %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "few": "%{shipping_price} for %{count} more deliveries (%{per_delivery_cost})",
+            "many": "%{shipping_price} for %{count} more deliveries (%{per_delivery_cost})"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "few": "%{shipping_price} for %{count} delivery(s) (%{per_delivery_cost})",
+            "many": "%{shipping_price} for %{count} delivery(s) (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle": {
+            "few": "%{shipping_price} for %{count} more deliveries (%{per_delivery_cost}), then %{recurring_order_shipping_price}",
+            "many": "%{shipping_price} for %{count} more deliveries (%{per_delivery_cost}), then %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "few": "%{shipping_price} per %{count} delivery(s) (%{per_delivery_cost}), then %{recurring_order_shipping_price}",
+            "many": "%{shipping_price} per %{count} delivery(s) (%{per_delivery_cost}), then %{recurring_order_shipping_price}"
           }
         },
         "shipping_method_first_shipment_group_title": {
@@ -560,8 +604,8 @@
           "many": "The order was paid for with gift cards."
         },
         "card_fields_unavailable_html": {
-          "few": "Payment by credit or debit card is not possible at this time.<br> <a href=\"%{current_url}\">Please reload this page<\/a> or try another payment method.",
-          "many": "Payment by credit or debit card is not possible at this time.<br> <a href=\"%{current_url}\">Please reload this page<\/a> or try another payment method."
+          "few": "Payment by credit or debit card is not possible at this time.<br> <a href=\"%{current_url}\">Please reload this page</a> or try another payment method.",
+          "many": "Payment by credit or debit card is not possible at this time.<br> <a href=\"%{current_url}\">Please reload this page</a> or try another payment method."
         },
         "expired_cards_info": {
           "few": "There are %{count} expired card(s) that you can view and edit in your account.",
@@ -672,12 +716,12 @@
           "many": "There are no products"
         },
         "products_not_available": {
-          "few": "These items will be removed from your cart because they are not available in your country\/region.",
-          "many": "These items will be removed from the cart because they are not available in your country\/region."
+          "few": "These items will be removed from your cart because they are not available in your country/region.",
+          "many": "These items will be removed from the cart because they are not available in your country/region."
         },
         "all_products_in_cart_unavailable": {
-          "few": "These products are not available in your country\/region.",
-          "many": "These products are not available in your country\/region."
+          "few": "These products are not available in your country/region.",
+          "many": "These products are not available in your country/region."
         }
       },
       "throttle": {
