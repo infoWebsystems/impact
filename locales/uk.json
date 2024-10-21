@@ -785,12 +785,15 @@
           "due_today": "Усього до сплати сьогодні",
           "due_later_checkout_to_draft": "Загальна сума сплачується пізніше",
           "due_on_fulfillment": "Загальна сума до сплати",
-          "due_on_receipt": "Загальна сума під час отримання"
+          "due_on_receipt": "Загальна сума під час отримання",
+          "due_later": "Загальна сума до %{due_at}"
         },
         "discount_title": "Знижка",
         "discount_title_stacking": {
           "one": "Знижка",
-          "other": "Знижки"
+          "other": "Знижки",
+          "few": "зі знижками",
+          "many": "зі знижками"
         },
         "gift_card_title": "Подарункова картка",
         "gift_card_label": "Подарункова картка",
@@ -809,7 +812,9 @@
         "discount_not_found": "Не вдалося знайти дійсну знижку, яка відповідає введеному коду",
         "discount_order_stacking": {
           "other": "Замовляйте знижки",
-          "one": "Замовляйте знижку"
+          "one": "Замовляйте знижку",
+          "few": "Знижки на бронювання",
+          "many": "Знижки на бронювання"
         },
         "remove_gift_card_label": "Прозора подарункова карта",
         "remove_discount_label": "Зняти знижку",
@@ -832,10 +837,16 @@
         "recurring_payments": "Регулярні платежі",
         "deferred_total_due_date_label": "Загальна сума до {{date}}",
         "expand_component_information": {
-          "one": "Показати %{count} елемент"
+          "one": "Показати %{count} елемент",
+          "other": "Показати %{count} елемент(ів)",
+          "few": "Показати %{count} елемент(ів)",
+          "many": "Показати %{count} елемент(ів)"
         },
         "collapse_component_information": {
-          "one": "Сховати %{count} елемент"
+          "one": "Сховати %{count} елемент",
+          "other": "Приховати %{count} елемент(ів)",
+          "few": "Приховати %{count} елемент(ів)",
+          "many": "Приховати %{count} елемент(ів)"
         },
         "apply_discount_button_label": "Застосувати",
         "pickup_label": "Пікап",
@@ -864,7 +875,9 @@
         "discount_discovery": {
           "merchandise_quantity_label": {
             "one": "%{count} елемент",
-            "other": "%{count} елементів"
+            "other": "%{count} елементів",
+            "few": "%{count} елемент(ів)",
+            "many": "%{count} елемент(ів)"
           },
           "add_code": "Додайте знижку"
         },
@@ -901,9 +914,36 @@
         "deferred_payment_info": {
           "title": "Платіж %{amount_due} має бути сплачено %{due_at}",
           "description_html": "Якщо у вас є запитання щодо вашого замовлення, %{contact_us}.",
-          "due_on_fulfillment_title": "Оплата %{amount_due} має бути сплачена після виконання"
+          "due_on_fulfillment_title": "Оплата %{amount_due} має бути сплачена після виконання",
+          "paid_today": "Всього сплачено сьогодні",
+          "due_on_receipt_title": "Сплатіть %{amount_due} після отримання"
         },
-        "updated_shipping_method": "Оновлений спосіб доставки: %{shipping_method}"
+        "updated_shipping_method": "Оновлений спосіб доставки: %{shipping_method}",
+        "gift_card_and_discount_title": "Код знижки або подарункова карта",
+        "gift_card_and_discount_label": "Код знижки або подарункова карта",
+        "gift_card_and_discount_placeholder": "Код знижки або подарункова карта",
+        "gift_card_has_been_applied": "Подарункова карта на замовлення",
+        "gift_card_has_been_removed": "Подарункову картку видалено",
+        "cart_does_not_meet_discount_requirements_notice": "Код знижки <strong style=\"text-transform:uppercase\">%{code}</strong> недійсний для товарів у вашому кошику",
+        "discount_requires_customer_notice": "Введіть інформацію про доставку, щоб застосувати код знижки <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "customer_does_not_meet_discount_requirements_notice": "Наразі ви не можете використати код знижки <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "shipping_information_does_not_meet_discount_requirements_notice": "Код знижки <strong style=\"text-transform:uppercase\">%{code}</strong> не поширюється на вашу адресу доставки",
+        "free_shipping_total_label": "безкоштовно",
+        "gift_card_savings_notice": "Застосовано подарункових карток на суму %{gift_card_amount}",
+        "gift_card_ending": "Подарункова картка закінчується на %{last_characters}",
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> не можна використовувати з існуючими знижками.",
+        "maximum_discount_code_limit_reached": "Ви досягли максимальної кількості кодів знижки. Видаліть існуючий код, щоб використовувати <strong style=\"text-transform:uppercase\">%{code}</strong> .",
+        "duties_and_taxes_label": "Митні та інші податки",
+        "may_be_charged_on_delivery": "Може стягуватися плата за доставку",
+        "eligible_customer_missing_notice": "Код знижки <strong style=\"text-transform:uppercase\">%{code}</strong> можуть використовувати лише відповідні клієнти",
+        "subtotal_label_with_quantity": {
+          "one": "Проміжний підсумок • %{count} елемент",
+          "other": "Проміжний підсумок • %{count} елемент(ів)",
+          "few": "Проміжний підсумок • %{count} елемент(ів)",
+          "many": "Проміжний підсумок • %{count} елемент(ів)"
+        },
+        "cost_table_item_column_header": "елемент",
+        "cost_table_value_column_header": "Значення"
       },
       "shipping": {
         "free_rate_label": "безкоштовно",
@@ -1070,7 +1110,9 @@
             "reference": "довідка",
             "entity": "Сутність",
             "amount": "Сума",
-            "buyer_action_info": "Ваш платіж у розмірі %{amount_due} настав."
+            "buyer_action_info": "Ваш платіж у розмірі %{amount_due} настав.",
+            "instruction_html": "Оплатіть у Multibanco або онлайн, використовуючи дані нижче. Якщо у вас виникли запитання або ви хочете оновити платіжну інформацію, %{contact_us}.",
+            "find_nearest_atm": "Знайдіть найближчий банкомат"
           },
           "due_notice": "Ваш платіж у розмірі %{amount_due} має відбутися %{due_date}."
         },
@@ -1121,7 +1163,9 @@
           "no_fixed_selling_plans": "Ви не можете використовувати кредит магазину з варіантами відстроченої покупки",
           "apply_label": "Застосуйте кредит магазину",
           "label": "Кредит магазину",
-          "buying_gift_card": "Ви не можете використовувати кредит магазину, щоб купити подарункову картку"
+          "buying_gift_card": "Ви не можете використовувати кредит магазину, щоб купити подарункову картку",
+          "add_label": "Додайте кредит магазину",
+          "manage_label": "Керуйте кредитом магазину"
         },
         "billing_address_invalid_phone_no_card": "Щоб продовжити, оновіть номер телефону у своїй платіжній адресі.",
         "gift_card_code_label": "Код подарункової картки",
@@ -1173,7 +1217,8 @@
               "verification_value": "Введіть дійсний CVV або код безпеки"
             },
             "required": {
-              "issue_date": "Введіть дійсну дату випуску"
+              "issue_date": "Введіть дійсну дату випуску",
+              "issue_number": "Введіть правильний номер випуску"
             }
           }
         },
@@ -1203,7 +1248,8 @@
         "card_issue_number_placeholder": "Номер заявки",
         "card_update_label": "Оновити картку",
         "paypal_modal": {
-          "order_contains_subscriptions": "Підписка"
+          "order_contains_subscriptions": "Підписка",
+          "order_contains_fixed_selling_plans": "Загальна сума може не включати податки, витрати на доставку, відстрочені податки та деякі знижки. Продовжуйте сплачувати суму до сплати сьогодні."
         },
         "cashapppay_label": "Готівка App Pay",
         "card_expiry_label": "Термін придатності (MM / YY)",
@@ -1262,7 +1308,55 @@
         "purchase_options_agreement_label": "Один або кілька товарів у вашому кошику є відкладеною або повторюваною покупкою. Продовжуючи платіж, ви погоджуєтеся, що з вашого методу оплати автоматично стягуватиметься плата за ціною та частотою, указаними на цій сторінці, доки він не закінчиться або ви не скасуєте його. Усі скасування регулюються %{cancellation_policy_label}.",
         "purchase_options_agreement_label_html": "Я розумію, що один або кілька товарів у моєму кошику є відкладеною або повторюваною покупкою. Продовжуючи, я погоджуюся з\n <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">політика скасування</a>\n і дозволяю вам стягувати плату за мій спосіб оплати за цінами, частотою та датами, зазначеними на цій сторінці, до моєї\n замовлення виконано або я скасовую, якщо це дозволено.\n",
         "mor_disclaimer_html": "Натиснувши нижче та завершивши своє замовлення, ви погоджуєтеся придбати ваші товари в Global-e як офіційний продавець\n для цієї трансакції згідно з <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Умовами</a> Global-e\n і <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Політика конфіденційності</a> . Global-e є міжнародним\n постачальник послуг доставки для %{shop_name}\n",
-        "purchase_options_and_vaulting_agreement_label": "Один або кілька товарів у вашому кошику є відкладеною покупкою або покупкою за підпискою. Продовжуючи платіж, ви погоджуєтеся, що з вашого методу оплати автоматично стягуватиметься плата за ціною та частотою, указаними на цій сторінці, доки він не закінчиться або ви не скасуєте його. Усі скасування регулюються %{cancellation_policy_label}."
+        "purchase_options_and_vaulting_agreement_label": "Один або кілька товарів у вашому кошику є відкладеною покупкою або покупкою за підпискою. Продовжуючи платіж, ви погоджуєтеся, що з вашого методу оплати автоматично стягуватиметься плата за ціною та частотою, указаними на цій сторінці, доки він не закінчиться або ви не скасуєте його. Усі скасування регулюються %{cancellation_policy_label}.",
+        "amazon_payments_label": "Amazon Pay",
+        "amazon_payments_login_hint": "Вас попросять увійти через Amazon.",
+        "amazon_payments_failed_mfa_challenge": "Не вдалося використати вибраний спосіб оплати. Виберіть інший спосіб або зв’яжіться зі своїм банком чи установою, яка випустила картку.",
+        "amazon_payments_abandoned_mfa_challenge": "Ваш платіж не вдалося здійснити. Спробуйте інший спосіб оплати або зверніться до свого банку чи емітента картки.",
+        "discount_button_action_label": "Застосуйте код знижки",
+        "card_security_notice": "Усі операції виконуються безпечно та з шифруванням даних.",
+        "card_expiration_month_label": "Місяць придатності",
+        "card_verification_value_explanation": "Тризначний код безпеки зазвичай друкується на звороті картки. Картки American Express мають 4-значний код безпеки на лицьовій стороні картки.",
+        "ends_with_label": "закінчується цифрами %{last_digits}",
+        "saved_by_payment_method": "Збережено за допомогою %{payment_method}",
+        "pay_with_payment_method": "Оплатіть за допомогою %{payment_method}",
+        "offsite_gateway_redirect_hint": "Натиснувши %{button_label}, ви перейдете до %{gateway_label}, де ви зможете безпечно завершити свою покупку.",
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} всього %{total_shop_price}",
+        "card_fields_processing_error": "Під час обробки платежу сталася помилка. Спробуйте оновити сторінку або перевірте підключення до Інтернету.",
+        "billing_address_not_supported_for_payment_method_error": "Цей спосіб оплати не застосовується до вашої платіжної адреси та валюти. Спробуйте використати інший спосіб оплати.",
+        "paypal_label": "Paypal",
+        "klarna_pay_now_label": "Сплатіть зараз з Klarna",
+        "bancontact_label": "Bancontact",
+        "giropay_label": "Giropay",
+        "eps_label": "\"eps-Überweisung\"",
+        "klarna_slice_it_label": "Керуйте своїми фінансами з Klarna",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Замовлення оплачено подарунковою карткою.",
+          "other": "Замовлення оплачено подарунковими картками.",
+          "few": "Замовлення оплачено подарунковими картками.",
+          "many": "Замовлення оплачено подарунковими картками."
+        },
+        "card_fields_unavailable_html": {
+          "one": "Оплата кредитною чи дебетовою карткою наразі неможлива.<br> <a href=\"%{current_url}\">Перезавантажте сторінку</a> або спробуйте пізніше.",
+          "other": "Оплата кредитною чи дебетовою карткою наразі неможлива.<br> <a href=\"%{current_url}\">Перезавантажте цю сторінку</a> або спробуйте інший спосіб оплати.",
+          "few": "Оплата кредитною чи дебетовою карткою наразі неможлива.<br> <a href=\"%{current_url}\">Перезавантажте цю сторінку</a> або спробуйте інший спосіб оплати.",
+          "many": "Оплата кредитною чи дебетовою карткою наразі неможлива.<br> <a href=\"%{current_url}\">Перезавантажте цю сторінку</a> або спробуйте інший спосіб оплати."
+        },
+        "subscription_agreement_label_html": "Я розумію, що згоден підписатися. Підписка поновлюватиметься за вказаною ціною та з указаною періодичністю, доки не закінчиться термін дії або не стане доступною\n <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">скасовано</a> .\n",
+        "subscription_agreement_cancelled": "політика скасування",
+        "different_credit_card_label": "Використовуйте іншу кредитну картку",
+        "apple": {
+          "connect": "Натисніть, щоб підключити обліковий запис Apple Pay",
+          "not_available": "Apple Pay недоступний у цьому браузері. Щоб підключити обліковий запис Apple Pay, необхідно використовувати браузер Safari на пристрої Apple."
+        },
+        "billing_address_associated_with_mandate": "Використовуйте адресу, пов’язану зі способом оплати",
+        "expiry_long": "(Закінчується %{month}/%{year})",
+        "purchase_options_card_update_agreement_label_html": "Оновлюючи спосіб оплати, ви дозволяєте регулярні або відстрочені платежі для будь-яких покупок відповідно до <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">політики скасування</a> цього магазину.",
+        "receiver_payment_experience_hint": "Ви отримаєте платіжну інформацію після оформлення замовлення. Сплатіть у Multibanco або онлайн протягом %{due_days}.",
+        "same_billing_address_checkbox_label": "Використовуйте адресу доставки як платіжну адресу",
+        "simulated_checkout": "Попередній перегляд буде доступний незабаром",
+        "business_customer_vaulting_payment_label": "Збережіть цю картку під час оплати та дозвольте %{company} стягувати з неї плату за майбутні покупки в цьому місці. Будь-хто, призначений для цього місця, може використовувати цю картку.",
+        "purchase_options_cancellation_policy_label": "політика скасування"
       },
       "billing": {
         "edit": "Редагувати",
@@ -1413,7 +1507,11 @@
       "stock": {
         "unshippable_product": {
           "status_column_header": "Без доставки",
-          "title": "Доставка недоступна"
+          "title": "Доставка недоступна",
+          "message": {
+            "few": "Ці товари будуть видалені з кошика, оскільки вони не можуть бути доставлені на вашу адресу.",
+            "many": "Ці товари будуть видалені з кошика, оскільки вони не можуть бути доставлені на вашу адресу."
+          }
         },
         "product_column_header": "Продукти",
         "quantity_column_header": "Кількість",
@@ -1423,7 +1521,9 @@
         "return_to_store_label": "Повернутися в магазин",
         "item_label": {
           "other": "{{count}} елементів",
-          "one": "{{count}} елемент"
+          "one": "{{count}} елемент",
+          "few": "{{count}} товар(ів)",
+          "many": "{{count}} товар(ів)"
         },
         "quantity_update": {
           "page_title": "Оновлення кількості",
@@ -1453,11 +1553,15 @@
           "title": "Доставка недоступна",
           "message": {
             "one": "%{delivery_method} більше не доступний для цього товару.",
-            "other": "%{delivery_method} більше не доступний для цих товарів."
+            "other": "%{delivery_method} більше не доступний для цих товарів.",
+            "few": "%{delivery_method} більше не застосовується до цих товарів.",
+            "many": "%{delivery_method} більше не застосовується до цих товарів."
           },
           "default_message": {
             "one": "Вибраний спосіб доставки більше не доступний для цього товару.",
-            "other": "Вибраний спосіб доставки більше не доступний для цих товарів."
+            "other": "Вибраний спосіб доставки більше не доступний для цих товарів.",
+            "few": "Вибраний спосіб доставки більше не застосовний для цих товарів.",
+            "many": "Вибраний спосіб доставки більше не застосовний для цих товарів."
           }
         },
         "price_update": {
@@ -1470,7 +1574,11 @@
           "description": "Ці товари більше не доступні та були видалені з вашого кошика.",
           "items_unavailable": "Деякі товари більше не доступні та були видалені з вашого кошика."
         },
-        "reduced_label": "Зменшений"
+        "reduced_label": "Зменшений",
+        "price_and_quantity_update": {
+          "title": "Оновлення ціни та кількості",
+          "description": "Ціна та наявність цих товарів змінилися, тому ваш кошик оновлено."
+        }
       },
       "contextual_availability": {
         "unavailable_label": "Недоступний",
