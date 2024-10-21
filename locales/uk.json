@@ -97,7 +97,8 @@
       "size_chart": "Таблиця розмірів",
       "available_colors_count": {
         "one": "Доступно кольорів: {{ count }}",
-        "other": "Доступно кольорів: {{ count }}"
+        "other": "Доступно кольорів: {{ count }}",
+        "few": "Доступний у {{ count }} кольорах"
       }
     },
     "gallery": {
@@ -121,7 +122,8 @@
     "rating_count": {
       "zero": "Немає відгуків",
       "one": "Відгуків: {{ count }}",
-      "other": "Відгуків: {{ count }}"
+      "other": "Відгуків: {{ count }}",
+      "few": "{{ count }} переглядів"
     },
     "inventory": {
       "in_stock": "У наявності",
@@ -129,7 +131,8 @@
       "incoming_stock": "Буде в наявності {{ next_incoming_date }}",
       "low_stock_with_quantity_count": {
         "one": "Залишилось одиниць: {{count}}",
-        "other": "Залишилось одиниць: {{count}}"
+        "other": "Залишилось одиниць: {{count}}",
+        "few": "Залишилося лише {{count}} одиниць"
       }
     },
     "store_availability": {
@@ -151,7 +154,8 @@
     "products_count": {
       "zero": "0 товарів",
       "one": "1 товар",
-      "other": "Товарів: {{ count }}"
+      "other": "Товарів: {{ count }}",
+      "few": "{{ count }} елементів"
     },
     "faceting": {
       "filters": "Фільтри",
@@ -194,7 +198,8 @@
       "count": {
         "zero": "Коментарів: {{ count }}",
         "one": "Коментарів: {{ count }}",
-        "other": "Коментарів: {{ count }}"
+        "other": "Коментарів: {{ count }}",
+        "few": "{{ count }} коментарів"
       }
     }
   },
@@ -374,7 +379,8 @@
     "results_count": {
       "zero": "0 результатів пошуку за запитом «{{ terms }}»",
       "one": "1 результат пошуку за запитом «{{ terms }}»",
-      "other": "Результатів пошуку за запитом «{{ terms }}»: {{ count }}"
+      "other": "Результатів пошуку за запитом «{{ terms }}»: {{ count }}",
+      "few": "{{ count }} результати для \" {{ terms }} \""
     }
   },
   "gift_card": {
@@ -3214,7 +3220,11 @@
         "payment_method_expired_on": "Термін дії минув {{expiryDate}}",
         "payment_method_not_found_error": "Не вдалося знайти спосіб оплати",
         "next_payment_due": "Термін наступного платежу {{dueDateInMonthDayYear}}",
-        "edit_payment_method_button_accessibility_label": "Змінити спосіб оплати, який закінчується на {{lastDigits}}"
+        "edit_payment_method_button_accessibility_label": "Змінити спосіб оплати, який закінчується на {{lastDigits}}",
+        "payment_method_expiring_on": "Дійсний до {{expiryDate}}",
+        "total_amount_of_subscription_line_items_left": "і {{total}}",
+        "billing_title": "Платіжна адреса",
+        "checkout_card_banner": "Цей спосіб оплати можна використовувати лише для попередньо схвалених платежів. Він не з’явиться під час оплати, якщо ви ввійшли в цей магазин."
       },
       "edit_payment_method": {
         "save_payment_method_button": "зберегти",
@@ -3223,7 +3233,9 @@
         "billing_address_choose_from_list": "Виберіть зі списку",
         "payment_method_updated_toast": "Спосіб оплати оновлено",
         "cancel_edit_payment_method_button": "Скасувати",
-        "billing_address_add_new": "Додати новий"
+        "billing_address_add_new": "Додати новий",
+        "title": "Редагувати спосіб оплати",
+        "billing_address": "Платіжна адреса"
       },
       "edit_payment_method_button_accessibility_label": "Змінити {{paymentMethodName}} що закінчується на {{lastDigits}}",
       "card_fields": {
@@ -3231,12 +3243,14 @@
           "card_verification_value_explanation_amex": "4-значний код безпеки на лицьовій стороні вашої картки",
           "tooltip_accessibility_label": "Більше інформації",
           "card_verification_value_explanation_other": "3-значний код безпеки на звороті вашої картки",
-          "card_security_notice": "Усі транзакції безпечні та зашифровані."
+          "card_security_notice": "Усі транзакції безпечні та зашифровані.",
+          "card_verification_value_explanation": "Тризначний код безпеки зазвичай друкується на звороті картки. Картки American Express мають 4-значний код безпеки на лицьовій стороні картки."
         },
         "field_errors": {
           "credit_card_name_invalid": "Введіть своє ім’я точно так, як воно написано на картці",
           "credit_card_expiry_invalid": "Введіть дійсну дату закінчення терміну дії картки",
-          "credit_card_verification_value_blank": "Введіть CVV або код безпеки на картці"
+          "credit_card_verification_value_blank": "Введіть CVV або код безпеки на картці",
+          "credit_card_number_invalid": "Введіть правильний номер картки"
         },
         "name_on_card_label": "Ім'я на картці",
         "name_on_card_placeholder": "Ім'я на картці",
@@ -3246,7 +3260,8 @@
         "card_number_placeholder": "Номер картки",
         "card_expiry_label": "Термін придатності (MM / YY)",
         "card_start_label": "Дата видачі (MM / YY)",
-        "card_start_placeholder": "Дата видачі (MM / YY)"
+        "card_start_placeholder": "Дата видачі (MM / YY)",
+        "card_expiry_placeholder": "Термін придатності (мм/мм)"
       },
       "payment_delete": {
         "payment_method_selector_placeholder": "Виберіть інший спосіб оплати (необов’язково)",
@@ -3258,7 +3273,17 @@
         "title": "Видалити спосіб оплати",
         "payment_method_selector_no_alternative_payment": "Без способу заміни",
         "warning_message_with_replacement": {
-          "with_pending_orders_and_subscriptions": "Видалення цього способу оплати вплине на попередні авторизації платежів. Якщо ви не виберете інший спосіб оплати, з цього способу оплати все одно стягуватиметься плата за будь-які непогашені залишки за наявними замовленнями. Вибір альтернативного способу оплати дозволить вам безперервно отримувати наступні замовлення на підписку."
+          "with_pending_orders_and_subscriptions": "Видалення цього способу оплати вплине на попередні авторизації платежів. Якщо ви не виберете інший спосіб оплати, з цього способу оплати все одно стягуватиметься плата за будь-які непогашені залишки за наявними замовленнями. Вибір альтернативного способу оплати дозволить вам безперервно отримувати наступні замовлення на підписку.",
+          "with_pending_orders": "Видалення цього способу оплати призведе до видалення його з вашого облікового запису та більше не застосовуватиметься до майбутніх покупок. Якщо ви не виберете альтернативний спосіб оплати, він усе одно використовуватиметься для кредитування будь-яких непогашених залишків за наявними замовленнями.",
+          "with_subscriptions": "Видалення цього способу оплати порушить попередньо схвалені платежі. Змініть на альтернативний спосіб оплати, щоб і надалі отримувати замовлення."
+        },
+        "description_with_replacement": "Видалення цього способу оплати порушить попередньо схвалені платежі. Ви можете змінити його на інший спосіб оплати, щоб і надалі отримувати замовлення.",
+        "error_when_deleting": "Вибачте, але сталася помилка, і ми не змогли видалити цей спосіб оплати. Спробуйте пізніше або оновіть сторінку.",
+        "delete_and_replace_button": "Видалити і замінити",
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Видалення цього способу оплати порушить попередньо схвалені платежі. Цей спосіб оплати все ще використовуватиметься для зарахування будь-яких непогашених залишків за наявними замовленнями, але ви не отримуватимете майбутні замовлення на підписку. Додайте альтернативний спосіб оплати, щоб продовжувати отримувати замовлення на підписку.",
+          "with_pending_orders": "Видалення цього способу оплати призведе до видалення його з вашого облікового запису та більше не застосовуватиметься до майбутніх покупок. Однак він все одно використовуватиметься для кредитування будь-яких непогашених залишків за наявними замовленнями.",
+          "with_subscriptions": "Видалення цього способу оплати порушить попередньо схвалені платежі. Додайте альтернативний спосіб оплати, щоб і надалі отримувати замовлення."
         }
       },
       "add_payment_method": {
@@ -3267,9 +3292,12 @@
           "choose_billing_address_from_list_button": "Виберіть зі списку",
           "add_billing_address_button_accessibility_label": "Додайте нову платіжну адресу",
           "default_checkbox": "Встановити як спосіб оплати за умовчанням",
-          "add_billing_address_button": "Додати новий"
+          "add_billing_address_button": "Додати новий",
+          "title": "Платіжна адреса",
+          "choose_billing_address_from_list_button_accessibility_label": "Виберіть платіжну адресу зі списку"
         },
-        "payment_method_added_confirmation": "Спосіб оплати додано"
+        "payment_method_added_confirmation": "Спосіб оплати додано",
+        "title": "Додайте спосіб оплати"
       },
       "card_update_consent": "Цей спосіб оплати буде збережено для майбутніх покупок.",
       "digital_wallet_title": "Цифровий гаманець",
@@ -3289,13 +3317,40 @@
         "errors": {
           "generic": "Виникла проблема з Google Pay. Повторіть спробу або скористайтеся іншим способом оплати.",
           "missing_billing_address": "Для Google Pay потрібна платіжна адреса. Будь ласка, додайте один до свого облікового запису."
-        }
+        },
+        "loading": "Завантаження Google Pay"
       },
       "delete_payment_method_button_accessibility_label": "Видалити {{paymentMethodName}}",
       "delete_payment_method_button": "Видалити",
       "default": "За замовчуванням",
       "expired": "Термін дії цієї картки закінчився",
-      "credit_or_debit_card_title": "Кредитна або дебетова картка"
+      "credit_or_debit_card_title": "Кредитна або дебетова картка",
+      "title": "Способи оплати",
+      "add_payment_method_button": "Додайте спосіб оплати",
+      "expires_soon": "Термін дії цієї картки скоро закінчиться",
+      "edit_payment_method_brand_button_accessibility_label": "Редагувати {{paymentMethodName}}",
+      "store_credit": {
+        "label": "Кредит магазину",
+        "accesibility_label": "Кредит магазину - {{formattedBalance}}",
+        "expirable_amounts_button": "Переглянути суми, термін дії яких закінчується",
+        "details_modal": {
+          "title": "Кредит магазину закінчується",
+          "balance_label": "Баланс",
+          "expiration_date_label": "Термін придатності",
+          "amount_label": "сума",
+          "expirable_balance_info": "Термін дії певної суми балансу закінчиться в майбутньому",
+          "expirable_amount_label": "Загальна сума терміну дії",
+          "expirable_amounts_info": "Для розрахунку спочатку використовуються суми, термін дії яких закінчиться раніше",
+          "expired_amounts_button": "Переглянути прострочені суми",
+          "pagination": {
+            "load_more_label": "Завантажте більше",
+            "load_more_accessibility_label": "Завантажте більше сум, термін дії яких закінчується"
+          },
+          "date_label": "Дата",
+          "expirable_amounts_button": "Переглянути"
+        },
+        "expirable_amounts_label": "Суми, що закінчуються"
+      }
     },
     "payment_method_brands": {
       "visa": "Віза",
@@ -3305,7 +3360,18 @@
       "shoppay": "Магазин Pay",
       "laser": "Лазерна",
       "maestro": "Маестро",
-      "dankort": "Данкорт"
+      "dankort": "Данкорт",
+      "mastercard": "MasterCard",
+      "applepay": "Apple Pay",
+      "googlepay": "Google Pay",
+      "paypal": "PayPal",
+      "americanexpress": "American Express",
+      "dinersclub": "Diners Club",
+      "jcb": "JCB",
+      "visaelectron": "Visa Electron",
+      "forbrugsforeningen": "Forbrugsforeningen",
+      "unionpay": "UnionPay",
+      "storecredit": "Кредит магазину"
     },
     "ui_components": {
       "may": "Може",
@@ -3337,13 +3403,18 @@
       "april": "квітень",
       "month": {
         "one": "місяць",
-        "other": "місяців"
+        "other": "місяців",
+        "few": "місяць",
+        "many": "місяць"
       },
       "showNextMonth": "Показати наступний місяць, {{month}} {{year}}",
       "processing": "Обробка…",
       "rangeStart": "Початок діапазону",
       "autocompleteOptionsAvailable": {
-        "one": "Доступно {{count}} товар"
+        "one": "Доступно {{count}} товар",
+        "other": "Залишилося: {{count}}",
+        "few": "Залишилося: {{count}}",
+        "many": "Залишилося: {{count}}"
       },
       "minimumReached": "Досягнуто мінімум {{value}}",
       "maximumReached": "Досягнуто максимум {{value}}",
@@ -3354,7 +3425,20 @@
       "monday": "понеділок",
       "tuesday": "вівторок",
       "friday": "П'ятниця",
-      "sunday": "неділя"
+      "sunday": "неділя",
+      "saturdayAbbreviation": "вул",
+      "showPreviousMonth": "Показати минулий місяць, {{year}} {{month}}",
+      "mapClusterTitle": {
+        "one": "Група маркерів {{number}}",
+        "other": "Група маркерів {{number}}",
+        "few": "Група маркерів {{number}}",
+        "many": "Група маркерів {{number}}"
+      },
+      "expandSheet": "Розгорнути",
+      "qrCode": "QR код",
+      "addFile": "Додати файл",
+      "dropzoneInvalidFileType": "Тип файлу не підтримується",
+      "dropzoneDraggedOver": "Вставте файл для завантаження"
     },
     "navigation_and_structure": {
       "contact_link": "Зв'яжіться з нами",
@@ -3424,7 +3508,8 @@
         "description": "Помилка з'єднання. Перевірте підключення до Інтернету та повторіть спробу."
       },
       "order_not_found": {
-        "description": "Це замовлення не існує або у вас немає дозволу на його перегляд."
+        "description": "Це замовлення не існує або у вас немає дозволу на його перегляд.",
+        "title": "Замовлення не знайдено"
       },
       "not_found": {
         "title": "Виникла проблема із завантаженням цієї сторінки",
@@ -3442,12 +3527,19 @@
       "hide_bar": "Приховати панель",
       "navigate_to_admin": "Перейдіть до адміністратора",
       "close_preview": "Закрити попередній перегляд",
-      "actions_button": "Дії"
+      "actions_button": "Дії",
+      "previewing": "Ви переглядаєте:",
+      "saved_at": "Збережено {{date}} {{time}}",
+      "viewing": "Вам показано:",
+      "not_available": "Дані профілю відсутні"
     },
     "settings": {
       "title": "Налаштування",
       "log_out_everywhere": {
-        "warning_message": "Ви також вийдете з системи на цьому пристрої."
+        "warning_message": "Ви також вийдете з системи на цьому пристрої.",
+        "title": "Вийдіть скрізь",
+        "description": "Якщо ви загубили свій пристрій або маєте проблеми з безпекою, вийдіть будь-де, щоб захистити свій обліковий запис.",
+        "button": "Вийдіть скрізь"
       },
       "loading_accessibility_message": "Завантаження сторінки налаштувань"
     },
@@ -3457,7 +3549,35 @@
       "terms_of_service": "Умови використання",
       "legal_notice": "Юридичне повідомлення",
       "refund_policy": "Політика відшкодування",
-      "terms_of_sale": "Умови продажу"
+      "terms_of_sale": "Умови продажу",
+      "shipping_policy": "Політика доставки",
+      "subscription_policy": "Політика скасування"
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneMinuteAgo": "Просто зараз",
+        "yesterday": "Учора {{time}}",
+        "today": "сьогодні {{time}}",
+        "tomorrow": "завтра {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "{{count}} хвилин тому",
+          "other": "{{count}} хв тому",
+          "few": "{{count}} хв тому",
+          "many": "{{count}} хв тому"
+        }
+      }
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "Виберіть розширення {{extensionName}}",
+        "unselect": "Скасуйте вибір розширення {{extensionName}}",
+        "move_down": "Перемістіть розширення в інше положення",
+        "move_up": "Перемістити розширення в попереднє положення",
+        "remove": "Видаліть розширення",
+        "move_down_tooltip": "Перейти в іншу позицію",
+        "move_up_tooltip": "Перейти на попередню позицію",
+        "remove_tooltip": "видалити"
+      }
     }
   }
 }
