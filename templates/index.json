@@ -108,9 +108,7 @@
       "type": "featured-collection",
       "settings": {
         "collection": "terrace",
-        "products": [
-
-        ],
+        "products": [],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": true,
@@ -357,8 +355,7 @@
         "a990c686-37ca-4d46-b4a7-19b08c02b26b",
         "slide_rUQFKV"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "06fad2ab-b60d-4af8-9ad1-290ffdabaecc": {
       "type": "slider",
@@ -436,7 +433,7 @@
         "template--15213123797057__5a78c33b-5f10-4641-aa94-293eba6cd9f2-product-1": {
           "type": "product",
           "settings": {
-            "product": "termo-pusies-terasine-lenta-26x140x3000-4500mm",
+            "product": "termo-pusies-terasine-lenta-26x117x3000-5400mm",
             "horizontal_position": 52,
             "vertical_position": 25
           }
